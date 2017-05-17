@@ -1,6 +1,6 @@
 In this article, we will explain the revolutionary consensus mechanism behind Slimcoin: **Proof of burn**.
 
-*If you need a super-short explanation, you can go to the **[tl;dr](#tl;dr)** section at the end. Readers that are familiar with Bitcoin's Proof of Work and **why** it works can skip the first two sections.*
+*If you need a super-short explanation, you can go to the **[tl;dr](#tldr)** section at the end. Readers that are familiar with Bitcoin's Proof of Work and **why** it works can skip the first two sections.*
 
 ## Why a consensus method is necessary?
 
@@ -16,7 +16,7 @@ The blockchain technology already prevents that some node could create money out
 
 To *prevent double spends*, the nodes must **come to an agreement** which transactions are valid and which are not.
 
-On a first glance, we could let the nodes **vote** for which transactions are included into a block, with each node having one vote. But there is a problem: **A malicious participant could create thousands of nodes** and manipulate the node.
+On a first glance, we could let the nodes **vote** for which transactions are included into a block, with each node having one vote. But there is a problem: **A malicious participant could create thousands of nodes** and manipulate the vote.
 
 
 ## Proof of work: Bitcoin's consensus mechanism
@@ -53,6 +53,6 @@ Now, **to prevent early adopters from benefitting too much**, the power of burnt
 
 Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Work has also advantages over Proof of stake. 
 
-## tl;dr
+## tldr
 
 **Proof of burn works like virtual mining: You buy a virtual mining rig if you burn coins. The more coins you burn, the more powerful the mining rig. Every virtual mining rig gives you the right to mine for a long time, just like real mining rigs. But they eventually lose their power - just like mining rigs that get obsolete because of Moore's law.**
