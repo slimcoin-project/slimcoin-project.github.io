@@ -49,7 +49,9 @@ That's exactly how Slimcoin's Proof of Burn mechanism works:
 
 If you burn coins, you **not only** get the right to compete for the next block. A mining rig is something more durable, **and so are Slimcoin's virtual mining rigs**. You burn coins and this rises your chance to get blocks for a long time - **at least for a year**.
 
-Now, **to prevent early adopters from benefitting too much**, the power of burnt coins *decays* every block. It doesn't decay much, so don't be afraid - you will have a lot of time. But this also mimicks mining: Mining rigs eventually become obsolete because there is better technology available. So miners, to stay competitive, will have to renew their equipment sometimes. The same is true for Proof of Burn: if you want to maintain your  
+Now, **to prevent early adopters from benefitting too much** or attacking the system , the power of burnt coins **decays** every time a block is mined. It doesn't decay much, so don't be afraid - you will have a lot of time. But this also mimicks mining: Mining rigs eventually **become obsolete** because there is better technology available. So miners, to stay competitive, will have to renew their equipment sometimes. The same is true for Proof of Burn: if you want to maintain your minting power, you must burn coins periodically.
+
+Like in Proof of Work, the **block rewards are high enough** to allow the participants to make a financial gain (profit) from minting. You won't get back your investment in one hour or one day, but with some patience, in most situations you'll eventually **get significantly more coins that the ones you burnt**.
 
 Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Work has also advantages over Proof of stake. 
 
