@@ -4,7 +4,7 @@ In 2017, we're alive and kicking, and we're **different** from most other "altco
 
 All we want is to continue the exciting **Proof of Burn** experiment. You can read more about it [in our wiki](https://github.com/slimcoin-project/Slimcoin/wiki). 
 
-In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards. Sounds crazy, huh? [Read more here - it has very interesting economical properties](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn).
+In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards. Sounds crazy, huh? We have prepared an [simple explanation (ELI5)](/proof-of-burn-eli5-en.md). [And read more here about its advantages - it has very interesting economical properties](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn).
 
 Some of us are planning exciting new features like a social network or a crowdfunding platform. **Stay tuned!**
 
