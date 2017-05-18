@@ -1,4 +1,7 @@
-# What is Proof of Burn (ELI5)?
+---
+title: What is Proof of Burn (ELI5)?
+layout: post
+---
 
 In this article, we will explain the revolutionary consensus mechanism behind Slimcoin: **Proof of burn**.
 
