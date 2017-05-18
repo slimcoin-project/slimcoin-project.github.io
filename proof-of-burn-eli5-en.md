@@ -1,3 +1,5 @@
+# What is Proof of Burn (ELI5)?
+
 In this article, we will explain the revolutionary consensus mechanism behind Slimcoin: **Proof of burn**.
 
 *If you need a super-short explanation, you can go to the **[tl;dr](#tldr)** section at the end. Readers that are familiar with Bitcoin's Proof of Work and **why** it works can skip the first two sections.*
@@ -53,7 +55,7 @@ Now, **to prevent early adopters from benefitting too much** or attacking the sy
 
 Like in Proof of Work, the **block rewards are high enough** to allow the participants to make a financial gain (profit) from minting. You won't get back your investment in one hour or one day, but with some patience, in most situations you'll eventually **get significantly more coins that the ones you burnt**.
 
-Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Work has also advantages over Proof of stake. 
+Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Burn has also advantages over Proof of Stake, another consensus method that minimizes energy use. We will cover this point in a later post. 
 
 ## tldr
 
