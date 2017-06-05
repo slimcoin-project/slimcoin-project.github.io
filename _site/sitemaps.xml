@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-      <url>
-        <loc>/jekyll/update/2016/02/29/welcome-to-jekyll.html</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
-        
-          <xhtml:link rel="alternate" hreflang="fr" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
-        
-        <lastmod>2016-02-29T05:48:44-03:00</lastmod>
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
-        
-          <xhtml:link rel="alternate" hreflang="fr" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
-        
-        <lastmod>2016-02-29T05:48:44-03:00</lastmod>
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
   
     
       <url>
