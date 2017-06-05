@@ -1,0 +1,50 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.footertitle[page.lang] }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h3 class="footer-col-heading">{{ site.resourcesheading[page.lang] }}</h3>
+        <ul class="resources-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+          <li><a href="http://www.slimcoin.club/whitepaper.pdf">Whitepaper</a></li>
+          <li><a href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></li>
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h3 class="footer-col-heading">{{ site.socialheading[page.lang] }}</h3>
+        <ul class="social-media-list">
+          <li><a href="https://bitcointalk.org/index.php?topic=1141676.0">Bitcointalk</a></li>
+          <li><a href="https://www.reddit.com/r/slimcoin/">Reddit Forum</a></li>
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+          <!-- <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <h3 class="footer-col-heading">{{ site.toolsheading[page.lang] }}</h3>
+        <ul class="tools-list">
+          <li><a href="https://iancoleman.github.io/bip39/">Key Generator</a></li>
+          <li><a href="http://www.slimcoin.club">Slimcoin.club site & block explorer</a></li>
+          <li><a href="https://bchain.info/SLM/">Bchain.info block explorer</a></li>
+          <li><a href="https://novaexchange.com/market/BTC_SLM/">NovaExchange exchange</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

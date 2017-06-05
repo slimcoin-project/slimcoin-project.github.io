@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+        <loc>/jekyll/update/2016/02/29/welcome-to-jekyll.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
+        
+        <lastmod>2016-02-29T05:48:44-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
+        
+        <lastmod>2016-02-29T05:48:44-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  
+    
+      <url>
+        <loc>/about/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sobre-slimcoin/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/ayuda/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/ayuda/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/help/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/installation/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/installation/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/instalar/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/help/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/ayuda/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/help/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/inicio.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/inicio.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/inicio.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/instalar/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/installation/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/instalar/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/css/main.css</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/mining-guide/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/mining-guide/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-burn-eli5/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-burn-guide/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-guide/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-stake-guide/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-stake-guide/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemaps.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/advantages/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/advantages/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sobre-slimcoin/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sobre-slimcoin/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  </urlset>

@@ -1,3 +1,40 @@
-theme: jekyll-theme-midnight
-title: Slimcoin
-description: The original Proof of Burn cryptocurrency
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:
+  en: Slimcoin. A cryptocurrency for the long term.
+  es: Slimcoin. La criptomoneda duradera y estable.
+# email: your-email@domain.com
+description:
+  en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
+  es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
+index:
+  en:
+  es: inicio.html
+# feed:
+#  en: /feed.xml
+#  es: /feed_es.xml
+# baseurl: "/pages" # the subpath of your site, e.g. /blog
+footertitle:
+  en: Use & Participate
+  es: Usar & Participar
+resourcesheading:
+  en: Ressources
+  es: Recursos
+socialheading:
+  en: Social media
+  es: Medios sociales
+toolsheading:
+  en: Tools
+  es: Herramientas
+url: "http://slimco.in" # the base hostname & protocol for your site
+twitter_username: slimcoin_club
+github_username:  slimcoin-project
+
+# Build settings
+markdown: kramdown

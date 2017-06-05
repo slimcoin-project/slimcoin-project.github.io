@@ -1,12 +1,18 @@
 ---
 title: What is Proof of Burn (ELI5)?
+lang: en
+menuitem: Proof of Burn ELI5
+ref: eli5
+layout: page
+permalink: /proof-of-burn-eli5/
+priority: 4
 ---
 
 In this article, we will explain the revolutionary consensus mechanism behind Slimcoin: **Proof of burn**.
 
 *If you need a super-short explanation, you can go to the **[tl;dr](#tldr)** section at the end. Readers that are familiar with Bitcoin's Proof of Work and **why** it works can skip the first two sections.*
 
-## Why a consensus method is necessary?
+### Why a consensus method is necessary?
 
 To understand what is Proof of Burn, first we must understand why cryptocurrencies use a "consensus method".
 
@@ -23,7 +29,7 @@ To *prevent double spends*, the nodes must **come to an agreement** which transa
 On a first glance, we could let the nodes **vote** for which transactions are included into a block, with each node having one vote. But there is a problem: **A malicious participant could create thousands of nodes** and manipulate the vote.
 
 
-## Proof of work: Bitcoin's consensus mechanism
+### Proof of work: Bitcoin's consensus mechanism
 
 So we need a vote mechanism that is not manipulable by creating more nodes.
 
@@ -35,7 +41,7 @@ If you want to **double spend**, you must have the computing power to **write se
 
 For this to happen, you must have a **lot of computing power** - you can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the unfamous **51% attack**). Double-spending attacks are prevented because it is prohibitively costly to buy the "mining" power to achieve this.
 
-## Proof of burn: Proof of work without energy waste
+### Proof of burn: Proof of work without energy waste
 
 The important thing to understand is that the raw computing power is not important to prevent manipulation by double spending. What is important is the **cost** of the computing power. **It must be costly** for an attacker to achieve the power to *mine* several blocks in a row.
 
@@ -59,6 +65,6 @@ Like in Proof of Work, the **block rewards are high enough** to allow the partic
 
 Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Burn has also advantages over Proof of Stake, another consensus method that minimizes energy use. We will cover this point in a later post. 
 
-## tldr
+### tldr
 
 **Proof of burn works like virtual mining: You buy a virtual mining rig if you burn coins. The more coins you burn, the more powerful the mining rig. Every virtual mining rig gives you the right to mine for a long time, just like real mining rigs. But they eventually lose their power - just like mining rigs that get obsolete because of Moore's law.**
