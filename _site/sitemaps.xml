@@ -115,8 +115,23 @@
   
     
       <url>
+        <loc>/proof-of-burn-eli5-es/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/proof-of-burn-eli5-es/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/proof-of-burn-eli5/</loc>
         
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/proof-of-burn-eli5-es/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
         
