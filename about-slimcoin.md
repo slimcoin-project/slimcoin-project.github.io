@@ -48,7 +48,8 @@ The publishing feature uses the awesome [Web2Web](https://github.com/elendirx/we
 
 You can trade, buy and sell Slimcoin at the following exchange:
 
-[Novaexchange](https://novaexchange.com/market/BTC_SLM)
+* [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
+* [Novaexchange LTC/SLM](https://novaexchange.com/market/LTC_SLM)
 
 ### Download Slimcoin & Source Code
 
