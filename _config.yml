@@ -9,13 +9,16 @@
 title:
   en: Slimcoin. A cryptocurrency for the long term.
   es: Slimcoin. La criptomoneda duradera y estable.
+  pl: Slimcoin. Długoterminowa kryptowaluta.
 # email: your-email@domain.com
 description:
   en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
   es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
+  pl: Slimcoin jest energooszczędną kryptowalutą zaprojektowaną w celu decentralizacji i stabilności. Jest to pierwsza kryptowaluta używająca konsensus Proof of Burn/ wirtualnego kopania.
 index:
   en:
   es: inicio.html
+  pl: index-pl.html
 # feed:
 #  en: /feed.xml
 #  es: /feed_es.xml
@@ -23,15 +26,19 @@ index:
 footertitle:
   en: Use & Participate
   es: Usar & Participar
+  pl: Użycie i przystąpienie
 resourcesheading:
   en: Ressources
   es: Recursos
+  pl: Źródła
 socialheading:
   en: Social media
   es: Medios sociales
+  pl: Media społecznościowe
 toolsheading:
   en: Tools
   es: Herramientas
+  pl: Narzędzia
 url: "http://slimco.in" # the base hostname & protocol for your site
 twitter_username: slimcoin_club
 github_username:  slimcoin-project
