@@ -13,21 +13,24 @@
         </svg>
       </a>
 
-      <div class="trigger">
+      <div class="trigger" style="text-align: right;">
+         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+         {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+      </div>
+<!--  </div> -->
+
+<!-- <div class="wrapper" style="text-align: right; line-height: 2em"> -->
         {% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}
         {% for my_page in pages %}
           {% if my_page.menuitem %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>
+
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>
           {% endif %}
         {% endfor %}
-      </div>
+</div>
+
     </nav>
 
-  </div>
+
 
 </header>
-
-<div class="wrapper" style="text-align: right; line-height: 2em">
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
-</div>
