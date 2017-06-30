@@ -29,7 +29,7 @@ Nie bój niszczyć za mało monet - możesz zawsze podwyższyć **wynik**, niszc
 
 Podczas niszczenia, możesz nie tylko dostawać nagrody, lecz też pomagasz w regulowaniu podaży pieniądza [Sprawdź więcej co to Proof of Burn](/proof-of-burn-eli5/) w naszym wyjaśnieniach.
 
-**Note**: *Efektywne zniszczone monety* wynik zmniejsza się ("wygasa") trochę przy każdym blocku, aby uniknąć ataku przez wczesnych użytkowników i aby imitować starzenie się sprzętu do kopania, ale wynik jest pozytywny po ponad roku roku dla każdej monety, którą zniszczysz. Masz więc sporo czasu, aby czerpać pożytek z Twoich zniszczonych monet. 
+**Notka**: *Efektywne zniszczone monety* wynik zmniejsza się ("wygasa") trochę przy każdym blocku, aby uniknąć ataku przez wczesnych użytkowników i aby imitować starzenie się sprzętu do kopania, ale wynik jest pozytywny po ponad roku roku dla każdej monety, którą zniszczysz. Masz więc sporo czasu, aby czerpać pożytek z Twoich zniszczonych monet. 
 
 ### Requirements
 
@@ -67,13 +67,17 @@ PASSPHRASE jest twoim hasłem, a TIME oznacza czas na jaki chcesz go odblokować
 
 In the graphical client, a graphical item called **Burn Coins** is provided which makes it very easy to burn coins. It is accessible from the main window or via the **Tools** menu.
 
-Simply **enter the amount** you want to burn in the window that appears and click OK. Wait until the burnt coint have matured and then you will receive rewards every time you find a block.
+Simply **enter the amount** you want to burn in the window that appears and click OK. Wait until the burnt coins have matured and then you will receive rewards every time you find a block (with running Slimcoin client).
 
 **Note**. Burning normally costs a transaction fee of 0.01 Slimcoins per kilobyte, like all transactions. Sometimes, if the transaction is very large because you use many inputs, the client will tell you that he will add a higher fee for this transaction.
 
 ### Niszczenie z graficznym klientem
 
 W graficznym kliencie, znajduję się przycisk **Burn Coins** który powoduję, że bardzo łatwo zniszczyć monety. Jest możliwy do zlokowalizowania z głownego okna albo z **Tools** menu.
+
+Po prostu **wpisz ilość** jaką chcesz zniszczyć w oknie, które się pojawi i kliknij OK. Poczekaj, aż zniszczone monety dojrzeją (zapadalność jak obligacji skarbowych), i dostaniesz nagrodę za każdym razem jak znajdziesz blok (z włączonym klientem Slimcoin'a)
+
+**Notka**. Niszczenie monet normalnie kosztuję, opłatę transakcyjną ok. 0.01 Slimcoina na kilobajt, jak inne transakcje. Czasem, jeśli transakcja, jest bardzo duża, bo masz dużo wkładu, klient Slimcoin'a doda większą opłatę transakcyjną, za tą transakcję.
 
 ### Burning with the daemon
 
