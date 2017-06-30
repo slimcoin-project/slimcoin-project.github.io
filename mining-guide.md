@@ -1,65 +1,69 @@
 ---
-title: Poradnik kopania Slimcoin'a
-lang: pl
-category: pomoc
+title: Slimcoin mining guide
+lang: en
+category: help
 ref: powguide
 layout: page
 permalink: /mining-guide/
 ---
 
-### Kopanie/mining samemu
+### Solo mining
 
-Kopanie samemu jest najłatwiejszą metodą, aby wydobywać Slimcoin. Jest to dokonywane poprzez klienta Slimcoin'a, albo oprogramowanie do kopania tzw. miner. Jeśli trudność jest niska (aktualnie jest), wtedy kopanie samemu jest zyskowne.
+Solo mining is the simplest way to mine Slimcoin. It is done simply with the regular client or with a mining software ("miner"). When the difficulty is low, then solo mining becomes a profitable option.
 
 You can mine Slimcoin with CPUs (recommended) or with GPUs (experimental).
 
-Możesz kopać Slimcoin z pomocą procesora (CPU), albo karty graficznej (GPU), miner GPU jest eksperymentalny i może posiadać błędy
+#### Graphical client (Slimcoin-QT)
 
-#### Graficzny interfejs (Slimcoin-QT)
+If you are using the graphical client, you can mine simply by introducing the following command in the RPC console (go to *Help* -> *Debug window* and open the *Console* tab):
 
-Jeśli używasz klienta graficznego, możesz kopać bezproblemu wpisując daną komendę w konsolę RPC (znajduję się w *Help* -> *Debug window* i otwórz *Console* zakładkę)
+```setgenerate true```
 
-komenda to ```setgenerate true```
-
-Możesz też wyspecjalizować ile rdzeni twojego procesora, chcesz użyć:
+You can also specify how many cores of your CPU to use:
 
 ```setgenerate true NUMBER_OF_CORES```
 
-NUMBER_OF_CORES oznacza ile chcesz użyć rdzeni, jeśli wszystkie chcesz użyć, wpisz:
+with NUMBER_OF_CORES being the number you want to use. If you want to use all cores, type:
 
 ```setgenerate true -1```
 
-Aby skończyć kopanie, po prostu wpisz:
+To finalize mining, simply type:
 
 ```setgenerate false```
 
-Aby uzyskać informacje o kopaniu:
+
+To get general mining information:
 
 ```getmininginfo```
 
-**Ważne**: Z klientem Slimcoin'a - graficznym, bądź daemon, możesz tylko kopać na procesorze (CPU), a algorytm nie jest zoptymalizowany. Jeśli chcesz maksymalnej efektywności, użyć minerów do CPU, bądź GPU, które znajdują się poniżej.
+
+**Important**: With the Slimcoin client - graphical or daemon - you only will be able to mine with the CPU, and the algorithm isn't optimized. So if you want maximal efficiency or use GPUs, use miner programs (see below).
+
 
 #### Daemon (slimcoind)
 
-Możesz zacząć kopanie, używając tych komend:
+You can start mining using the following command:
 
 ```slimcoind -gen```
 
-razem z innymi opcjami, które chcesz zaaplikować.
+followed by other options if you wand.
 
-Jeśli daemon działa, te same komendy w terminalu są obecne jak te w kliencie graficznym Slimcoin'a. Więc możesz zacząć kopanie z komendą *setgenerate true*, w konsoli debugowania.
+While the daemon is running, the same commands are available in the terminal like in the GUI client debug window. So you can start mining with the *setgenerate true* command like in the Debug console.
 
-#### Kopanie na procesorze (eksperymentalne)
 
-Aby kopanie było optymalne, możesz użyć tzw. **Slimminer** minera. Jest to oprogramowanie eksperymentalne i możesz posiadać błędy.
+#### CPU Mining software (experimental)
 
-Sprawdź na [Slimminer Github](https://github.com/JonnyLatte/slimminer) i podążaj za instrukcją, aby zainstalować i kopać.
+To optimize mining, you can use the **Slimminer** software. It is experimental and may contain bugs.
 
-#### Kopanie na karcie graficznej (eksperymentalne)
+Go to the [Slimminer Github Page](https://github.com/JonnyLatte/slimminer) and follow the instructions to install and mine.
 
-Aby moć kopać na karcie graficznej/kartach graficznych (GPUs), możesz użyć **SlimminerGPU** minera. Jest to oprogramowanie eksperymentalne i możesz posiadać błędy.
-Sprawdź na [Slimminer Github](https://github.com/JonnyLatte/slimminerGPU) i podążaj za instrukcją, aby zainstalować i kopać.
+#### GPU Mining software (experimental)
 
-### Poole
+To be able to mine with a GPU, you can use the **SlimminerGPU** software. It is experimental and may contain bugs.
 
-Nie ma aktualnie żadnych pooli dla Slimcoina. Lecz mamy inicjatywy, aby utworzyć pool. Więc bądźcie czujni!
+Go to the [Slimminer Github Page](https://github.com/JonnyLatte/slimminerGPU) and follow the instructions to install and mine.
+
+
+### Pools
+
+There are currently no working pools for Slimcoin. However there are initiatives to create a mining pool. Stay tuned!
