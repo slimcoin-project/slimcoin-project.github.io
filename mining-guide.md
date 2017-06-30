@@ -9,8 +9,6 @@ permalink: /mining-guide/
 
 ### Kopanie/mining samemu
 
-Solo mining is the simplest way to mine Slimcoin. It is done simply with the regular client or with a mining software ("miner"). When the difficulty is low, then solo mining becomes a profitable option.
-
 Kopanie samemu jest najłatwiejszą metodą, aby wydobywać Slimcoin. Jest to dokonywane poprzez klienta Slimcoin'a, albo oprogramowanie do kopania tzw. miner. Jeśli trudność jest niska (aktualnie jest), wtedy kopanie samemu jest zyskowne.
 
 You can mine Slimcoin with CPUs (recommended) or with GPUs (experimental).
@@ -39,7 +37,7 @@ Aby uzyskać informacje o kopaniu:
 
 ```getmininginfo```
 
-**Important**: Z klientem Slimcoin'a - graficznym, bądź daemon, możesz tylko kopać na procesorze (CPU), a algorytm nie jest zoptymalizowany. Jeśli chcesz maksymalnej efektywności, użyć minerów do CPU, bądź GPU, które znajdują się poniżej.
+**Ważne**: Z klientem Slimcoin'a - graficznym, bądź daemon, możesz tylko kopać na procesorze (CPU), a algorytm nie jest zoptymalizowany. Jeśli chcesz maksymalnej efektywności, użyć minerów do CPU, bądź GPU, które znajdują się poniżej.
 
 #### Daemon (slimcoind)
 
