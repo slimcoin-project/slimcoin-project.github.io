@@ -1,6 +1,6 @@
 ---
 title: Poradnik wydobycia metodą Proof of Burn
-lang: pl
+lang: en/pl
 category: help
 ref: pobguide
 layout: page
