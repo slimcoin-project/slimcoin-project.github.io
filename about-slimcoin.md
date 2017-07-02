@@ -30,9 +30,9 @@ If you want to help with development & documentation: [Go to our Github page](ht
 
 Slimcoin can be generated in three ways:
 
-* by **Proof of Burn minting**. That's Slimcoin's main innovation. Every coin you buy is a virtual mining rig. [Here you find our Proof of Burn minting guide](/pob-minting-guide/).
+* by **Proof of Burn minting**. That's Slimcoin's main innovation. Every coin you buy is a virtual mining rig. [Here you find our Proof of Burn minting guide](/proof-of-burn-guide/).
 * by **Proof of Work mining**. It uses the DCrypt algorithm that is ASIC-unfriendly and can be well mined with CPU mining. We've prepared a [Mining Guide](/mining-guide/) for you.
-* by **Proof of Stake minting**. This method is known from currencies like Peercoin. It's perhaps the easiest method. [Here you find a Proof of Stake Minting guide](/pos-minting-guide/)
+* by **Proof of Stake minting**. This method is known from currencies like Peercoin. It's perhaps the easiest method. [Here you find a Proof of Stake Minting guide](/proof-of-stake-guide/)
 
 ### Inscription service & Decentralized Websites
 
