@@ -4,7 +4,7 @@ lang: pl
 category: help
 ref: pobguide
 layout: page
-permalink: /proof-of-burn-guide/
+permalink: /proof-of-burn-poradnik/
 ---
 
 **Niszczenie** jest główną innowacyjną funkcją Slimcoin'a. Tutaj dowiesz jak zdobywać Slimcoin'y, przez niszczenie.
@@ -68,7 +68,7 @@ Dostaniesz podane wskaźniki:
 
 * **Formatted nEffectiveBurnCoins** jest sumą "Efektywnych zniszczonych monet", które zsumują się razem. Jest to surowa miara do skalkulowania ilości monet, które musisz zniszczyć, jeśli chcesz, aby znajdować bloki regularnie: im wyższa jest ta wartośc, tym większa wymagana ilość monet, którą powinnieneś zniszczyć, by otrzymać nagrodę.
 * **nEffectiveBurnCoins** jest innym sposobem, aby wyświetlić, Efektywny wynik niszczenia monet
-* **nBurnBits** jest technicznym terminem, który odnosi się do *niszczenia celu hash *, który jest przechowywana w obecnym bloku (więcej detali, znajdziesz w Whitepaper)
+* **nBurnBits** jest technicznym terminem, który odnosi się do *niszczenia celu hash*, który jest przechowywana w obecnym bloku (więcej detali, znajdziesz w Whitepaper)
 * **General info** prawdopodobnie nie używane
 
 ### Jaką ilość monet została zniszczona do dzisiaj
