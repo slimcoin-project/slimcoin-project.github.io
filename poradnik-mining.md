@@ -4,7 +4,7 @@ lang: pl
 category: pomoc
 ref: powguide
 layout: page
-permalink: /mining-guide/
+permalink: /poradnik-mining/
 ---
 
 ### Kopanie/mining samemu
