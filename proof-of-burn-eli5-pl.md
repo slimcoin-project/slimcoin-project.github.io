@@ -1,6 +1,6 @@
 ---
-title: What is Proof of Burn (ELI5)?
-lang: en
+title: Co to jest Proof of Burn (ELI5)?
+lang: pl
 menuitem: Proof of Burn ELI5
 ref: eli5
 layout: page
@@ -8,63 +8,60 @@ permalink: /proof-of-burn-eli5/
 priority: 4
 ---
 
-In this article, we will explain the revolutionary consensus mechanism behind Slimcoin: **Proof of burn**.
+W tym artykule, wyjaśnimy co to jest rewolucyjny mechanizm konsensusu kryjący się w Slimcoin'ie: **Proof of burn**.
 
-*If you need a super-short explanation, you can go to the **[tl;dr](#tldr)** section at the end. Readers that are familiar with Bitcoin's Proof of Work and **why** it works can skip the first two sections.*
+*Jeśli potrzebujesz, szybkie streszczenia, znajduję się ono **[tl;dr](#tldr)** na końcu sekcji. Czytelnicy zaznajomieni z Bitcoin'em i konsensusem Proof of Work i **dlaczego** to działa, mogą pominać pierwsze dwie sekcję.
 
-### Why a consensus method is necessary?
+### Dlaczego konsensus jest potrzebny?
 
-To understand what is Proof of Burn, first we must understand why cryptocurrencies use a "consensus method".
+Aby zrozumieć co to jest Proof of Burn, po pierwsze musimy zrozumieć, dlaczego kryptowaluty używają tzw. "metody konsensusu"/
 
-First, the basics: The blockchain is the **main database** of a cryptocurrency. It contains all valid transactions.
+Po pierwsze, podstawy: blockchain (rozproszony rejestr publiczny) jest **główną bazą danych** kryptowaluty. Posiada wszystkie poprawnie zawarte transakcję.
 
-All nodes - all participants that run a full-featured client software - save the blockchain on their hard disks. It's called a "blockchain" because the transactions are grouped in **blocks**. A block is written when the nodes agree to a set of transactions that the nodes regard as valid.
+Wszystkie węzły - wszyscy uczestnicy, którzy mają uruchomiony w pełni funkcjonalny klient oprogramowania - zapisują blockchain (rozproszony rejestr publiczny), na swoich dyskach twardych. Jest on nazywany blockchain'em, gdyż tranzakcje są grupowane w **blocki**. Block jest zapisywany, gdy wszystkie węzły, się zgodzą, że dane transakcje, postrzegają jako są prawidłowe.
 
-But **how do the nodes agree** which transactions should be saved into a block? There is no central authority that validates the transactions, so this work must be done by the nodes in a collaborative way.
+Ale **jak węzły zgadzają się**, które transakcje powinny być zapisane w bloku? Nie ma centralnego ośrodka władzy, który potwierdza transkacje, więc tą pracę muszą wykonywać węzły, współpracując.
 
-The blockchain technology already prevents that some node could create money out of thin air. But there could be dishonest nodes that tried to use a coin twice - this is called a **double spend**. For example, they could buy an item in an online shop and inmediately try to send the same coins to an exchange. This way they could fool the shop owner and the exchange owner and get both things - the bought item and the money.
+Technologia blockchain, już zapobiega, aby niektóre węzły nie mogły tworzyć pieniędzy z powietrza. Ale nadal mogą byc nieuczciwe pewne węzły, które będą próbować użyc danych monet drugi raz - tzw. **podwójne wydanie/zapłata**, Na przykład, mogą kupić przedmiot w sklepie internetowym i natychmiast spróbować wysłać te same monety na giełdę. W ten sposób mogą zmylić właścieciela sklepu i giełdy, i dostać obie rzeczy - przedmioty i pieniądze.
 
-To *prevent double spends*, the nodes must **come to an agreement** which transactions are valid and which are not.
+Jak *zapobiegać podwójnemu wydawaniu*, węzły muszą **przejść do porozumienia** które transakcje są prawidłowe, a które nie są.
 
-On a first glance, we could let the nodes **vote** for which transactions are included into a block, with each node having one vote. But there is a problem: **A malicious participant could create thousands of nodes** and manipulate the vote.
+### Proof of work: mechanizm konsensusu Bitcoin'a
 
+Więc potrzebujemy mechanizmu głosowania, który nie da się zmanipulować, tworząc więcej węzłów.
 
-### Proof of work: Bitcoin's consensus mechanism
+W Bitcoin'ie, i wielu innych kryptowalutach, mechanizm, który nazywa się **Proof of work** jest używany.
 
-So we need a vote mechanism that is not manipulable by creating more nodes.
+Możemy go opisać jako proces: węzły (*górnicy*), rywalizują, aby zapisać blok w blockchain'ie. Aby uwzględnić blok, ich komputery muszą najpierw wykonać jakąś *pracę*: muszą **rozwiązać wymagające kryptograficzne puzzle**. Węzeł, który pierwszy rozwiąże, dostaję prawo, aby zapisać blok, i nagrodę w zamian za tą pracę. Ten proces nazywa się kolokwialnie, **kopaniem**.
 
-In Bitcoin and many other cryptocurrencies, a mechanism called **Proof of work** is used. 
+Jeśli chcesz **podwójnie wydać**, musisz mieć moc obliczeniową, aby **zapisać wiele bloków w ciągu**. Tylko w ten sposób, jesteś w stanie być pewny, że obie transakcje są uwzględnione w blockchaini'e.
 
-We could describe the process the following way: The nodes (*miners*) compete to write a block into the blockchain. To include a block, their computers must first do some *work*: they must **solve a difficult cryptographic puzzle**. The node that first solves it gets the right to write the block, and gets a reward for it to incentive this work. This process is colloquially called **mining**.
+Aby stało się to możliwe musisz mieć **dużo mocy obliczeniowej** - możesz być tylko pewny, by zapisać wiele bloków na raz, tylko wtedy, jeśli masz więcej niż połowa, całej mocy obliczeniowej wszystkich węzłów sieci (tzw. **atak 51%**). Atak podwójnego wydania jest zapobiegany, ponieważ jest to bardzo kosztowne, aby kupić tyle mocy obliczeniowej, aby to zrealizować.
 
-If you want to **double spend**, you must have the computing power to **write several blocks in a row**. Only this way, you can be sure that both of your transactions are included in the blockchain.
+### Proof of burn: Proof of work, bez zużywania energii
 
-For this to happen, you must have a **lot of computing power** - you can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the unfamous **51% attack**). Double-spending attacks are prevented because it is prohibitively costly to buy the "mining" power to achieve this.
+Ważną rzeczą jest, aby zrozumieć, jest, że czysta moc obliczeniowa nie jest istotna, aby zapobiegać manipulacjom, podwójnego wydawania. Co jest ważne to **koszt** mocy obliczeniowej. **Musi to być kosztowne** dla atakującego, aby uzyskał taką moc, by *kopać* wiele bloków na raz.
 
-### Proof of burn: Proof of work without energy waste
+Więc w Proof of work, prawo do kopania bloków jest powiązane z kosztem monetarnym górnika. **Im więcej górnik zapłaci** za sprzęt komputerowy, który umożliwa rozwiązywanie zagadek kryptograficznych (*koparki*), **tym więcej ma szans** aby uzyskać prawo do wykopania bloku.
 
-The important thing to understand is that the raw computing power is not important to prevent manipulation by double spending. What is important is the **cost** of the computing power. **It must be costly** for an attacker to achieve the power to *mine* several blocks in a row.
+Ale co jeśli możemy uzyskać ten same efekt w bardziej bezpośredni sposób?
 
-So in Proof of work, the right to mine blocks is tied to a monetary cost for the miner. **The more a miner pays** for computing equipment that is able to solve the cryptographic puzzle (*mining rigs*), **the more chances he has** to get the right to mine blocks. 
+Możemy imitować, ten koszt, dając węzłom "niszczyć" monety, jeśli chcą mieć prawo do zapisania bloku. **Jest to  reguła, za którą stoi Proof of Burn**. Nazywamy to **wytwarzaniem**, ponieważ żadna realna praca nie jest wytwarzana. Zapamiętaj: wszystko co jest najważniejsze, jest koszt mechanizmu.
 
-But what if we can have the same effect in a more direct way?
+To brzmi szalenie. Ale genialny umysł, który wymyślił Proof of Burn, Iain Stewart, porównował to z analogią: **Zniszczone monety są koparkami**.
 
-We can mimick this cost letting the nodes "destroy" or "burn" coins, if they want to get the right to write blocks. **That is the principle behind Proof of Burn**. We call it also **minting**, because no real work is done. Remember: all what's important is the cost of the mechanism.
+To oznacza: proces *niszczenia monet* może być porównany do procesu *kupowania koparek, bądź mocy obliczeniowej*. W Proof of Burn, za każdym razem gdy, zniszczysz monety **kupujesz wirtualną koparkę**, która daję Ci moc do kopania bloków. **Im więcej monet zniszczysz, tym więcej będziesz posiadał wirtualnych koparek**.
 
-That sounds crazy. But the brilliant mind that has invented Proof of Burn, Iain Stewart, has provided us an analogy: **Burnt coins are mining rigs!**
+Na tym dokładnie polega Slimcoin'a tzw. Proof of Burn mechanizm wytwarzania monet:
 
-That means: The act of *burning coins* can be compared to the act to *buy a mining rig*. In Proof of Burn, every time you burn coins, you **buy a virtual mining rig** that gives you the power to mine blocks. **The more coins you burn, the bigger that virtual mining rig**.
+Jeśli niszczysz monety, **nie dostajesz tylko** prawa do rywalizowania o następny blok. Koparka jest czymś bardziej wytrzymałym, **i takie są Slimcoin'a wirtualne koparki**. Niszczysz monety, a to zwiększa Twoje szanse na dostanie większej ilości bloków przez długi okres - **co najmniej przez rok**.
 
-That's exactly how Slimcoin's Proof of Burn mechanism works:
+Teraz, **aby wcześni uczestnicy nie mieli dużej przewagi**, albo by nie zaatakowali systemu, moc zniszczonych monet **zanika** za każdym razem, gdy blok jest wykopywany. Nie zanika mocno, więc nie bój się - będziesz mieć mnóstwo czasu. Ale imituję to kopanie: koparki stają się w końcu **przestarzałe**, ponieważ jest już lepsza technologia dostępna. Więc górnicy, aby pozostać konkurencyjnym, będą musieli wymienić, swój sprzęt od czasu do czasu. Taka sama idea stoi za Proof of Burn: jeśli chcesz utrzymać swoją moc wytwarzania monet, musisz niszczyć monety cyklicznie.
 
-If you burn coins, you **not only** get the right to compete for the next block. A mining rig is something more durable, **and so are Slimcoin's virtual mining rigs**. You burn coins and this rises your chance to get blocks for a long time - **at least for a year**.
+Podobnie jak w Proof of Work, **nagrody z bloków są dość wysokie**, aby umożliwić uczestnikom, mieć finansowe korzyści, z wytwarzania. Nie zwróci się Twoja inwestycja w ciągu kilku godzin, czy dni, lecz z dozą cierpliwości, w praktyce dostaniesz **znacznie więcej monet niż zniszczyłeś**.
 
-Now, **to prevent early adopters from benefitting too much** or attacking the system , the power of burnt coins **decays** every time a block is mined. It doesn't decay much, so don't be afraid - you will have a lot of time. But this also mimicks mining: Mining rigs eventually **become obsolete** because there is better technology available. So miners, to stay competitive, will have to renew their equipment sometimes. The same is true for Proof of Burn: if you want to maintain your minting power, you must burn coins periodically.
-
-Like in Proof of Work, the **block rewards are high enough** to allow the participants to make a financial gain (profit) from minting. You won't get back your investment in one hour or one day, but with some patience, in most situations you'll eventually **get significantly more coins that the ones you burnt**.
-
-Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Burn has also advantages over Proof of Stake, another consensus method that minimizes energy use. We will cover this point in a later post. 
+Proof of Burn ma główną zaletę nad Proof of Work, którą jest mocne zmniejszenie zużycia energii. Więc Slimcoin jest wyborem, jeśli się martwiłeś o Bitcoin'a koszt dla środowiska. Ale Proof of Burn, ma także zalety nad Proof of Stake, innym konsensusem, który minimalizuje energię. Poświecimy temu uwagę w następnym artykule.
 
 ### tldr
 
-**Proof of burn works like virtual mining: You buy a virtual mining rig if you burn coins. The more coins you burn, the more powerful the mining rig. Every virtual mining rig gives you the right to mine for a long time, just like real mining rigs. But they eventually lose their power - just like mining rigs that get obsolete because of Moore's law.**
+**Proof of Burn działa jak wirtualne koparki: kupujesz wirtualną koparkę, jeśli zniszczysz monety. Im więcej monet zniszczysz, tym posiadasz więcej wirtualnych koparek. Każda koparka daję Ci prawo do kopania przez długi czas, tak jak w przypadku realnej koparki. Ale w końcu straci swoją moc - tak jak realne koparki, które stają się przestarzałe, przez prawo Moore'a
