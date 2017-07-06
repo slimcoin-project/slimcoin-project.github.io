@@ -4,7 +4,7 @@ lang: pl
 menuitem: Proof of Burn ELI5
 ref: eli5
 layout: page
-permalink: /proof-of-burn-eli5/
+permalink: /proof-of-burn-eli5-pl/
 priority: 4
 ---
 
