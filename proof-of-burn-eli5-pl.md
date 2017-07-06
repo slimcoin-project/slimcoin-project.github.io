@@ -10,7 +10,7 @@ priority: 4
 
 W tym artykule, wyjaśnimy co to jest rewolucyjny mechanizm konsensusu kryjący się w Slimcoin'ie: **Proof of burn**.
 
-*Jeśli potrzebujesz, szybkie streszczenia, znajduję się ono **[tl;dr](#tldr)** na końcu sekcji. Czytelnicy zaznajomieni z Bitcoin'em i konsensusem Proof of Work i **dlaczego** to działa, mogą pominać pierwsze dwie sekcję.
+*Jeśli potrzebujesz, szybkie streszczenia, znajduję się ono **[tl;dr](#tldr)** na końcu sekcji. Czytelnicy zaznajomieni z Bitcoin'em i konsensusem Proof of Work i **dlaczego** to działa, mogą pominać pierwsze dwie sekcję.*
 
 ### Dlaczego konsensus jest potrzebny?
 
@@ -64,4 +64,4 @@ Proof of Burn ma główną zaletę nad Proof of Work, którą jest mocne zmniejs
 
 ### tldr
 
-**Proof of Burn działa jak wirtualne koparki: kupujesz wirtualną koparkę, jeśli zniszczysz monety. Im więcej monet zniszczysz, tym posiadasz więcej wirtualnych koparek. Każda koparka daję Ci prawo do kopania przez długi czas, tak jak w przypadku realnej koparki. Ale w końcu straci swoją moc - tak jak realne koparki, które stają się przestarzałe, przez prawo Moore'a
+**Proof of Burn działa jak wirtualne koparki: kupujesz wirtualną koparkę, jeśli zniszczysz monety. Im więcej monet zniszczysz, tym posiadasz więcej wirtualnych koparek. Każda koparka daję Ci prawo do kopania przez długi czas, tak jak w przypadku realnej koparki. Ale w końcu straci swoją moc - tak jak realne koparki, które stają się przestarzałe, przez prawo Moore'a**
