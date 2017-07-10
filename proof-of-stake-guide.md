@@ -51,4 +51,6 @@ Proof of Stake, in Slimcoin, requires a relative high amount of memory and CPU r
 
 **Note**: The number of inputs is related to the number of transactions you received. In short: normally, for every transaction you received, your wallet will contain one input. The more transactions you receive, the more inputs your wallet will have to manage.
 
-It is advisable that you *clean* your wallet if you have a large amount of inputs and want to mint by Proof of Stake. For this purpose, simply make a single transaction to yourself.
+Because of this issue, if the computer or server you use to mint is older or low on resources, it's a good idea to *not* use the same wallet for Proof of Burn minting or Proof of Work mining and for Proof of Stake minting. Mining and PoB minting produce a continuous stream of new inputs that then will consume increasingly more resources when you mint by Proof of Stake.
+
+It is advisable that you *clean* your wallet before you start to mint if you have a large amount of inputs. For this purpose, simply make a single transaction to one of your wallet addresses including all coins in the wallet. So you will have all your balance concentrated in one single input.
