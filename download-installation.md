@@ -28,14 +28,17 @@ Compiling is usually straightforward if you have the dependencies installed. Che
 
 For the graphical client, type:
 
-```qmake
+```
+qmake
 make
 ```
 
 If you only want to compile the daemon: In the *src* subfolder there are several makefiles especially set up for your system (e.g. *makefile.unix*). Check the makefile you need and then type:
 
-```cd src
-make -f YOUR_MAKEFILE```
+```
+cd src
+make -f YOUR_MAKEFILE
+```
 
 After successful compilation, the executable (*slimcoin-qt*) of the graphical client will be available in the base folder, while the daemon executable will live in the *src* subfolder. You can move them anywhere where you want.
 
@@ -46,15 +49,21 @@ You will need the *git* version management system for this method to work.
 
 Simply clone the Slimcoin repository into a folder of your choice:
 
-```git clone https://github.com/slimcoin-project/Slimcoin.git```
+```
+git clone https://github.com/slimcoin-project/Slimcoin.git
+```
 
 This will create a subfolder called *Slimcoin*. Change to it:
 
-```cd Slimcoin```
+```
+cd Slimcoin
+```
 
 By default, the code will be on the *slimcoin* branch, which is stable but not bleeding-edge. If you want the latest, bleeding-edge code you must change to the *master* branch:
 
-```git checkout master```
+```
+git checkout master
+```
 
 Then compile Slimcoin like indicated above.
 
