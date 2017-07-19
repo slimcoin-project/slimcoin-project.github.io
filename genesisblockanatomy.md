@@ -1,3 +1,13 @@
+---
+title: Anatomy of the Slimcoin genesis block
+lang: en
+ref: genesisblockanatomy
+category: help
+layout: page
+permalink: /anatomy-genesis-block/
+---
+
+
 # Anatomy of the Slimcoin genesis block
 
 The anatomy of the Slimcoin genesis block, offered as a guide to further, more detailed analysis.
