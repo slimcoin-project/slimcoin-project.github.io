@@ -17,7 +17,7 @@ Don't be afraid to burn too few coins - you can always rise your score burning m
 
 While burning, you not only can get rewards but also help regulating the money supply. [Learn more about Proof of Burn](/proof-of-burn-eli5/) in our simple explanation.
 
-**Note**: The *Effective Burnt Coins* score decreases ("decays") a little bit every block to avoid attacks by early adopters and to mimick the aging of mining equipment, but the score is positive for over one year for every coin you burnt. So you have plenty of time to benefit from your burnt coins.
+**Note**: The *Effective Burnt Coins* score decreases ("decays") a little bit every block to avoid attacks by early adopters and to mimic the aging of mining equipment, but the score is positive for over one year for every coin you burnt. So you have plenty of time to benefit from your burnt coins.
 
 ### Requirements
 
