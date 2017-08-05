@@ -46,9 +46,9 @@ You can start mining using the following command:
 
 ```slimcoind -gen```
 
-followed by other options if you wand.
+followed by other options if you want.
 
-While the daemon is running, the same commands are available in the terminal like in the GUI client debug window. So you can start mining with the *setgenerate true* command like in the Debug console.
+While the daemon is running, the same commands are available in the terminal like in the GUI client debug window. So you can start mining or set the number of cores to use with the *setgenerate* command, just like in the Debug console - only that you must write *slimcoind* before it.
 
 
 #### CPU Mining software (experimental)
@@ -66,4 +66,4 @@ Go to the [Slimminer Github Page](https://github.com/JonnyLatte/slimminerGPU) an
 
 ### Pools
 
-There are currently no working pools for Slimcoin. However there are initiatives to create a mining pool. Stay tuned!
+There are currently no working pools for Slimcoin. However there are initiatives to create a mining pool, and for those that want to try to set up one themselves, our [project repository](http://github.com/slimcoin-project/) provides an (experimental) port of a popular pool software. Stay tuned!
