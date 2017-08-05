@@ -49,7 +49,7 @@ So in Proof of work, the right to mine blocks is tied to a monetary cost for the
 
 But what if we can have the same effect in a more direct way?
 
-We can mimick this cost letting the nodes "destroy" or "burn" coins, if they want to get the right to write blocks. **That is the principle behind Proof of Burn**. We call it also **minting**, because no real work is done. Remember: all what's important is the cost of the mechanism.
+We can mimic this cost letting the nodes "destroy" or "burn" coins, if they want to get the right to write blocks. **That is the principle behind Proof of Burn**. We call it also **minting**, because no real work is done. Remember: all what's important is the cost of the mechanism.
 
 That sounds crazy. But the brilliant mind that has invented Proof of Burn, Iain Stewart, has provided us an analogy: **Burnt coins are mining rigs!**
 
@@ -59,7 +59,7 @@ That's exactly how Slimcoin's Proof of Burn mechanism works:
 
 If you burn coins, you **not only** get the right to compete for the next block. A mining rig is something more durable, **and so are Slimcoin's virtual mining rigs**. You burn coins and this rises your chance to get blocks for a long time - **at least for a year**.
 
-Now, **to prevent early adopters from benefitting too much** or attacking the system , the power of burnt coins **decays** every time a block is mined. It doesn't decay much, so don't be afraid - you will have a lot of time. But this also mimicks mining: Mining rigs eventually **become obsolete** because there is better technology available. So miners, to stay competitive, will have to renew their equipment sometimes. The same is true for Proof of Burn: if you want to maintain your minting power, you must burn coins periodically.
+Now, **to prevent early adopters from benefitting too much** or attacking the system , the power of burnt coins **decays** every time a block is mined. It doesn't decay much, so don't be afraid - you will have a lot of time. But this also mimics mining: Mining rigs eventually **become obsolete** because there is better technology available. So miners, to stay competitive, will have to renew their equipment sometimes. The same is true for Proof of Burn: if you want to maintain your minting power, you must burn coins periodically.
 
 Like in Proof of Work, the **block rewards are high enough** to allow the participants to make a financial gain (profit) from minting. You won't get back your investment in one hour or one day, but with some patience, in most situations you'll eventually **get significantly more coins that the ones you burnt**.
 
