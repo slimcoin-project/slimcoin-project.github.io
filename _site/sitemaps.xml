@@ -4,8 +4,10 @@
   
     
       <url>
-        <loc>/about/</loc>
+        <loc>/about-ru/</loc>
         
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/about-ru/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/about/" />
         
@@ -19,12 +21,46 @@
   
     
       <url>
+        <loc>/about/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/about-ru/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/o-slimcoinie/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sobre-slimcoin/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/advantages-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/advantages-ru/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/advantages/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/ayuda/</loc>
         
         
           <xhtml:link rel="alternate" hreflang="es" href="/ayuda/" />
         
+          <xhtml:link rel="alternate" hreflang="ru" href="/help-ru/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/help/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/pomoc/" />
         
         <changefreq>weekly</changefreq>
       </url>
@@ -39,6 +75,36 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/instalar/" />
         
+          <xhtml:link rel="alternate" hreflang="ru" href="/installation-ru/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/anatomy-genesis-block/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/anatomy-genesis-block/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/help-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/ayuda/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/help-ru/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/help/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/pomoc/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -50,7 +116,11 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/ayuda/" />
         
+          <xhtml:link rel="alternate" hreflang="ru" href="/help-ru/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/help/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/pomoc/" />
         
         <changefreq>weekly</changefreq>
       </url>
@@ -62,6 +132,25 @@
         
         
           <xhtml:link rel="alternate" hreflang="pl" href="/index-pl.html" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/index-ru.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/inicio.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/index-ru.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/index-pl.html" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/index-ru.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/" />
         
@@ -78,6 +167,8 @@
         
           <xhtml:link rel="alternate" hreflang="pl" href="/index-pl.html" />
         
+          <xhtml:link rel="alternate" hreflang="ru" href="/index-ru.html" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/inicio.html" />
@@ -92,6 +183,8 @@
         
         
           <xhtml:link rel="alternate" hreflang="pl" href="/index-pl.html" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/index-ru.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/" />
         
@@ -110,6 +203,23 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/instalar/" />
         
+          <xhtml:link rel="alternate" hreflang="ru" href="/installation-ru/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/installation-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/installation/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/instalar/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/installation-ru/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -125,10 +235,23 @@
   
     
       <url>
+        <loc>/mining-guide-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/mining-guide-ru/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/mining-guide/</loc>
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/mining-guide/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/poradnik-mining/" />
         
         <changefreq>weekly</changefreq>
       </url>
@@ -138,6 +261,8 @@
       <url>
         <loc>/o-slimcoinie/</loc>
         
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/about-ru/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/about/" />
         
@@ -151,10 +276,78 @@
   
     
       <url>
+        <loc>/pomoc/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/ayuda/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/help-ru/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/help/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/pomoc/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/poradnik-mining/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/mining-guide/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/poradnik-mining/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/proof-of-burn-eli5-es/</loc>
         
         
           <xhtml:link rel="alternate" hreflang="es" href="/proof-of-burn-eli5-es/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/proof-of-burn-eli5-pl/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/proof-of-burn-eli5-ru/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-burn-eli5-pl/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/proof-of-burn-eli5-es/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/proof-of-burn-eli5-pl/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/proof-of-burn-eli5-ru/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-burn-eli5-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/proof-of-burn-eli5-es/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/proof-of-burn-eli5-pl/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/proof-of-burn-eli5-ru/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
         
@@ -169,7 +362,22 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/proof-of-burn-eli5-es/" />
         
+          <xhtml:link rel="alternate" hreflang="pl" href="/proof-of-burn-eli5-pl/" />
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/proof-of-burn-eli5-ru/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-eli5/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-burn-guide-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/proof-of-burn-guide-ru/" />
         
         <changefreq>weekly</changefreq>
       </url>
@@ -181,6 +389,32 @@
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-guide/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/proof-of-burn-poradnik/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-burn-poradnik/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/proof-of-burn-guide/" />
+        
+          <xhtml:link rel="alternate" hreflang="pl" href="/proof-of-burn-poradnik/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proof-of-stake-guide-ru/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/proof-of-stake-guide-ru/" />
         
         <changefreq>weekly</changefreq>
       </url>
@@ -211,6 +445,8 @@
         <loc>/advantages/</loc>
         
         
+          <xhtml:link rel="alternate" hreflang="ru" href="/advantages-ru/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/advantages/" />
         
         <changefreq>weekly</changefreq>
@@ -221,6 +457,8 @@
       <url>
         <loc>/sobre-slimcoin/</loc>
         
+        
+          <xhtml:link rel="alternate" hreflang="ru" href="/about-ru/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/about/" />
         

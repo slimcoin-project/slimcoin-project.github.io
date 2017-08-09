@@ -15,6 +15,7 @@
   
   <link rel="alternate" hreflang="en" href="/installation/" />
   <link rel="alternate" hreflang="es" href="/instalar/" />
+  <link rel="alternate" hreflang="ru" href="/installation-ru/" />
   <link rel="alternate" type="application/rss+xml" title="Slimcoin. A cryptocurrency for the long term." href="http://localhost:4000">
 </head>
 
@@ -48,6 +49,8 @@
           
         
           
+        
+          
           <a class="page-link" href="/">Home</a>
           
         
@@ -64,7 +67,7 @@
           
         
           
-          <a class="page-link" href="/help/">Help</a>
+          <a class="page-link" href="/help/">Help & Docs</a>
           
         
       </div>
@@ -76,7 +79,7 @@
 
 <div class="wrapper" style="text-align: right; line-height: 2em">
   
-   <a href="/installation/" class="en">en</a>  <a href="/instalar/" class="es">es</a> 
+   <a href="/installation/" class="en">en</a>  <a href="/instalar/" class="es">es</a>  <a href="/installation-ru/" class="ru">ru</a> 
 </div>
 
 
@@ -110,13 +113,17 @@
 
 <p>For the graphical client, type:</p>
 
-<pre><code class="language-qmake">make
+<div class="highlighter-rouge"><pre class="highlight"><code>qmake
+make
 </code></pre>
+</div>
 
 <p>If you only want to compile the daemon: In the <em>src</em> subfolder there are several makefiles especially set up for your system (e.g. <em>makefile.unix</em>). Check the makefile you need and then type:</p>
 
-<p><code class="highlighter-rouge">cd src
-make -f YOUR_MAKEFILE</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>cd src
+make -f YOUR_MAKEFILE
+</code></pre>
+</div>
 
 <p>After successful compilation, the executable (<em>slimcoin-qt</em>) of the graphical client will be available in the base folder, while the daemon executable will live in the <em>src</em> subfolder. You can move them anywhere where you want.</p>
 
@@ -126,15 +133,21 @@ make -f YOUR_MAKEFILE</code></p>
 
 <p>Simply clone the Slimcoin repository into a folder of your choice:</p>
 
-<p><code class="highlighter-rouge">git clone https://github.com/slimcoin-project/Slimcoin.git</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/slimcoin-project/Slimcoin.git
+</code></pre>
+</div>
 
 <p>This will create a subfolder called <em>Slimcoin</em>. Change to it:</p>
 
-<p><code class="highlighter-rouge">cd Slimcoin</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>cd Slimcoin
+</code></pre>
+</div>
 
 <p>By default, the code will be on the <em>slimcoin</em> branch, which is stable but not bleeding-edge. If you want the latest, bleeding-edge code you must change to the <em>master</em> branch:</p>
 
-<p><code class="highlighter-rouge">git checkout master</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git checkout master
+</code></pre>
+</div>
 
 <p>Then compile Slimcoin like indicated above.</p>
 
@@ -193,7 +206,7 @@ rpcpassword=PASSWORD
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h3 class="footer-col-heading">Ressources</h3>
+        <h3 class="footer-col-heading">Resources</h3>
         <ul class="resources-list">
           
           <li>
@@ -204,6 +217,8 @@ rpcpassword=PASSWORD
           
           <li><a href="http://www.slimcoin.club/whitepaper.pdf">Whitepaper</a></li>
           <li><a href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></li>
+          <li><a href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured">YouTube channel</a></li>
+
 
         </ul>
       </div>
@@ -221,6 +236,10 @@ rpcpassword=PASSWORD
 
           </li>
           
+          <li><a href="https://www.facebook.com/slimcoin.community">Facebook</a></li>
+          <li><a href="https://t.me/joinchat/AAAAAELTpkxZe9IkIH2jLg">Telegram</a></li>
+
+
           <!-- <li><a href="mailto:"></a></li> -->
         </ul>
       </div>

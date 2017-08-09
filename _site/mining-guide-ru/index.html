@@ -6,16 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Slimcoin mining guide</title>
-  <meta name="description" content="Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.">
+  <title>Руководство по майнингу Слимкоина</title>
+  <meta name="description" content="Слимкоин. Криптовалюта для долгосрочной перспективы.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/mining-guide/">
+  <link rel="canonical" href="http://localhost:4000/mining-guide-ru/">
   
   
-  <link rel="alternate" hreflang="en" href="/mining-guide/" />
-  <link rel="alternate" hreflang="pl" href="/poradnik-mining/" />
-  <link rel="alternate" type="application/rss+xml" title="Slimcoin. A cryptocurrency for the long term." href="http://localhost:4000">
+  <link rel="alternate" hreflang="ru" href="/mining-guide-ru/" />
+  <link rel="alternate" type="application/rss+xml" title="Слимкоин. Криптовалюта для долгосрочной перспективы." href="http://localhost:4000">
 </head>
 
 
@@ -25,7 +24,7 @@
 
   <div class="wrapper">
 
-    <img class="site-logo" src="/slimcoin.svg" width="60px" style="float:left"><a class="site-title" href="/">Slimcoin. A cryptocurrency for the long term.</a>
+    <img class="site-logo" src="/slimcoin.svg" width="60px" style="float:left"><a class="site-title" href="/index-ru.html">Слимкоин. Криптовалюта для долгосрочной перспективы.</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -48,25 +47,23 @@
           
         
           
-        
-          
-          <a class="page-link" href="/">Home</a>
+          <a class="page-link" href="/index-ru.html">Главная</a>
           
         
           
-          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="/about-ru/">Описание</a>
           
         
           
-          <a class="page-link" href="/advantages/">Advantages</a>
+          <a class="page-link" href="/advantages-ru/">Преимущества</a>
           
         
           
-          <a class="page-link" href="/proof-of-burn-eli5/">Proof of Burn ELI5</a>
+          <a class="page-link" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a>
           
         
           
-          <a class="page-link" href="/help/">Help & Docs</a>
+          <a class="page-link" href="/help-ru/">Помощь</a>
           
         
       </div>
@@ -78,7 +75,7 @@
 
 <div class="wrapper" style="text-align: right; line-height: 2em">
   
-   <a href="/mining-guide/" class="en">en</a>  <a href="/poradnik-mining/" class="pl">pl</a> 
+   <a href="/mining-guide-ru/" class="ru">ru</a> 
 </div>
 
 
@@ -87,65 +84,65 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Slimcoin mining guide</h1>
+    <h1 class="post-title">Руководство по майнингу Слимкоина</h1>
   </header>
 
   <div class="post-content">
-    <h3 id="solo-mining">Solo mining</h3>
+    <h3 id="Соло-майнинг">Соло майнинг</h3>
 
-<p>Solo mining is the simplest way to mine Slimcoin. It is done simply with the regular client or with a mining software (“miner”). When the difficulty is low, then solo mining becomes a profitable option.</p>
+<p>Соло майнинг - самый простой способ майнинга Слимкоина. Это делается в обычном клиенте или в программе “майнере”. Когда сложность невысока, соло майнинг становится прибыльным.</p>
 
-<p>You can mine Slimcoin with CPUs (recommended) or with GPUs (experimental).</p>
+<p>Вы можете майнить Слимкоин с CPU (рекомендованный способ) или с GPU (экспериментальный).</p>
 
-<h4 id="graphical-client-slimcoin-qt">Graphical client (Slimcoin-QT)</h4>
+<h4 id="Графический-клиент-slimcoin-qt">Графический клиент (Slimcoin-QT)</h4>
 
-<p>If you are using the graphical client, you can mine simply by introducing the following command in the RPC console (go to <em>Help</em> -&gt; <em>Debug window</em> and open the <em>Console</em> tab):</p>
+<p>Если вы используете графический клиент, вы можете майнить при помощи следующей команды в RPC консоли (зайдите в <em>Help</em> -&gt; <em>Debug window</em> и откройте <em>Console</em>):</p>
 
 <p><code class="highlighter-rouge">setgenerate true</code></p>
 
-<p>You can also specify how many cores of your CPU to use:</p>
+<p>Вы также можете выбрать количество ядер процессора, которые будут задействованы:</p>
 
 <p><code class="highlighter-rouge">setgenerate true NUMBER_OF_CORES</code></p>
 
-<p>with NUMBER_OF_CORES being the number you want to use. If you want to use all cores, type:</p>
+<p>Укажите вместо NUMBER_OF_CORES необходимое число. Если вы хотите задействовать все ядра, вбейте:</p>
 
 <p><code class="highlighter-rouge">setgenerate true -1</code></p>
 
-<p>To finalize mining, simply type:</p>
+<p>Чтобы завершить майнинг достаточно отправить команду:</p>
 
 <p><code class="highlighter-rouge">setgenerate false</code></p>
 
-<p>To get general mining information:</p>
+<p>Для получения общей информации о майнинге:</p>
 
 <p><code class="highlighter-rouge">getmininginfo</code></p>
 
-<p><strong>Important</strong>: With the Slimcoin client - graphical or daemon - you only will be able to mine with the CPU, and the algorithm isn’t optimized. So if you want maximal efficiency or use GPUs, use miner programs (see below).</p>
+<p><strong>Важно</strong>: через клиент Слимкоина - графический или демон - возможен только CPU майнинг, и алгоритм не оптимизирован. Поэтому если вы хотите добиться максимальной эффективности или использовать GPU, используйте программу майнер (смотрите ниже).</p>
 
 <h4 id="daemon-slimcoind">Daemon (slimcoind)</h4>
 
-<p>You can start mining using the following command:</p>
+<p>Для начала майнинга используйте следующую команду:</p>
 
 <p><code class="highlighter-rouge">slimcoind -gen</code></p>
 
-<p>followed by other options if you want.</p>
+<p>с дополнительными опциями по желанию.</p>
 
-<p>While the daemon is running, the same commands are available in the terminal like in the GUI client debug window. So you can start mining or set the number of cores to use with the <em>setgenerate</em> command, just like in the Debug console - only that you must write <em>slimcoind</em> before it.</p>
+<p>Пока daemon запущен, в нем через терминал доступны те же команды, что и в графическом клиенте через окно debug. Таким образом вы можете запустить майнинг при помощи команды <em>setgenerate true</em> в консоли Debug.</p>
 
-<h4 id="cpu-mining-software-experimental">CPU Mining software (experimental)</h4>
+<h4 id="cpu-майнер-экспериментальный">CPU майнер (экспериментальный)</h4>
 
-<p>To optimize mining, you can use the <strong>Slimminer</strong> software. It is experimental and may contain bugs.</p>
+<p>Для оптимизации майнинга вы можете использовать <strong>Slimminer</strong>. Он является экспериментальным и может содержать баги.</p>
 
-<p>Go to the <a href="https://github.com/JonnyLatte/slimminer">Slimminer Github Page</a> and follow the instructions to install and mine.</p>
+<p>Зайдите на <a href="https://github.com/JonnyLatte/slimminer">Slimminer Github Page</a> и следуйте инструкциям по установке и майнингу.</p>
 
-<h4 id="gpu-mining-software-experimental">GPU Mining software (experimental)</h4>
+<h4 id="gpu-майнер-экспериментальный">GPU майнер (экспериментальный)</h4>
 
-<p>To be able to mine with a GPU, you can use the <strong>SlimminerGPU</strong> software. It is experimental and may contain bugs.</p>
+<p>Для GPU майнинга вы так же можете использовать <strong>Slimminer</strong>. Он является экспериментальным и может содержать баги.</p>
 
-<p>Go to the <a href="https://github.com/JonnyLatte/slimminerGPU">Slimminer Github Page</a> and follow the instructions to install and mine.</p>
+<p>Зайдите на <a href="https://github.com/JonnyLatte/slimminerGPU">Slimminer Github Page</a> и следуйте инструкциям по установке и майнингу.</p>
 
 <h3 id="pools">Pools</h3>
 
-<p>There are currently no working pools for Slimcoin. However there are initiatives to create a mining pool, and for those that want to try to set up one themselves, our <a href="http://github.com/slimcoin-project/">project repository</a> provides an (experimental) port of a popular pool software. Stay tuned!</p>
+<p>В настоящее время нет майнинговых пулов для Слимкоина. Однако над этим ведется работа. Следите за новостями!</p>
 
   </div>
 
@@ -158,11 +155,11 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Use & Participate</h2>
+    <h2 class="footer-heading">Использование и участие</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h3 class="footer-col-heading">Resources</h3>
+        <h3 class="footer-col-heading">Ресурсы</h3>
         <ul class="resources-list">
           
           <li>
@@ -180,7 +177,7 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <h3 class="footer-col-heading">Social media</h3>
+        <h3 class="footer-col-heading">Социальные медиа</h3>
         <ul class="social-media-list">
           <li><a href="https://bitcointalk.org/index.php?topic=1141676.0">Bitcointalk</a></li>
           <li><a href="https://www.reddit.com/r/slimcoin/">Reddit Forum</a></li>
@@ -201,7 +198,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <h3 class="footer-col-heading">Tools</h3>
+        <h3 class="footer-col-heading">Инструменты</h3>
         <ul class="tools-list">
           <li><a href="https://iancoleman.github.io/bip39/">Key Generator</a></li>
           <li><a href="http://www.slimcoin.club">Slimcoin.club site & block explorer</a></li>

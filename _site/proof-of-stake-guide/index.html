@@ -47,6 +47,8 @@
           
         
           
+        
+          
           <a class="page-link" href="/">Home</a>
           
         
@@ -63,7 +65,7 @@
           
         
           
-          <a class="page-link" href="/help/">Help</a>
+          <a class="page-link" href="/help/">Help & Docs</a>
           
         
       </div>
@@ -96,7 +98,7 @@
 
 <p>To mint coins via Proof of Stake, you need a relatively high amount of Slimcoins. 200-300 Slimcoins may be enough, but it’s more secure if you try with about 1000 to 2000.</p>
 
-<p>The coins must have not been moved for at least 30 days to qualify for Proof of Stake minting. If you move the coins, you will have to wait 30 days again.</p>
+<p>The coins must have not been moved for at least 7 days to qualify for Proof of Stake minting. If you move the coins, you will have to wait 7 days again. The weight of the staked coins rises until day 90, and then stays on the same level (a security measure to avoid certain attacks).</p>
 
 <p><strong>Important</strong>: If you wallet is encrypted, you must unlock it to be able to mint (like in Proof of Burn minting). In the graphical client you find the <em>Unlock wallet</em> item in the <em>File</em> menu. In the graphical client, you should use the following command in the console (<em>Help</em> -&gt; <em>Debug window</em> -&gt; <em>Console</em> tab):</p>
 
@@ -118,9 +120,9 @@
 
 <p>To avoid this lock, you can set the so-called <strong>reserve balance</strong>. This is an amount of coins that won’t be frozen if you find a block. But on the other hand it won’t participate in “staking”.</p>
 
-<p>The reserve balance can be set in the graphical client in the</p>
+<p>The reserve balance can be set in the graphical client in the <strong>Options</strong> window in the <strong>Settings</strong> menu.</p>
 
-<p>To permanently set a reserve balance, also if using the Slimcoin daemon (slimcoind), the <strong>slimcoin.conf</strong> configuration file and add:</p>
+<p>To permanently set a reserve balance, also if using the Slimcoin daemon (slimcoind), edit the <strong>slimcoin.conf</strong> configuration file and add:</p>
 
 <p><code class="highlighter-rouge">reservebalance=NUMBER_OF_COINS</code></p>
 
@@ -128,16 +130,13 @@
 
 <h3 id="cpu-and-memory-usage">CPU and memory usage</h3>
 
-<p>Proof of Stake, in Slimcoin, requires a relative high amount of memory and CPU resources. The amount of resources depends on two factors:</p>
+<p>Proof of Stake, in Slimcoin, requires a relative high amount of memory and CPU resources. The amount of resources depends on the number of inputs that are used to stake. The more inputs you have in your wallet, the more resources are needed (<a href="https://bitcointalk.org/index.php?topic=1141676.msg19085405#msg19085405">Source</a>).</p>
 
-<ul>
-  <li>the number of coins you use to stake (the more coins, the more resources are needed)</li>
-  <li>the number of inputs that are used to stake (the more inputs, the more resources)</li>
-</ul>
+<p><strong>Note</strong>: The number of inputs is related to the number of transactions you received. In short: normally, for every transaction you received, your wallet will contain one input. The more transactions you receive, the more inputs your wallet will have to manage.</p>
 
-<p><strong>Note</strong>: Inputs are an unit that is related to the number of transactions you received. In short: normally, for every transaction you received, your wallet will contain one input. The more transactions you receive, the more inputs your wallet will have to manage.</p>
+<p>Because of this issue, if the computer or server you use to mint is older or low on resources, it’s a good idea to <em>not</em> use the same wallet for Proof of Burn minting or Proof of Work mining and for Proof of Stake minting. Mining and PoB minting produce a continuous stream of new inputs that then will consume increasingly more resources when you mint by Proof of Stake.</p>
 
-<p>It is advisable that you <em>clean</em> your wallet if you have a large amount of inputs. For this purpose, simply make a single transaction to yourself.</p>
+<p>It is advisable that you <em>clean</em> your wallet before you start to mint if you have a large amount of inputs. For this purpose, simply make a single transaction to one of your wallet addresses including all coins in the wallet. So you will have all your balance concentrated in one single input.</p>
 
   </div>
 
@@ -154,7 +153,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h3 class="footer-col-heading">Ressources</h3>
+        <h3 class="footer-col-heading">Resources</h3>
         <ul class="resources-list">
           
           <li>
@@ -165,6 +164,8 @@
           
           <li><a href="http://www.slimcoin.club/whitepaper.pdf">Whitepaper</a></li>
           <li><a href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></li>
+          <li><a href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured">YouTube channel</a></li>
+
 
         </ul>
       </div>
@@ -182,6 +183,10 @@
 
           </li>
           
+          <li><a href="https://www.facebook.com/slimcoin.community">Facebook</a></li>
+          <li><a href="https://t.me/joinchat/AAAAAELTpkxZe9IkIH2jLg">Telegram</a></li>
+
+
           <!-- <li><a href="mailto:"></a></li> -->
         </ul>
       </div>

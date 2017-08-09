@@ -6,17 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Slimcoin. Długoterminowa kryptowaluta.</title>
+  <title>Poradnik kopania Slimcoin&#39;a</title>
   <meta name="description" content="Slimcoin jest energooszczędną kryptowalutą zaprojektowaną w celu decentralizacji i stabilności. Jest to pierwsza kryptowaluta używająca konsensus Proof of Burn/ wirtualnego kopania.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/index-pl.html">
+  <link rel="canonical" href="http://localhost:4000/poradnik-mining/">
   
   
-  <link rel="alternate" hreflang="en" href="/" />
-  <link rel="alternate" hreflang="es" href="/inicio.html" />
-  <link rel="alternate" hreflang="pl" href="/index-pl.html" />
-  <link rel="alternate" hreflang="ru" href="/index-ru.html" />
+  <link rel="alternate" hreflang="en" href="/mining-guide/" />
+  <link rel="alternate" hreflang="pl" href="/poradnik-mining/" />
   <link rel="alternate" type="application/rss+xml" title="Slimcoin. Długoterminowa kryptowaluta." href="http://localhost:4000">
 </head>
 
@@ -70,22 +68,79 @@
 
 <div class="wrapper" style="text-align: right; line-height: 2em">
   
-   <a href="/" class="en">en</a>  <a href="/inicio.html" class="es">es</a>  <a href="/index-pl.html" class="pl">pl</a>  <a href="/index-ru.html" class="ru">ru</a> 
+   <a href="/mining-guide/" class="en">en</a>  <a href="/poradnik-mining/" class="pl">pl</a> 
 </div>
 
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post">
 
-  <div class="image-container">
-    <img class="start-image" src="/slimcoin-startimage.jpg" alt="Slimcoin, community oriented cryptocurrency." />
+  <header class="post-header">
+    <h1 class="post-title">Poradnik kopania Slimcoin'a</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="kopaniemining-samemu">Kopanie/mining samemu</h3>
+
+<p>Kopanie samemu jest najłatwiejszą metodą, aby wydobywać Slimcoin. Jest to dokonywane poprzez klienta Slimcoin’a, albo oprogramowanie do kopania tzw. miner. Jeśli trudność jest niska (aktualnie jest), wtedy kopanie samemu jest zyskowne.</p>
+
+<p>You can mine Slimcoin with CPUs (recommended) or with GPUs (experimental).</p>
+
+<p>Możesz kopać Slimcoin z pomocą procesora (CPU), albo karty graficznej (GPU), miner GPU jest eksperymentalny i może posiadać błędy</p>
+
+<h4 id="graficzny-interfejs-slimcoin-qt">Graficzny interfejs (Slimcoin-QT)</h4>
+
+<p>Jeśli używasz klienta graficznego, możesz kopać bezproblemu wpisując daną komendę w konsolę RPC (znajduję się w <em>Help</em> -&gt; <em>Debug window</em> i otwórz <em>Console</em> zakładkę)</p>
+
+<p>komenda to <code class="highlighter-rouge">setgenerate true</code></p>
+
+<p>Możesz też wyspecjalizować ile rdzeni twojego procesora, chcesz użyć:</p>
+
+<p><code class="highlighter-rouge">setgenerate true NUMBER_OF_CORES</code></p>
+
+<p>NUMBER_OF_CORES oznacza ile chcesz użyć rdzeni, jeśli wszystkie chcesz użyć, wpisz:</p>
+
+<p><code class="highlighter-rouge">setgenerate true -1</code></p>
+
+<p>Aby skończyć kopanie, po prostu wpisz:</p>
+
+<p><code class="highlighter-rouge">setgenerate false</code></p>
+
+<p>Aby uzyskać informacje o kopaniu:</p>
+
+<p><code class="highlighter-rouge">getmininginfo</code></p>
+
+<p><strong>Ważne</strong>: Z klientem Slimcoin’a - graficznym, bądź daemon, możesz tylko kopać na procesorze (CPU), a algorytm nie jest zoptymalizowany. Jeśli chcesz maksymalnej efektywności, użyć minerów do CPU, bądź GPU, które znajdują się poniżej.</p>
+
+<h4 id="daemon-slimcoind">Daemon (slimcoind)</h4>
+
+<p>Możesz zacząć kopanie, używając tych komend:</p>
+
+<p><code class="highlighter-rouge">slimcoind -gen</code></p>
+
+<p>razem z innymi opcjami, które chcesz zaaplikować.</p>
+
+<p>Jeśli daemon działa, te same komendy w terminalu są obecne jak te w kliencie graficznym Slimcoin’a. Więc możesz zacząć kopanie z komendą <em>setgenerate true</em>, w konsoli debugowania.</p>
+
+<h4 id="kopanie-na-procesorze-eksperymentalne">Kopanie na procesorze (eksperymentalne)</h4>
+
+<p>Aby kopanie było optymalne, możesz użyć tzw. <strong>Slimminer</strong> minera. Jest to oprogramowanie eksperymentalne i możesz posiadać błędy.</p>
+
+<p>Sprawdź na <a href="https://github.com/JonnyLatte/slimminer">Slimminer Github</a> i podążaj za instrukcją, aby zainstalować i kopać.</p>
+
+<h4 id="kopanie-na-karcie-graficznej-eksperymentalne">Kopanie na karcie graficznej (eksperymentalne)</h4>
+
+<p>Aby moć kopać na karcie graficznej/kartach graficznych (GPUs), możesz użyć <strong>SlimminerGPU</strong> minera. Jest to oprogramowanie eksperymentalne i możesz posiadać błędy.
+Sprawdź na <a href="https://github.com/JonnyLatte/slimminerGPU">Slimminer Github</a> i podążaj za instrukcją, aby zainstalować i kopać.</p>
+
+<h3 id="poole">Poole</h3>
+
+<p>Nie ma aktualnie żadnych pooli dla Slimcoina. Lecz mamy inicjatywy, aby utworzyć pool. Więc bądźcie czujni!</p>
 
   </div>
 
-  <p class=""><b>Slimcoin</b> jest innowacyjnym projektem bazującym na blockchainie (publicznym rejestrze), kryptowalutom i systemem płatniczym. Jej nowatorska <em>Proof of Burn technologia</em> jest zaprojektowana w celu prawdziwej <em>decentralizacji</em> i <em>stabilności</em>. Energooszczędny i bezpieczny, Slimcoin zapewnia niskie koszty transakcyjne i zaawansowane funkcję jak zdecentralizowane publikowanie stron internetowych. <a href="/o-slimcoinie/">Dowiedz się więcej ...</a></p>
-
-</div>
+</article>
 
       </div>
     </div>
