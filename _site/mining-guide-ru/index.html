@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Standard Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- glitter -->
+    <meta name="theme-color" content="#25497B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Site Properties -->
+    <title>Руководство по майнингу Слимкоина</title>
+    <!-- <title>Slimcoin</title> -->
+    <meta name="description" content="Слимкоин. Криптовалюта для долгосрочной перспективы.">
+    <link rel="stylesheet" type="text/css" href="./libs/Semantic/semantic.css">
+    <link rel="stylesheet" type="text/css" href="./css/homepage.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="./libs/jQuery/jq.js"></script>
+    <script src="./libs/Semantic/semantic.min.js"></script>
+    <script src="./js/homepage.min.js"></script>
+    <link rel="canonical" href="http://localhost:4000/mining-guide-ru/">
+    
+    
+    <link rel="alternate" hreflang="ru" href="/mining-guide-ru/" />
+    <link rel="alternate" type="application/rss+xml" title="Слимкоин. Криптовалюта для долгосрочной перспективы." href="http://localhost:4000">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="ui inverted page grid masthead segment mast-gradient">
+    <div class="column">
+      <div class="inverted secondary pointing ui menu">
+        <div class="header item"> <a class="item" target="_self" href="index.html">Slimcoin</a> </div>
+        <!-- Mobile menu -->
+        <div class="mobile-only right aligned header item">
+          <div class="ui right aligned pointing dropdown link item">
+            &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="dropdown icon"></i>
+            <div class="menu">
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <a class="item" href="/index-ru.html">Home</a>
+                
+              
+                
+                  <a class="item" href="/about-ru/">Описание</a>
+                
+              
+                
+                  <a class="item" href="/advantages-ru/">Преимущества</a>
+                
+              
+                
+                  <a class="item" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a>
+                
+              
+                
+                  <a class="item" href="/help-ru/">Помощь</a>
+                
+              
+            </div>
+          </div>
+        </div>
+        <!-- Non-mobile menu bar -->
+        <div class="right menu">
+          <div class="ui dropdown link item">
+            Technology <i class="dropdown icon"></i>
+            <div class="menu"><!--
+              --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/index-ru.html">Home</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/about-ru/">Описание</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/advantages-ru/">Преимущества</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/help-ru/">Помощь</a><!--
+                --><!--
+              --><!--
+             --><a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a><!--
+            --></div>
+          </div>
+          <div class="ui dropdown link item">
+            Help & Tools<i class="dropdown icon"></i>
+            <div class="menu"><!--
+              --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/index-ru.html">Home</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/about-ru/">Описание</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/advantages-ru/">Преимущества</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/help-ru/">Помощь</a><!--
+                --><!--
+              --><!--
+              --><a class="item" href="https://bchain.info/SLM/" target="_blank">BChain.Info Block Explorer</a><!--
+              --><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a><!--
+             --></div>
+          </div>
+          <div class="ui dropdown link item">
+            Downloads <i class="dropdown icon"></i>
+            <div class="menu"><!--
+              --><a class="item" href="https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe">Simcoin-QT 0.5.1 (Windows)</a><!--
+              --><a class="item" href="https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x">Simcoin-QT 0.5 (ARM V5/V7)</a><!--
+              --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/releases">Simcoin-QT 0.5 (Windows/Mac)</a><!--
+              --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/tree/master">Simcoin's source code</a> <!--
+              --><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a><!--
+              --><a class="item" href="https://mega.co.nz/#!ekQyAZBS!YNYsEYOVVWbOv-CUza5LlSO0iOiVxykThw1dQk_ChfA" target="_parent">SLM Blockchain Snapshot 126100</a><!--
+            --></div>
+          </div>
+          <div class="ui dropdown link item">
+        Participate <i class="dropdown icon"></i>
+            <div class="menu"><!--
+              --><a class="item" href="#donate" target="_parent">Donate</a><!--
+              --><a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><!--
+              --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a><!--
+            --></div>
+          </div>
+          <div class="ui dropdown link item">
+            Languages <i class="dropdown icon"></i>
+            <div class="menu"><!--
+              --><!--
+              --><!--
+              --><a href="/mining-guide-ru/" class="item ru">ru</a><!--
+              --><!--
+            --></div>
+          </div> 
+        </div>
+      </div>
+      <div class="anim ui transition information visible">
+        <h1 class="ui inverted header big-for-mobile left">
+        The Next Generation of Cryptocurrencies
+        </h1>
+        <p style="padding-left:20px">Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation</p>
+      </div>
+      <img src="./assets/slm.png" class="ui center aligned medium image anim" width="100px"> 
+    </div>
+  </div>
+</header>
+
+
+
+
+    <div class="page-content">
+      <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Руководство по майнингу Слимкоина</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="Соло-майнинг">Соло майнинг</h3>
+
+<p>Соло майнинг - самый простой способ майнинга Слимкоина. Это делается в обычном клиенте или в программе “майнере”. Когда сложность невысока, соло майнинг становится прибыльным.</p>
+
+<p>Вы можете майнить Слимкоин с CPU (рекомендованный способ) или с GPU (экспериментальный).</p>
+
+<h4 id="Графический-клиент-slimcoin-qt">Графический клиент (Slimcoin-QT)</h4>
+
+<p>Если вы используете графический клиент, вы можете майнить при помощи следующей команды в RPC консоли (зайдите в <em>Help</em> -&gt; <em>Debug window</em> и откройте <em>Console</em>):</p>
+
+<p><code class="highlighter-rouge">setgenerate true</code></p>
+
+<p>Вы также можете выбрать количество ядер процессора, которые будут задействованы:</p>
+
+<p><code class="highlighter-rouge">setgenerate true NUMBER_OF_CORES</code></p>
+
+<p>Укажите вместо NUMBER_OF_CORES необходимое число. Если вы хотите задействовать все ядра, вбейте:</p>
+
+<p><code class="highlighter-rouge">setgenerate true -1</code></p>
+
+<p>Чтобы завершить майнинг достаточно отправить команду:</p>
+
+<p><code class="highlighter-rouge">setgenerate false</code></p>
+
+<p>Для получения общей информации о майнинге:</p>
+
+<p><code class="highlighter-rouge">getmininginfo</code></p>
+
+<p><strong>Важно</strong>: через клиент Слимкоина - графический или демон - возможен только CPU майнинг, и алгоритм не оптимизирован. Поэтому если вы хотите добиться максимальной эффективности или использовать GPU, используйте программу майнер (смотрите ниже).</p>
+
+<h4 id="daemon-slimcoind">Daemon (slimcoind)</h4>
+
+<p>Для начала майнинга используйте следующую команду:</p>
+
+<p><code class="highlighter-rouge">slimcoind -gen</code></p>
+
+<p>с дополнительными опциями по желанию.</p>
+
+<p>Пока daemon запущен, в нем через терминал доступны те же команды, что и в графическом клиенте через окно debug. Таким образом вы можете запустить майнинг при помощи команды <em>setgenerate true</em> в консоли Debug.</p>
+
+<h4 id="cpu-майнер-экспериментальный">CPU майнер (экспериментальный)</h4>
+
+<p>Для оптимизации майнинга вы можете использовать <strong>Slimminer</strong>. Он является экспериментальным и может содержать баги.</p>
+
+<p>Зайдите на <a href="https://github.com/JonnyLatte/slimminer">Slimminer Github Page</a> и следуйте инструкциям по установке и майнингу.</p>
+
+<h4 id="gpu-майнер-экспериментальный">GPU майнер (экспериментальный)</h4>
+
+<p>Для GPU майнинга вы так же можете использовать <strong>Slimminer</strong>. Он является экспериментальным и может содержать баги.</p>
+
+<p>Зайдите на <a href="https://github.com/JonnyLatte/slimminerGPU">Slimminer Github Page</a> и следуйте инструкциям по установке и майнингу.</p>
+
+<h3 id="pools">Pools</h3>
+
+<p>В настоящее время нет майнинговых пулов для Слимкоина. Однако над этим ведется работа. Следите за новостями!</p>
+
+  </div>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer">
+  <div class="ui inverted teal page stackable grid segment" id="footer">
+    <div class="ten wide column">
+      <div class="ui three column grid">
+        <div class="column">
+          <div class="ui header">Ресурсы</div>
+          <div class="ui inverted link list">
+            <a class="item" href="https://github.com/slimcoin-project">Github Project Site</a>
+            <a class="item" href="http://www.slimcoin.club/whitepaper.pdf" target="_blank">White Paper</a>
+            <a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki" target="_blank">Wiki</a>
+            <a class="item" href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured" target="_blank">YouTube channel</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Социальные медиа</div>
+          <div class="ui inverted link list"> 
+            <a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Bitcointalk</a>
+            <a class="item" href="https://twitter.com/Slimcoin_club">#slimcoin_club @ Twitter</a>
+            <a class="item"  href="https://www.reddit.com/r/slimcoin/">Reddit Forum</a>
+            <a class="item" href="https://www.facebook.com/slimcoin.community">Facebook</a>
+            <a class="item" href="https://t.me/joinchat/AAAAAELTpkxZe9IkIH2jLg">Telegram</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Инструменты</div>
+          <div class="ui inverted link list">
+            <a class="item" href="https://iancoleman.github.io/bip39/">Key Generator</a>
+            <a class="item" href="https://bchain.info/SLM/" target="_blank">Block Explorer</a>
+            <a class="item" href="https://novaexchange.com/market/BTC_SLM/">NovaExchange exchange</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="six wide right floated aligned column contact-mobile">
+      <h3 class="ui header">Contact Us</h3>
+      <addr> Page developed by Kryptos Lab
+        <br>revived and modded by muf18 and <a href="https://t.me/ksdme" style="color: white;">ksdme</a> 
+      </addr>
+      <p>slimcoins@gmail.com</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
