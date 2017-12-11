@@ -40,7 +40,7 @@ We could describe the process the following way: The nodes (*miners*) compete to
 
 If you want to **double spend**, you must have the computing power to **write several blocks in a row**. Only this way, you can be sure that both of your transactions are included in the blockchain.
 
-For this to happen, you must have a **lot of computing power** - you can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the unfamous **51% attack**). Double-spending attacks are prevented because it is prohibitively costly to buy the "mining" power to achieve this.
+For this to happen, you must have a **lot of computing power** - you can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the infamous **51% attack**). Double-spending attacks are prevented because it is prohibitively costly to buy the "mining" power to achieve this.
 
 ### Proof of burn: Proof of work without energy waste
 
