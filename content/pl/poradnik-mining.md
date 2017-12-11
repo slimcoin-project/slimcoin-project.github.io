@@ -1,10 +1,12 @@
 ---
 title: Poradnik kopania Slimcoin'a
+menuitem: Poradnik kopania
 lang: pl
-category: pomoc
+category: help
 ref: powguide
 layout: page
 permalink: /poradnik-mining/
+priority: 2
 ---
 
 ### Kopanie/mining samemu

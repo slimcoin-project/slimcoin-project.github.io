@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Proof of Stake guide
+menuitem: Proof of Stake guide
 ref: proof-of-stake-guide
 permalink: /proof-of-stake-guide-ru/
 lang: ru
 category: help
+priority: 4
 ---
 **Proof of Stake** (PoS) это метод генерации блоков Слимкоина наследованный от Peercoin. Коротко: чем больше монет у вас есть, тем выше шанс найти блок.
 

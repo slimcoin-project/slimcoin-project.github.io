@@ -3,6 +3,7 @@ title: Slimcoin's advantages
 lang: en
 ref: advantages
 menuitem: Advantages
+category: technology
 layout: page
 permalink: /advantages/
 priority: 3

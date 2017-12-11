@@ -2,6 +2,7 @@
 layout: page
 title: About Slimcoin
 menuitem: About
+category: technology
 permalink: /about/
 ref: about
 lang: en

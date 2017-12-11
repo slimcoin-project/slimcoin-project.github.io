@@ -2,6 +2,7 @@
 title: ¿Qué es el Proof of Burn (ELI5)?
 lang: es
 menuitem: Proof of Burn ELI5
+category: technology
 ref: eli5
 layout: page
 permalink: /proof-of-burn-eli5-es/

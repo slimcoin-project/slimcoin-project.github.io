@@ -1,10 +1,12 @@
 ---
 title: Proof of Burn minting guide
 lang: en
+menuitem: Burning guide
 category: help
 ref: pobguide
 layout: page
 permalink: /proof-of-burn-guide/
+priority: 3
 ---
 
 **Burning** is the distinctive feature of Slimcoin. Here you find a guide how to earn Slimcoins by burning.

@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Руководство по майнингу Слимкоина
+menuitem: Руководство по майнингу Слимкоина
 ref: mining-guide
 lang: ru
 permalink: /mining-guide-ru/
 category: help
+priority: 2
 ---
 ### Соло майнинг
 

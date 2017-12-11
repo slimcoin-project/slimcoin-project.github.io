@@ -2,6 +2,7 @@
 layout: page
 title: O Slimcoinie
 menuitem: O Slimcoinie
+category: technology
 permalink: /o-slimcoinie/
 ref: about
 lang: pl

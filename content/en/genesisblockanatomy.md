@@ -1,10 +1,12 @@
 ---
 title: Anatomy of the Slimcoin genesis block
+menuitem: Genesis Block Anatomy
 lang: en
 ref: genesisblockanatomy
-category: help
+category: technology
 layout: page
 permalink: /anatomy-genesis-block/
+priority: 5
 ---
 
 

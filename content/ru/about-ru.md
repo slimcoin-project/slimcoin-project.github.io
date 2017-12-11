@@ -2,6 +2,7 @@
 layout: page
 title: Описание Слимкоин
 menuitem: Описание
+category: technology
 ref: about
 lang: ru
 permalink: /about-ru/

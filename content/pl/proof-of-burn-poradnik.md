@@ -1,10 +1,12 @@
 ---
 title: Poradnik wydobycia metodą Proof of Burn
+menuitem: Poradnik Proof of Burn
 lang: pl
 category: help
 ref: pobguide
 layout: page
 permalink: /proof-of-burn-poradnik/
+priority: 3
 ---
 
 **Niszczenie** jest główną innowacyjną funkcją Slimcoin'a. Tutaj dowiesz jak zdobywać Slimcoin'y, przez niszczenie.

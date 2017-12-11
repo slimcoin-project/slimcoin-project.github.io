@@ -2,9 +2,11 @@
 title: Download & Installation
 lang: en
 ref: installation
+menuitem: Installation guide
 category: help
 layout: page
 permalink: /installation/
+priority: 1
 ---
 
 There are several methods to install Slimcoin. Slimcoin works with Windows, Linux and Mac OS X.

@@ -2,7 +2,7 @@
   <div class="ui inverted page grid masthead segment mast-gradient">
     <div class="column">
       <div class="inverted secondary pointing ui menu">
-        <div class="header item"> <a class="item" target="_self" href="index.html">Slimcoin</a> </div>
+        <div class="header item"> <a class="item" target="_self" href="{{ "/index.html" | prepend: site.baseurl }}">Slimcoin Home</a> </div>
         <!-- Mobile menu -->
         <div class="mobile-only right aligned header item">
           <div class="ui right aligned pointing dropdown link item">
@@ -22,8 +22,8 @@
           <div class="ui dropdown link item">
             Technology <i class="dropdown icon"></i>
             <div class="menu"><!--
-              -->{% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}<!--
-              -->{% for my_page in pages %}<!--
+              -->{% assign techpages=site.pages | where:"lang", page.lang | where:"category", "technology" | sort: 'priority' %}<!--
+              -->{% for my_page in techpages %}<!--
                 -->{% if my_page.menuitem %}<!--
                   --><a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a><!--
                 -->{% endif %}<!--
@@ -32,10 +32,10 @@
             --></div>
           </div>
           <div class="ui dropdown link item">
-            Help & Tools<i class="dropdown icon"></i>
+            Help and Tools<i class="dropdown icon"></i>
             <div class="menu"><!--
-              -->{% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}<!--
-              -->{% for my_page in pages %}<!--
+              -->{% assign helppages=site.pages | where:"lang", page.lang | where:"category", "help" | sort: 'priority' %}<!--
+              -->{% for my_page in helppages %}<!--
                 -->{% if my_page.menuitem %}<!--
                   --><a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a><!--
                 -->{% endif %}<!--
@@ -58,7 +58,9 @@
           <div class="ui dropdown link item">
         Participate <i class="dropdown icon"></i>
             <div class="menu"><!--
+              -->{% if page.ref == "index" %}<!--
               --><a class="item" href="#donate" target="_parent">Donate</a><!--
+              -->{% endif %}<!--
               --><a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><!--
               --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a><!--
             --></div>

@@ -1,10 +1,12 @@
 ---
 title: Slimcoin mining guide
 lang: en
-category: help
 ref: powguide
+menuitem: Mining guide
+category: help
 layout: page
 permalink: /mining-guide/
+priority: 2
 ---
 
 ### Solo mining

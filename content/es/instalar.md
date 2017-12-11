@@ -1,10 +1,12 @@
 ---
 title: Bajar e instalar Slimcoin
 lang: es
+menuitem: Instalar Slimcoin
 ref: installation
 category: help
 layout: page
 permalink: /instalar/
+priority: 1
 ---
 
 Hay varios métodos para instalar Slimcoin. El programa corre con Windows, Linux and Mac OS X.

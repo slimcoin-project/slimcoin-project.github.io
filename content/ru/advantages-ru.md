@@ -2,6 +2,7 @@
 layout: page
 title: Преимущества Слимкоина
 menuitem: Преимущества
+category: technology
 ref: advantages
 lang: ru
 permalink: /advantages-ru/

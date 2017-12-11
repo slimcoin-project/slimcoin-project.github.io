@@ -2,6 +2,7 @@
 title: Sobre Slimcoin
 lang: es
 menuitem: Sobre Slimcoin
+category: technology
 ref: about
 layout: page
 permalink: /sobre-slimcoin/

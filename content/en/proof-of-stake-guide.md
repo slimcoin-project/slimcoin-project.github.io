@@ -1,10 +1,12 @@
 ---
 title: Proof of Stake minting guide
 lang: en
+menuitem: Staking guide
 ref: posguide
 category: help
 layout: page
 permalink: /proof-of-stake-guide/
+priority: 4
 ---
 
 **Proof of Stake** (PoS) is a method to generate blocks Slimcoin inherited from Peercoin. In short: The more coins you have, the higher chance you get to find a block.

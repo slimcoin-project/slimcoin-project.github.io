@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Руководство по Proof of Burn минтингу
+menuitem: Руководство по Proof of Burn минтингу
 ref: proof-of-burn-guide
 permalink: /proof-of-burn-guide-ru/
 lang: ru
 category: help
+priority: 3
 ---
 **Сжигание монет (Burning)** это отличительная технология Слимкоина. Ниже вы найдете руководство по зарабатыванию Слимкоина бёрнингом.
 

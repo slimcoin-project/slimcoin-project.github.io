@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Скачивание и установка
+menuitem: Скачивание и установка
 ref: installation
 lang: ru
 permalink: /installation-ru/
 category: help
+priority: 1
 ---
 
 Есть несколько способов установки Слимкоина. Слимкоин работает под Windows, Linux и Mac OS X.
