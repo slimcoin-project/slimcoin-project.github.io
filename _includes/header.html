@@ -23,7 +23,9 @@
             {% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}
             {% for my_page in pages %}
               {% if my_page.menuitem %}
-                <a class="item" style="width: 100% !important" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>
+                {% if my_page.category == "technology" or my_page.ref == "help" %}
+                  <a class="item" style="width: 100% !important" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>
+                {% endif %}
               {% endif %}
             {% endfor %}
           </div>
