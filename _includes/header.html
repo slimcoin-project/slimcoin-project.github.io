@@ -2,21 +2,33 @@
   <div class="ui inverted page grid masthead segment mast-gradient">
     <div class="column">
       <div class="inverted secondary pointing ui menu">
-        <div class="header item"> <a class="item" target="_self" href="{{ "/index.html" | prepend: site.baseurl }}">Slimcoin Home</a> </div>
+        <a class="header item" target="_self" href="{{ "/index.html" | prepend: site.baseurl }}">Slimcoin</a>
         <!-- Mobile menu -->
-        <div class="mobile-only right aligned header item">
-          <div class="ui right aligned pointing dropdown link item">
-            &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="dropdown icon"></i>
-            <div class="menu">
-              {% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}
-              {% for my_page in pages %}
-                {% if my_page.menuitem %}
-                  <a class="item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>
-                {% endif %}
-              {% endfor %}
-            </div>
+        <a class="mobile-only ui right aligned header link item" id="mobile-menu-trigger">
+          &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="caret down icon"></i>
+        </a>
+
+        <div class="mobile-only aligned header item ui transition hidden" id="mobile-menu-list">
+          <div class="menu">
+            <center>
+              <span class="item">
+                <div class="ui icon buttons">
+                  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                  {% for page in pages %}
+                    <a class="ui red button {{ page.lang }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a>
+                  {% endfor %}
+                </div>
+              </span>
+            </center>
+            {% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}
+            {% for my_page in pages %}
+              {% if my_page.menuitem %}
+                <a class="item" style="width: 100% !important" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>
+              {% endif %}
+            {% endfor %}
           </div>
         </div>
+
         <!-- Non-mobile menu bar -->
         <div class="right menu">
           <div class="ui dropdown link item">
