@@ -51,6 +51,7 @@ You can trade, buy and sell Slimcoin at the following exchange:
 
 * [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
 * [Novaexchange LTC/SLM](https://novaexchange.com/market/LTC_SLM)
+* [CoinsMarket BTC/SLM](https://coinsmarkets.com/trade-BTC-SLM.htm)
 
 ### Download Slimcoin & Source Code
 

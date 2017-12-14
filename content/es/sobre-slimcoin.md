@@ -49,7 +49,9 @@ El servicio usa las geniales tecnologías [Web2Web](https://github.com/elendirx/
 
 Puedes comprar, vender y tradear Slimcoin en la siguiente bolsa:
 
-[Novaexchange](https://novaexchange.com/market/BTC_SLM)
+*   [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
+*   [Novaexchange LTC/SLM](https://novaexchange.com/market/LTC_SLM)
+*   [CoinsMarket BTC/SLM](https://coinsmarkets.com/trade-BTC-SLM.htm)
 
 ## Bajar el cliente Slimcoin y el código fuente
 

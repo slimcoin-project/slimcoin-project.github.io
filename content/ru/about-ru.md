@@ -50,6 +50,7 @@ _Следите за развитием!_ Сорвис находится в п�
 
 *   [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
 *   [Novaexchange LTC/SLM](https://novaexchange.com/market/LTC_SLM)
+*   [CoinsMarket BTC/SLM](https://coinsmarkets.com/trade-BTC-SLM.htm)
 
 ### Скачать исходный код Слимкоина
 
