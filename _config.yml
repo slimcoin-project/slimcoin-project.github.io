@@ -46,6 +46,12 @@ toolsheading:
   es: Herramientas
   pl: Narzędzia
   ru: Инструменты
+languagestring:
+  en: English
+  es: Español
+  pl: Polski
+  ru: Русский
+
 url: "http://slimco.in" # the base hostname & protocol for your site
 twitter_username: slimcoin_club
 github_username: slimcoin-project

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Standard Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- glitter -->
+    <meta name="theme-color" content="#25497B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Site Properties -->
+    <title>Руководство по Proof of Burn минтингу</title>
+    <!-- <title>Slimcoin</title> -->
+    <meta name="description" content="Слимкоин. Криптовалюта для долгосрочной перспективы.">
+
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/libs/Semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="/libs/jQuery/jq.min.js"></script>
+    <script src="/libs/Semantic/semantic.min.js"></script>
+    <script src="/js/homepage.min.js"></script>
+    <link rel="canonical" href="http://localhost:4000/proof-of-burn-guide-ru/">
+    
+    
+    <link rel="alternate" hreflang="ru" href="/proof-of-burn-guide-ru/" />
+    <link rel="alternate" type="application/rss+xml" title="Слимкоин. Криптовалюта для долгосрочной перспективы." href="http://localhost:4000">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="ui inverted page grid masthead segment mast-gradient">
+    <div class="column">
+      <div class="inverted secondary pointing ui menu">
+        <a class="header item" target="_self" href="/index.html">Slimcoin</a>
+        <!-- Mobile menu -->
+        <a class="mobile-only ui right aligned header link item" id="mobile-menu-trigger">
+          &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="caret down icon"></i>
+        </a>
+
+        <div class="mobile-only aligned header item ui transition hidden" id="mobile-menu-list">
+          <div class="menu">
+            <center>
+              <span class="item">
+                <div class="ui icon buttons"><a class="ui red button ru" href="/proof-of-burn-guide-ru/">ru</a></div>
+              </span>
+            </center><a class="item" style="width: 100% !important" href="/about-ru/">Описание</a><a class="item" style="width: 100% !important" href="/advantages-ru/">Преимущества</a><a class="item" style="width: 100% !important" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a><a class="item" style="width: 100% !important" href="/help-ru/">Помощь</a></div>
+        </div>
+
+        <!-- Non-mobile menu bar -->
+        <div class="right menu">
+          <div class="ui dropdown link item">
+            Technology <i class="dropdown icon"></i>
+            <div class="menu"><a class="item" target="_self" href="/about-ru/">Описание</a><a class="item" target="_self" href="/advantages-ru/">Преимущества</a><a class="item" target="_self" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a><a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            Help and Tools<i class="dropdown icon"></i>
+            <div class="menu"><a class="item" target="_self" href="/installation-ru/">Скачивание и установка</a><a class="item" target="_self" href="/mining-guide-ru/">Руководство по майнингу Слимкоина</a><a class="item" target="_self" href="/proof-of-burn-guide-ru/">Руководство по Proof of Burn минтингу</a><a class="item" target="_self" href="/proof-of-stake-guide-ru/">Proof of Stake guide</a><a class="item" href="https://bchain.info/SLM/" target="_blank">BChain.Info Block Explorer</a><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            Downloads <i class="dropdown icon"></i>
+            <div class="menu"><a class="item" href="https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe">Simcoin-QT 0.5.1 (Windows)</a><a class="item" href="https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x">Simcoin-QT 0.5 (ARM V5/V7)</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/releases">Simcoin-QT 0.5 (Windows/Mac)</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/tree/master">Simcoin's Source Code</a><a class="item" href="https://mega.nz/#!QnxkwTbK!et6c6zINNHuGAgU1wqil5fw_oxOyek2Zv_MWl2x8XT4" target="_parent">SLM Blockchain Snapshot 1186600</a><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a></div>
+          </div>
+          <div class="ui dropdown link item">
+        Participate <i class="dropdown icon"></i>
+            <div class="menu"><a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            Languages <i class="dropdown icon"></i>
+            <div class="menu"><a href="/proof-of-burn-guide-ru/" class="item ru">Русский</a></div>
+          </div> 
+        </div>
+      </div>
+      <div class="anim ui transition information visible">
+        <h1 class="ui inverted header big-for-mobile left">
+        The Next Generation of Cryptocurrencies
+        </h1>
+        <p style="padding-left:20px">Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation</p>
+      </div>
+      <img src="/assets/slm.png" class="ui center aligned medium image anim" width="100px"> 
+    </div>
+  </div>
+</header>
+
+
+
+
+    <div class="page-content">
+      <article class="post">
+  <div class="ui page grid overview segment">
+    <div class="ui one wide column"></div>
+    <div class="fourteen wide column">
+      <div class="row">
+        <div class="wide column">
+          <header class="post-header">
+            <h1 class="post-title center aligned ui header">
+              Руководство по Proof of Burn минтингу
+            </h1>
+          </header>
+          <div class="post-content">
+            <p><strong>Сжигание монет (Burning)</strong> это отличительная технология Слимкоина. Ниже вы найдете руководство по зарабатыванию Слимкоина бёрнингом.</p>
+
+<h3 id="how-it-works">How it works</h3>
+
+<p>Вы уничтожаете часть монет посылая их на адрес, не имеющий возможности дальнейших переводов (unspendable address), так называемый <strong>burn address</strong>, используя определенную команду. Когда система When the system обнаруживает сожженные монеты, ваш адрес получает <strong>счет (score)</strong> называемый <strong>Effective Burnt Coins</strong> который определяет ваши шансы на нахождение блоков. Этот счет возрастает с количеством сожженных монет.</p>
+
+<p>Не бойтесь сжечь слишком мало монет - вы всегда можете увеличить ваш счет сжигая больше монет с того же адреса.</p>
+
+<p>Сжигая монеты вы не только получаете вознаграждение, но также помогаете управлять выпуском монет. <a href="/proof-of-burn-eli5-ru/">Узнать больше о Proof of Burn</a> в нашем простом объяснении.</p>
+
+<p><strong>Заметьте</strong>: <em>Effective Burnt Coins</em> счет немного угасает (“decays”) с каждым блоком, чтобы избежать аттак ранних пользователей и имитировать устаревание оборудования для майнинга, но счет сохраняется больше года, поэтому у вас будет достаточно времени для получения выгоды от сожженных монет.</p>
+
+<h3 id="Требования">Требования</h3>
+
+<p>Вам понадобится Слимкоин клиент (графический или демон) и некоторое количество монет. Это все! Никакого оборудования для майнинга.</p>
+
+<p>Для получения шанса регулярного нахождения блоков вы должны сжечь как минимум 100, а лучше 1000 монет.</p>
+
+<p><strong>Важно</strong>: если ваш кошелек зашифрован вы должны его сначала разблокировать. В графическом клиенте используйте следующую команду в консоли (<em>Help</em> -&gt; <em>Debug window</em> -&gt; <em>Console</em>):</p>
+
+<p><code class="highlighter-rouge">walletpassphrase PASSPHRASE TIME</code></p>
+
+<p>В демоне, используя следующую RPC команду:</p>
+
+<p><code class="highlighter-rouge">slimcoind walletpassphrase PASSPHRASE TIME</code></p>
+
+<p>PASSPHRASE это ваш пароль и TIME это время на которое кошелек должен быть разблокирован (в секундах). Если вы хотите разблокировать клиент на достаточно долгое неопределенное время, то выберите большое число, например 999999999.</p>
+
+<h3 id="Сжигание-монет-через-графический-клиент">Сжигание монет через графический клиент</h3>
+
+<p>В графическом клиенте находится пункт <strong>Burn Coins</strong>, который делает сжигание монет очень простым процессом. Он доступен в основном окне или через меню <strong>Tools</strong>.</p>
+
+<p>Просто <strong>введите количество монет</strong>, которое вы хотите сжечь в появившемся окошке и нажмите OK. Подождите пока сожженные монеты созреют (mature), после чего вы начнете получать вознаграждение за каждый найденный блок.</p>
+
+<p><strong>Обратите внимание</strong>. Бёрнинг обычно требует комиссию в размере 0.01 SLM за килобайт, как при любой другой транзакции. Иногда, если транзакция является очень большой из-за использования большого количества инпутов (inputs), клиент сообщит, что требуется более высокая комиссию за эту транзакцию.</p>
+
+<h3 id="Бёрнинг-с-использованием-демона-daemon">Бёрнинг с использованием демона (daemon)</h3>
+
+<p>При использовани демона процесс сжигания тоже очень прост</p>
+
+<p>Вбейте следующую команду в терминале:</p>
+
+<p><code class="highlighter-rouge">slimcoind burncoins AMOUNT</code></p>
+
+<p>Где AMOUNT - это целое количество монет. (Вы можете использовать ту же команду в консоли Debug в графическом клиенте).</p>
+
+<h3 id="Получение-информации-о-бёрнинге">Получение информации о бёрнинге</h3>
+
+<p>При помощи следующей команды вы получите основную информацию о состоянии Proof of Burn системы:</p>
+
+<p><code class="highlighter-rouge">slimcoind getburndata</code></p>
+
+<p>Вы получите следующие показатели:</p>
+
+<ul>
+  <li><strong>Net Burnt Coins</strong> полное количество сожженных вами монет.</li>
+  <li><strong>Effective Burnt Coins</strong> это ваш счет: количество монет, которые вы сожгли за минусом угасших монет.</li>
+  <li><strong>Inmature Burnt Coins</strong> сожженные, но еще не созревшие монеты. Период созревания составляет XX блоков.</li>
+  <li>
+    <p><strong>Decayed Burnt Coins</strong> количество монет, которые были вычтены из вашего счета (смотрите выше), чтобы избежать возможные атаки ранних пользователей и сделать бёрнинг более честным.</p>
+  </li>
+  <li><strong>Formatted nEffectiveBurnCoins</strong> сумма “Effective Burnt Coins” счетов всех аккаунтов. Это грубое измерение для подсчета количества монет, которые вам необходимо сжечь если вы хотите регулярно находить блоки. Чем выше это значение, тем больше монет рекомендуется сжечь.</li>
+  <li><strong>nEffectiveBurnCoins</strong> другой способ представления счета Effective Burnt Coins.</li>
+  <li><strong>nBurnBits</strong> - это технический термин, отсылающий к <em>burn hash target</em> хранящийся в текущем блоке (больше информации в Whitepaper).</li>
+  <li><strong>General info</strong> возможно не используется.</li>
+</ul>
+
+<h3 id="Сколько-монет-было-сожжено-на-текущий-день">Сколько монет было сожжено на текущий день?</h3>
+
+<p>Вы можете подумать, что <em>Formatted nEffectiveBurnCoins</em> это число, которые вы ищете, но это не оно, поскольку это число не содержит <em>Decayed Burnt Coins</em> и скорее всего намного меньше.</p>
+
+<p>Чтобы найти реальное количество вам необходимо проверить <strong>burn address</strong>. Во встроенном обозревателе блоков клиента или любом другом (например <a href="http://www.slimcoin.club/#blkexp">Slimcoin.club</a>, найдите следующий адрес:</p>
+
+<p><strong>SfSLMCoinMainNetworkBurnAddr1DeTK5</strong></p>
+
+<p>В августе 2017 баланс адреса был немногим более 2 миллионов монет; на тот момент это около 12% всего количества монет в обороте, которое составляло около 17 миллионов.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+    </div>
+
+    <footer class="site-footer">
+  <div class="ui inverted teal page stackable grid segment" id="footer">
+    <div class="ten wide column">
+      <div class="ui three column grid">
+        <div class="column">
+          <div class="ui header">Ресурсы</div>
+          <div class="ui inverted link list">
+            <a class="item" href="https://github.com/slimcoin-project">Github Project Site</a>
+            <a class="item" href="https://github.com/slimcoin-project/slimcoin-project.github.io/blob/master/whitepaperSLM.pdf" target="_blank">White Paper</a>
+            <a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki" target="_blank">Wiki</a>
+            <a class="item" href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured" target="_blank">YouTube channel</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Социальные медиа</div>
+          <div class="ui inverted link list"> 
+            <a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Bitcointalk</a>
+            <a class="item" href="https://twitter.com/Slimcoin_club">#slimcoin_club @ Twitter</a>
+            <a class="item"  href="https://www.reddit.com/r/slimcoin/">Reddit Forum</a>
+            <a class="item" href="https://www.facebook.com/slimcoin.community">Facebook</a>
+            <a class="item" href="https://t.me/joinchat/AAAAAELTpkxZe9IkIH2jLg">Telegram</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Инструменты</div>
+          <div class="ui inverted link list">
+            <a class="item" href="https://iancoleman.github.io/bip39/">Key Generator</a>
+            <a class="item" href="https://bchain.info/SLM/" target="_blank">Block Explorer</a>
+            <a class="item" href="https://novaexchange.com/market/BTC_SLM/">NovaExchange Exchange</a>
+            <a class="item" href="https://coinsmarkets.com/trade-BTC-SLM.htm">CoinsMarket Exchange</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="six wide right floated aligned column contact-mobile">
+      <h3 class="ui header">Contact Us</h3>
+      <addr> Page developed by Kryptos Lab
+        <br>revived and modded by muf18 and <a href="https://t.me/ksdme" style="color: white;">ksdme</a> 
+      </addr><p>contact@slimco.in</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

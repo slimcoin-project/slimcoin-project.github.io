@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Standard Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- glitter -->
+    <meta name="theme-color" content="#25497B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Site Properties -->
+    <title>Proof of Stake guide</title>
+    <!-- <title>Slimcoin</title> -->
+    <meta name="description" content="Слимкоин. Криптовалюта для долгосрочной перспективы.">
+
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/libs/Semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="/libs/jQuery/jq.min.js"></script>
+    <script src="/libs/Semantic/semantic.min.js"></script>
+    <script src="/js/homepage.min.js"></script>
+    <link rel="canonical" href="http://localhost:4000/proof-of-stake-guide-ru/">
+    
+    
+    <link rel="alternate" hreflang="ru" href="/proof-of-stake-guide-ru/" />
+    <link rel="alternate" type="application/rss+xml" title="Слимкоин. Криптовалюта для долгосрочной перспективы." href="http://localhost:4000">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="ui inverted page grid masthead segment mast-gradient">
+    <div class="column">
+      <div class="inverted secondary pointing ui menu">
+        <a class="header item" target="_self" href="/index.html">Slimcoin</a>
+        <!-- Mobile menu -->
+        <a class="mobile-only ui right aligned header link item" id="mobile-menu-trigger">
+          &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="caret down icon"></i>
+        </a>
+
+        <div class="mobile-only aligned header item ui transition hidden" id="mobile-menu-list">
+          <div class="menu">
+            <center>
+              <span class="item">
+                <div class="ui icon buttons"><a class="ui red button ru" href="/proof-of-stake-guide-ru/">ru</a></div>
+              </span>
+            </center><a class="item" style="width: 100% !important" href="/about-ru/">Описание</a><a class="item" style="width: 100% !important" href="/advantages-ru/">Преимущества</a><a class="item" style="width: 100% !important" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a><a class="item" style="width: 100% !important" href="/help-ru/">Помощь</a></div>
+        </div>
+
+        <!-- Non-mobile menu bar -->
+        <div class="right menu">
+          <div class="ui dropdown link item">
+            Technology <i class="dropdown icon"></i>
+            <div class="menu"><a class="item" target="_self" href="/about-ru/">Описание</a><a class="item" target="_self" href="/advantages-ru/">Преимущества</a><a class="item" target="_self" href="/proof-of-burn-eli5-ru/">Proof of Burn ELI5</a><a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            Help and Tools<i class="dropdown icon"></i>
+            <div class="menu"><a class="item" target="_self" href="/installation-ru/">Скачивание и установка</a><a class="item" target="_self" href="/mining-guide-ru/">Руководство по майнингу Слимкоина</a><a class="item" target="_self" href="/proof-of-burn-guide-ru/">Руководство по Proof of Burn минтингу</a><a class="item" target="_self" href="/proof-of-stake-guide-ru/">Proof of Stake guide</a><a class="item" href="https://bchain.info/SLM/" target="_blank">BChain.Info Block Explorer</a><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            Downloads <i class="dropdown icon"></i>
+            <div class="menu"><a class="item" href="https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe">Simcoin-QT 0.5.1 (Windows)</a><a class="item" href="https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x">Simcoin-QT 0.5 (ARM V5/V7)</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/releases">Simcoin-QT 0.5 (Windows/Mac)</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/tree/master">Simcoin's Source Code</a><a class="item" href="https://mega.nz/#!QnxkwTbK!et6c6zINNHuGAgU1wqil5fw_oxOyek2Zv_MWl2x8XT4" target="_parent">SLM Blockchain Snapshot 1186600</a><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a></div>
+          </div>
+          <div class="ui dropdown link item">
+        Participate <i class="dropdown icon"></i>
+            <div class="menu"><a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            Languages <i class="dropdown icon"></i>
+            <div class="menu"><a href="/proof-of-stake-guide-ru/" class="item ru">Русский</a></div>
+          </div> 
+        </div>
+      </div>
+      <div class="anim ui transition information visible">
+        <h1 class="ui inverted header big-for-mobile left">
+        The Next Generation of Cryptocurrencies
+        </h1>
+        <p style="padding-left:20px">Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation</p>
+      </div>
+      <img src="/assets/slm.png" class="ui center aligned medium image anim" width="100px"> 
+    </div>
+  </div>
+</header>
+
+
+
+
+    <div class="page-content">
+      <article class="post">
+  <div class="ui page grid overview segment">
+    <div class="ui one wide column"></div>
+    <div class="fourteen wide column">
+      <div class="row">
+        <div class="wide column">
+          <header class="post-header">
+            <h1 class="post-title center aligned ui header">
+              Proof of Stake guide
+            </h1>
+          </header>
+          <div class="post-content">
+            <p><strong>Proof of Stake</strong> (PoS) это метод генерации блоков Слимкоина наследованный от Peercoin. Коротко: чем больше монет у вас есть, тем выше шанс найти блок.</p>
+
+<p>Вознаграждения за блоки в PoS значительно ниже, чем PoW и PoB и зависят от количества монет Слимкоина, которые вы используете для стейкинга, хотя они и выше, чем в Peercoin. С другой стороны, PoS является менее рискованным способом получения дохода если ваш компьютер защищен и не скомпрометирован. И вы вносите вклад в And you contribute to the в безопасность системы.</p>
+
+<h3 id="Требования">Требования</h3>
+
+<p>Для минтинга монет посредством Proof of Stake, вам необходимо иметь относительно большое количество монет Слимкоина. Двести или триста монет может быть достаточно, но лучше иметь, как минимум, от одной до двух тысяч монет.</p>
+
+<p>Монеты не должны быть перемещены в течение как минимум последних 7 дней, чтобы получить возможность Proof of Stake минтинга. Если вы пересылали монеты, то вам придется снова ждать 7 дней.</p>
+
+<p><strong>Важно</strong>: если ваш кошелек зашифрован, вы должны разлочить его, чтобы начать минтинг (так же, как в Proof of Burn минтинге). В графическом клиенте найдите пункт <em>Unlock wallet</em> в меню <em>File</em>. Либо через консоль, используя команду (<em>Help</em> -&gt; <em>Debug window</em> -&gt; <em>Console</em> tab):</p>
+
+<p><code class="highlighter-rouge">walletpassphrase PASSPHRASE TIME true</code></p>
+
+<p>PASSPHRASE - это ваш пароль и TIME - это время на которое клиент должен быть разлочен (в секундаъ). “1” будет означать одну секунду, поэтому если вы хотите разблокировать клиент на достаточно долгое неопределенное время, то выберите большое число, например 999999999.</p>
+
+<p>В демоне это будет та же команда, но с добавлением <em>slimcoind</em> перед ней.</p>
+
+<h3 id="Что-необходимо-делать-для-минтинга">Что необходимо делать для минтинга?</h3>
+
+<p><strong>Ничего!</strong> Просто оставьте разблокированный клиент в он-лайне и в конечном итоге вы найдете Proof of Stake блок если у вас достаточно зрелых (mature) монет в кошельке.</p>
+
+<p>Ваши монеты работают на вас автоматически, как в некоторых частях финансового мира :)</p>
+
+<h3 id="Зарезервированный-баланс-reserve-balance-Важно">Зарезервированный баланс (reserve balance). Важно!</h3>
+
+<p>Когда вы находите блок, часть ваших монет замораживается на некоторое количество блоков для предотвращения определенных видов аттак. В течение этого времени вы не можете пересылать эти монеты (staking coins).</p>
+
+<p>Для избежания замораживания вы можете установить величину так называемого зарезервинованного баланса (<strong>reserve balance</strong>). Это то количество монет, которые не будут заморожены если вы найдете блок. Но, с другой стороны, в таком случае они не будут участвовать в “стейкинге”.</p>
+
+<p>Размер зарезервированного баланса может быть установлен в графическом клиенте</p>
+
+<p>Для перманентной установки зарезервированного баланса, в том числе при использовании демона (slimcoind), измените файл конфигурации <strong>slimcoin.conf</strong>:</p>
+
+<p><code class="highlighter-rouge">reservebalance=NUMBER_OF_COINS</code></p>
+
+<p>Если reservebalance установлен нулевым - 0, то в стейкинге будут участвовать все ваши монеты.</p>
+
+<h3 id="cpu-и-использование-памяти">CPU и использование памяти</h3>
+
+<p>Proof of Stake, в Слимкоине, требует относительно высокого уровня объема памяти и ресурсов CPU. Объем ресурсов зависит от двух факторов:</p>
+
+<ul>
+  <li>число монет, которые используются для стейкинга (больше монет требуют больше ресурсов)</li>
+  <li>число вводов (inputs), которые использовались для стейкинга (больше вводов - больше ресурсов)</li>
+</ul>
+
+<p><strong>Заметьте</strong>: инпуты это единицы (unit) которые соотносятся с количеством транзакций. Вкратце, для каждой транзакции кошелек содержит один инпут. Чем больше было транзакций, тем большим количество инпутов кошельку приходится оперировать.</p>
+
+<p>Рекомендуется <em>почистить</em> кошелек если у вас имеется большое число инпутов. Чтобы это сделать, просто отправьте все монеты самому себе одной транзакцией.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+    </div>
+
+    <footer class="site-footer">
+  <div class="ui inverted teal page stackable grid segment" id="footer">
+    <div class="ten wide column">
+      <div class="ui three column grid">
+        <div class="column">
+          <div class="ui header">Ресурсы</div>
+          <div class="ui inverted link list">
+            <a class="item" href="https://github.com/slimcoin-project">Github Project Site</a>
+            <a class="item" href="https://github.com/slimcoin-project/slimcoin-project.github.io/blob/master/whitepaperSLM.pdf" target="_blank">White Paper</a>
+            <a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki" target="_blank">Wiki</a>
+            <a class="item" href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured" target="_blank">YouTube channel</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Социальные медиа</div>
+          <div class="ui inverted link list"> 
+            <a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Bitcointalk</a>
+            <a class="item" href="https://twitter.com/Slimcoin_club">#slimcoin_club @ Twitter</a>
+            <a class="item"  href="https://www.reddit.com/r/slimcoin/">Reddit Forum</a>
+            <a class="item" href="https://www.facebook.com/slimcoin.community">Facebook</a>
+            <a class="item" href="https://t.me/joinchat/AAAAAELTpkxZe9IkIH2jLg">Telegram</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Инструменты</div>
+          <div class="ui inverted link list">
+            <a class="item" href="https://iancoleman.github.io/bip39/">Key Generator</a>
+            <a class="item" href="https://bchain.info/SLM/" target="_blank">Block Explorer</a>
+            <a class="item" href="https://novaexchange.com/market/BTC_SLM/">NovaExchange Exchange</a>
+            <a class="item" href="https://coinsmarkets.com/trade-BTC-SLM.htm">CoinsMarket Exchange</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="six wide right floated aligned column contact-mobile">
+      <h3 class="ui header">Contact Us</h3>
+      <addr> Page developed by Kryptos Lab
+        <br>revived and modded by muf18 and <a href="https://t.me/ksdme" style="color: white;">ksdme</a> 
+      </addr><p>contact@slimco.in</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
