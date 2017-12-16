@@ -1,5 +1,6 @@
 ---
-title: Proof of Stake minting guide
+title: Proof of Stake Minting Guidec
+codeType: guide
 lang: en
 menuitem: Staking guide
 ref: posguide

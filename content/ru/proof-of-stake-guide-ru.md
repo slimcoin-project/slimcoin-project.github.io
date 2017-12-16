@@ -1,5 +1,6 @@
 ---
 layout: page
+codeType: guide
 title: Proof of Stake guide
 menuitem: Proof of Stake guide
 ref: proof-of-stake-guide

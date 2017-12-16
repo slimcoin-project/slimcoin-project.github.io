@@ -1,5 +1,6 @@
 ---
 title: Download & Installation
+codeType: analysis
 lang: en
 ref: installation
 menuitem: Installation guide

@@ -1,5 +1,6 @@
 ---
-title: Anatomy of the Slimcoin genesis block
+title: Anatomy of the Slimcoin Genesis Block
+codeType: analysis
 menuitem: Genesis Block Anatomy
 lang: en
 ref: genesisblockanatomy

@@ -1,5 +1,6 @@
 ---
-title: Proof of Burn minting guide
+title: Proof of Burn Minting Guide
+codeType: guide
 lang: en
 menuitem: Burning guide
 category: help

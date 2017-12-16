@@ -1,5 +1,5 @@
 ---
-title: Slimcoin's advantages
+title: Slimcoin's Advantages
 lang: en
 ref: advantages
 menuitem: Advantages

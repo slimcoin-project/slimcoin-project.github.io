@@ -81,13 +81,12 @@ p a {
 }
 
 .masthead.segment {
-  background-image: url(../assets/bg.jpg);
-  background-size: cover;
+  background: url(../assets/bg.jpg);
   margin: 0em;
   padding-top: 4rem;
   overflow: visible;
-  -webkit-box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
-  box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
+  /*-webkit-box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;*/
+  /*box-shadow: 0 -20px 10px 0 rgba(255, 255, 255, 1) inset !important;*/
 }
 
 .masthead.segment .column {
@@ -130,6 +129,17 @@ p a {
 
 .mobile-only {
   display: none !important;
+}
+
+.code-block {
+  width: 100%;
+  padding: 10px;
+  border-width: 5px;
+  box-sizing:border-box;
+  border-left-style: solid;
+  background: rgba(0,0,0,0.1);
+  border-color: rgba(0,0,0,0.6);
+  text-align: left;
 }
 
 /*******************************
@@ -232,8 +242,17 @@ p a {
   .selection.list .right.floated {
     display: none;
   }
+
+  .code-block {
+    overflow-x: scroll;
+  }
 }
 
 @media only screen and (max-width : 1000px) {
 
+}
+
+.post-content {
+  font-size: 16px;
+  text-align: justify;
 }

@@ -30,6 +30,23 @@
     <link rel="alternate" hreflang="pl" href="/o-slimcoinie/" />
     <link rel="alternate" hreflang="ru" href="/about-ru/" />
     <link rel="alternate" type="application/rss+xml" title="Slimcoin. La criptomoneda duradera y estable." href="http://localhost:4000">
+
+    <!-- highlights blocks of code by page.codeType -->
+    <!--
+	pages that contain code should have a codeType
+	in their front matter, it should be set to either
+	"guide" or "analysis", they do not contain any styling
+	differences but rather they differ by the way they
+	detect code blocks built using markdown
+-->
+
+    <script type="text/javascript"">
+        $(function() {
+            $(".highlighter-rouge:not(code)").addClass("code-block");
+        });
+    </script>
+
+
 </head>
 
 
@@ -39,7 +56,10 @@
   <div class="ui inverted page grid masthead segment mast-gradient">
     <div class="column">
       <div class="inverted secondary pointing ui menu">
-        <a class="header item" target="_self" href="/index.html">Slimcoin</a>
+        <a href="/index.html" class="header item">
+          <span>Slimcoin</span>
+        </a>
+
         <!-- Mobile menu -->
         <a class="mobile-only ui right aligned header link item" id="mobile-menu-trigger">
           &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="caret down icon"></i>
@@ -49,47 +69,115 @@
           <div class="menu">
             <center>
               <span class="item">
-                <div class="ui icon buttons"><a class="ui red button en" href="/about/">en</a><a class="ui red button es" href="/sobre-slimcoin/">es</a><a class="ui red button pl" href="/o-slimcoinie/">pl</a><a class="ui red button ru" href="/about-ru/">ru</a></div>
+                <div class="ui icon buttons">
+                  
+                  
+                    <a class="ui red button en" href="/about/">en</a>
+                  
+                    <a class="ui red button es" href="/sobre-slimcoin/">es</a>
+                  
+                    <a class="ui red button pl" href="/o-slimcoinie/">pl</a>
+                  
+                    <a class="ui red button ru" href="/about-ru/">ru</a>
+                  
+                </div>
               </span>
-            </center><a class="item" style="width: 100% !important" href="/sobre-slimcoin/">Sobre Slimcoin</a><a class="item" style="width: 100% !important" href="/proof-of-burn-eli5-es/">Proof of Burn ELI5</a><a class="item" style="width: 100% !important" href="/ayuda/">Ayuda</a></div>
+            </center>
+            
+            
+              
+                <a class="item" style="width: 100% !important" href="/inicio.html">Home</a>
+              
+            
+              
+                <a class="item" style="width: 100% !important" href="/instalar/">Instalar Slimcoin</a>
+              
+            
+              
+                <a class="item" style="width: 100% !important" href="/sobre-slimcoin/">Sobre Slimcoin</a>
+              
+            
+              
+                <a class="item" style="width: 100% !important" href="/proof-of-burn-eli5-es/">Proof of Burn ELI5</a>
+              
+            
+              
+                <a class="item" style="width: 100% !important" href="/ayuda/">Ayuda</a>
+              
+            
+          </div>
         </div>
 
         <!-- Non-mobile menu bar -->
         <div class="right menu">
           <div class="ui dropdown link item">
             Technology <i class="dropdown icon"></i>
-            <div class="menu"><a class="item" target="_self" href="/sobre-slimcoin/">Sobre Slimcoin</a><a class="item" target="_self" href="/proof-of-burn-eli5-es/">Proof of Burn ELI5</a><a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a></div>
+            <div class="menu"><!--
+              --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/sobre-slimcoin/">Sobre Slimcoin</a><!--
+                --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/proof-of-burn-eli5-es/">Proof of Burn ELI5</a><!--
+                --><!--
+              --><!--
+             --><a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a><!--
+            --></div>
           </div>
           <div class="ui dropdown link item">
             Help and Tools<i class="dropdown icon"></i>
-            <div class="menu"><a class="item" target="_self" href="/instalar/">Instalar Slimcoin</a><a class="item" href="https://bchain.info/SLM/" target="_blank">BChain.Info Block Explorer</a><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a></div>
+            <div class="menu"><!--
+              --><!--
+              --><!--
+                --><!--
+                  --><a class="item" target="_self" href="/instalar/">Instalar Slimcoin</a><!--
+                --><!--
+              --><!--
+              --><a class="item" href="https://bchain.info/SLM/" target="_blank">BChain.Info Block Explorer</a><!--
+              --><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a><!--
+             --></div>
           </div>
           <div class="ui dropdown link item">
             Downloads <i class="dropdown icon"></i>
-            <div class="menu"><a class="item" href="https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe">Simcoin-QT 0.5.1 (Windows)</a><a class="item" href="https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x">Simcoin-QT 0.5 (ARM V5/V7)</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/releases">Simcoin-QT 0.5 (Windows/Mac)</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/tree/master">Simcoin's Source Code</a><a class="item" href="https://mega.nz/#!QnxkwTbK!et6c6zINNHuGAgU1wqil5fw_oxOyek2Zv_MWl2x8XT4" target="_parent">SLM Blockchain Snapshot 1186600</a><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a></div>
+            <div class="menu"><!--
+              --><a class="item" href="https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe">Simcoin-QT 0.5.1 (Windows)</a><!--
+              --><a class="item" href="https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x">Simcoin-QT 0.5 (ARM V5/V7)</a><!--
+              --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/releases">Simcoin-QT 0.5 (Windows/Mac)</a><!--
+              --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/tree/master">Simcoin's Source Code</a> <!--
+              --><a class="item" href="https://mega.nz/#!QnxkwTbK!et6c6zINNHuGAgU1wqil5fw_oxOyek2Zv_MWl2x8XT4" target="_parent">SLM Blockchain Snapshot 1186600</a><!--
+              --><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a><!--
+            --></div>
           </div>
           <div class="ui dropdown link item">
         Participate <i class="dropdown icon"></i>
-            <div class="menu"><a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></div>
+            <div class="menu"><!--
+              --><!--
+              --><a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><!--
+              --><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a><!--
+            --></div>
           </div>
           <div class="ui dropdown link item">
             Languages <i class="dropdown icon"></i>
-            <div class="menu"><a href="/about/" class="item en">English</a><a href="/sobre-slimcoin/" class="item es">Español</a><a href="/o-slimcoinie/" class="item pl">Polski</a><a href="/about-ru/" class="item ru">Русский</a></div>
+            <div class="menu"><!--
+              --><!--
+              --><!--
+              --><a href="/about/" class="item en">en</a><!--
+              --><!--
+              --><a href="/sobre-slimcoin/" class="item es">es</a><!--
+              --><!--
+              --><a href="/o-slimcoinie/" class="item pl">pl</a><!--
+              --><!--
+              --><a href="/about-ru/" class="item ru">ru</a><!--
+              --><!--
+            --></div>
           </div> 
         </div>
       </div>
-      <div class="anim ui transition information visible">
-        <h1 class="ui inverted header big-for-mobile left">
-        The Next Generation of Cryptocurrencies
-        </h1>
-        <p style="padding-left:20px">Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation</p>
-      </div>
-      <img src="/assets/slm.png" class="ui center aligned medium image anim" width="100px"> 
     </div>
   </div>
 </header>
-
-
 
 
     <div class="page-content">
@@ -101,11 +189,11 @@
         <div class="wide column">
           <header class="post-header">
             <h1 class="post-title center aligned ui header">
-              Sobre Slimcoin
+              <b>Sobre Slimcoin</b>
             </h1>
           </header>
-          <div class="post-content">
-            <p><strong>Slimcoin</strong> es una criptomoneda novedosa que fue creada como proyecto experimental en 2014. Es el primer coin que usa el mecanismo <a href="https://en.bitcoin.it/wiki/Proof_of_burn">Proof of Burn</a> - en español, <em>prueba de quemado</em> o <em>prueba de destrucción</em>, pero mejor entendible como <strong>minería virtual</strong> - para generar bloques. Además usa las pruebas de trabajo y la prueba de participación (Proof of Stake) conocidas en otras criptomonedas. De esta manera Slimcoin es la primera criptomoneda con tres métodos diferentes para generar bloques.</p>
+          <div class="ui text container post-content">
+            <br/><p><strong>Slimcoin</strong> es una criptomoneda novedosa que fue creada como proyecto experimental en 2014. Es el primer coin que usa el mecanismo <a href="https://en.bitcoin.it/wiki/Proof_of_burn">Proof of Burn</a> - en español, <em>prueba de quemado</em> o <em>prueba de destrucción</em>, pero mejor entendible como <strong>minería virtual</strong> - para generar bloques. Además usa las pruebas de trabajo y la prueba de participación (Proof of Stake) conocidas en otras criptomonedas. De esta manera Slimcoin es la primera criptomoneda con tres métodos diferentes para generar bloques.</p>
 
 <p>En 2017 seguimos vivos y somos algo <strong>diferentes</strong> de muchas otras comunidades de “altcoins”. Nuestra comunidad no tiene una jerarquía centralizada, por eso no tenemos un <em>equipo de desarrolladores oficial</em> que podría haberse beneficiado de dubiosos <em>pre-minados</em> o <em>instamines</em>. Todo lo que queremos es continuar el genial experimento del Proof or Burn.</p>
 
@@ -167,6 +255,7 @@
         </div>
       </div>
     </div>
+    <div class="ui one wide column"></div>
   </div>
 </article>
 

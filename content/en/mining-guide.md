@@ -1,5 +1,6 @@
 ---
-title: Slimcoin mining guide
+title: Slimcoin Mining Guide
+codeType: guide
 lang: en
 ref: powguide
 menuitem: Mining guide

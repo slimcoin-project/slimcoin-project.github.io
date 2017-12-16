@@ -1,5 +1,6 @@
 ---
 layout: page
+codeType: guide
 title: Руководство по Proof of Burn минтингу
 menuitem: Руководство по Proof of Burn минтингу
 ref: proof-of-burn-guide

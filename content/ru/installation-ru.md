@@ -1,5 +1,6 @@
 ---
 layout: page
+codeType: analysis
 title: Скачивание и установка
 menuitem: Скачивание и установка
 ref: installation
@@ -31,14 +32,15 @@ priority: 1
 
 Для графического клиента, вбейте:
 
-```
+<div class="highlighter-rouge">
 make
-
-```
+</div>
 
 Если вы хотите скомпилировать только daemon: в подпапке _src_ находятся несколько makefiles под вашу систему (например _makefile.unix_). Выберете подходящий makefile и вбейте:
 
-`cd src make -f YOUR_MAKEFILE`
+<div class="highlighter-rouge">
+cd src make -f YOUR_MAKEFILE
+</div>
 
 После успешной компиляции исполняемый файл (_slimcoin-qt_) графического клиента будет доступен в основной папке, а daemon executable будет находиться в подпапке _src_. Вы можете переместить их куда захотите.
 
@@ -48,15 +50,21 @@ make
 
 Просто склонируйте Slimcoin репозиторий в любую папку:
 
-`git clone https://github.com/slimcoin-project/Slimcoin.git`
+<div class="highlighter-rouge">
+git clone https://github.com/slimcoin-project/Slimcoin.git
+</div>
 
 Это создаст подпапку с названием _Slimcoin_. Переключитесь на нее:
 
-`cd Slimcoin`
+<div class="highlighter-rouge">
+cd Slimcoin
+</div>
 
 По умолчанию код будет в ветке _slimcoin_, которая является стабильной, но не новейшей. Если вы хотите самый новый код вы должны переключиться на ветку _master_ :
 
-`git checkout master`
+<div class="highlighter-rouge">
+git checkout master
+</div>
 
 Затем скомпилируйте Слимкоин следуя указаниям выше.
 
@@ -77,24 +85,14 @@ make
 Если вы хотите использовать программу daemon/CLI _slimcoind_, файл конфигурации **необходим** поскольку в нем будут заданы ваши логин и пароль. Создайте файл
 
 <div class="highlighter-rouge">
-
-```
 rpcuser=USERNAME
 rpcpassword=PASSWORD
-
-```
-
 </div>
 
 Внесите следующую строку в него если вы хотите использовать его как daemon (запущенный в фоновом режиме) по умолчанию:
 
 <div class="highlighter-rouge">
-
-```
 daemon=1
-
-```
-
 </div>
 
 ## Запуск Слимкоина
