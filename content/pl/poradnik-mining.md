@@ -1,5 +1,6 @@
 ---
 title: Poradnik kopania Slimcoin'a
+codeType: guide
 menuitem: Poradnik kopania
 lang: pl
 category: help

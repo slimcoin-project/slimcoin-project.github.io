@@ -1,0 +1,20 @@
+<!--
+	pages that contain code should have a codeType
+	in their front matter, it should be set to either
+	"guide" or "analysis", they do not contain any styling
+	differences but rather they differ by the way they
+	detect code blocks built using markdown
+-->
+{% if page.codeType == "guide" %}
+    <script type="text/javascript"">
+        $(function() {
+            $(".highlighter-rouge").parent().addClass("code-block");
+        });
+    </script>
+{% else if page.codeType == "analysis" %}
+    <script type="text/javascript"">
+        $(function() {
+            $(".highlighter-rouge:not(code)").addClass("code-block");
+        });
+    </script>
+{% endif %}
