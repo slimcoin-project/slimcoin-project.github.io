@@ -139,6 +139,7 @@ p a {
   border-left-style: solid;
   background: rgba(0,0,0,0.1);
   border-color: rgba(0,0,0,0.6);
+  overflow: hidden;
   text-align: left;
 }
 
@@ -245,6 +246,7 @@ p a {
 
   .code-block {
     overflow-x: scroll;
+    font-size: 1em;
   }
 }
 
