@@ -12,7 +12,7 @@ priority: 3
 
 ### Long-term & stability oriented
 
-Slimcoin's Proof or Burn mechanism encourages **long term involvement**. If you burn coins to participate, you automatically become a long term investor: You probably will get back your investment (and possibly make a profit, like in mining), but not in a short period of time, and you must be connected permanently to the network with a full node to get a decent return.
+Slimcoin's Proof of Burn mechanism encourages **long term involvement**. If you burn coins to participate, you automatically become a long term investor: You probably will get back your investment (and possibly make a profit, like in mining), but not in a short period of time, and you must be connected permanently to the network with a full node to get a decent return.
 
 It is like if you are buying a mining rig that only is working for Slimcoin and you cannot re-use it with other cryptocurrencies.
 
