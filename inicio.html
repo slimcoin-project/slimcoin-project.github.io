@@ -8,95 +8,76 @@ requiresSemanticCard: true
 ---
 
 <div class="home">
-    <div class="ui secondary page stackable grid overview segment segment-padding" id="actions">
-      <div class="eight column row">
-        <div class="eight stackable wide column">
-          <div class="ui stackable grid">
-            <div class="ui row">
-              <div class="wide column">
-                <h2 class="ui medium icon center aligned header">
-                  <i class="circular cloud download icon"></i>
-                  <div class="content">
-                    Bajar cartera
-                    <div class="sub header">Bajar aplicación compilada o código fuente</div>
-                  </div>
-                </h2>
+  <div class="ui secondary page stackable grid overview segment segment-padding" id="actions">
+    <h5 class="ui header center aligned not-on-mobile">
+      Mercados
+    </h5> 
+    <div class="ui stackable centered center aligned grid">
+      {% for exchange in site.exchanges %}
+        <div class="five wide column center aligned pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
+          <div class="ui raised segment mobile-card">
+            <h2 class="ui icon header">
+              <i class="icon"><img src="/assets/logo.png" class="ui small image"></i>
+              <div class="content">
+                {{ exchange.name }}
+                <div class="sub header">{{ exchange.url }}</div>
               </div>
-            </div>
-            <div class="ui row">
-              <div class="ui eight wide column"> <a class="fluid ui teal large right labeled icon button" href="https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe">
-                Bajar
-                <i class="right long download icon"></i>
-                </a> 
+            </h2>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="ui page stackable grid overview segment segment-padding center aligned" id="actions">
+    <div class="centered column">
+      <div class="ui center aligned grid">
+        {% for wallet in site.wallets %}
+          <div class="three wide column pointer-cursor" onclick="openUrl('{{ wallet.url }}')">
+            <div class="ui card">
+              <div class="image">
+                <img src="{{ wallet.logo | prepend: site.baseurl }}">
               </div>
-              <div class="ui eight wide column"> <a class="fluid ui green large right labeled icon button" href="https://github.com/slimcoin-project/Slimcoin/tree/master">
-                Github
-                <i class="right long github icon"></i>
-                </a> 
+              <div class="extra content not-on-mobile">
+                  <i class="{% if wallet.ico %}{{ wallet.ico }}{% else %}cloud download{% endif %} icon"></i>
+                  {{ wallet.name }}
               </div>
             </div>
           </div>
-        </div>
-        <div class="eight stackable wide column">
-          <div class="ui stackable grid">
-            <div class="ui centered row">
-              <div class="wide column">
-                <h2 class="ui medium icon center aligned header">
-                  <i class="circular exchange icon"></i>
-                  <div class="content">
-                    Mercados
-                    <div class="sub header">Comprar o vender en NovaExchange, CoinMarket</div>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div class="ui row">
-              <div class="ui eight wide column"> <a class="fluid ui teal large right labeled icon button" href="https://novaexchange.com/market/BTC_SLM/">
-                NovaExchange
-                <i class="right long arrow icon"></i>
-                </a> 
-              </div>
-              <div class="ui eight wide column"> <a class="fluid ui green large right labeled icon button" href="https://coinsmarkets.com/trade-BTC-SLM.htm">
-                CoinsMarket
-                <i class="right long arrow icon"></i>
-                </a> 
-              </div>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </div>
-    <div class="ui inverted page grid overview segment" id="donate">
+  </div>
+  <div class="ui inverted page grid overview segment" id="donate">
+    <div class="ui inverted grid segment">
+      <div class="row">
+        <div class="wide column">
+          <h1 class="center aligned ui header">
+            Donaciones
+          </h1>
+          <div class="ui horizontal divider"><i class="dollar icon inverted"></i> </div>
+        </div>
+      </div>
       <div class="ui inverted grid segment">
-        <div class="row">
-          <div class="wide column">
-            <h1 class="center aligned ui header">
-              Donaciones
-            </h1>
-            <div class="ui horizontal divider"><i class="dollar icon inverted"></i> </div>
-          </div>
-        </div>
-        <div class="ui inverted grid segment">
-          <div class="ui one wide column"></div>
-          <div class="fourteen wide column">
-            <div class="ui two column center aligned stackable divided grid">
-              <div class="column">
-                <h2 class="center aligned ui header"> Recompensas </h2>
-                <a class="ui teal label" style="text-transform:none">
-                ShBfaKcRQhRGxnJtSmyxcGbeopGwWCk4fH
-                </a>
-                <p>Los Slimcoins enviados a esta dirección serán usados para beneficiar a desarrolladores.</p>
-              </div>
-              <div class="column">
-                <h2 class="center aligned ui header"> Giveaways </h2>
-                <a class="ui teal label" style="text-transform:none">
-                Saa2qzQMKvK8uaiztmrr56EEw26TFXmGPC
-                </a>
-                <p>Los Slimcoins enviados a esta dirección serán usadas para incentivar el uso de Slimcoin por parte de canillas y sorteos.</p>
-              </div>
+        <div class="ui one wide column"></div>
+        <div class="fourteen wide column">
+          <div class="ui two column center aligned stackable divided grid">
+            <div class="column">
+              <h2 class="center aligned ui header"> Recompensas </h2>
+              <a class="ui teal label" style="text-transform:none">
+              ShBfaKcRQhRGxnJtSmyxcGbeopGwWCk4fH
+              </a>
+              <p>Los Slimcoins enviados a esta dirección serán usados para beneficiar a desarrolladores.</p>
+            </div>
+            <div class="column">
+              <h2 class="center aligned ui header"> Giveaways </h2>
+              <a class="ui teal label" style="text-transform:none">
+              Saa2qzQMKvK8uaiztmrr56EEw26TFXmGPC
+              </a>
+              <p>Los Slimcoins enviados a esta dirección serán usadas para incentivar el uso de Slimcoin por parte de canillas y sorteos.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </div>

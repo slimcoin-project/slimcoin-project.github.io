@@ -26,8 +26,11 @@
           <div class="ui inverted link list">
             <a class="item" href="https://iancoleman.github.io/bip39/">Key Generator</a>
             <a class="item" href="https://bchain.info/SLM/" target="_blank">Block Explorer</a>
-            <a class="item" href="https://novaexchange.com/market/BTC_SLM/">NovaExchange Exchange</a>
-            <a class="item" href="https://coinsmarkets.com/trade-BTC-SLM.htm">CoinsMarket Exchange</a>
+            {% for exchange in site.exchanges %}
+              <a class="item" href="{{ exchange.url }}">
+                {{ exchange.name }}
+              </a>
+            {% endfor %}
           </div>
         </div>
       </div> 

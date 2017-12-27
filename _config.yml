@@ -101,6 +101,8 @@ wallets:
     logo: assets/git.svg
     ico: github
 
+walletname: Simcoin-QT 0.5.1
+
 # Footer
 
 footertitle:
