@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+
+ <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+ <g class="currentLayer">
+  <title>Layer 1</title>
+  <rect id="svg_6" height="444" width="488" y="-21" x="-56.5" stroke-width="1.5" stroke="#000" fill="#434cdb"/>
+  <g id="svg_1" fill="#434cdb" transform="translate(0, 400) scale(0.1, -0.1)">
+   <path fill="#ffffff" id="svg_2" d="m2500,2884c-245,-35 -472,-67 -505,-71l-60,-8l-3,-383l-2,-382l515,0l515,0l0,455c0,250 -3,454 -7,454c-5,-1 -208,-30 -453,-65z"/>
+   <path fill="#ffffff" id="svg_3" d="m1435,2735c-203,-30 -371,-54 -372,-54c-2,-1 -3,-145 -3,-321l0,-320l395,0l395,0l0,375l0,375l-22,-1c-13,-1 -189,-25 -393,-54z"/>
+   <path fill="#ffffff" id="svg_4" d="m1060,1640l0,-320l23,-5c23,-5 746,-105 760,-105c4,0 7,169 7,375l0,375l-395,0l-395,0l0,-320z"/>
+   <path fill="#ffffff" id="svg_5" d="m1932,1578l3,-383l55,-7c136,-17 927,-129 948,-133l22,-5l0,455l0,455l-515,0l-515,0l2,-382z"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <rect fill="none" y="0" x="0" height="100%" width="100%" id="backgroundrect"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+</svg>

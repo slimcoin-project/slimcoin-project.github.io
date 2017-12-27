@@ -26,6 +26,11 @@
     <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- include semantic-card.min.css if needed -->
+    {% if page.requiresSemanticCard == true %}
+        <link rel="stylesheet" type="text/css" href="{{ "/libs/Semantic/semantic-card.min.css" | prepend: site.baseurl }}">
+    {% endif %}
+
     <!-- highlights blocks of code by page.codeType -->
     {% include code-highlight.html %}
 </head>

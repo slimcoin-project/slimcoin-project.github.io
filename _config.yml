@@ -73,6 +73,34 @@ languagestring:
   pl: Polski
   ru: Русский
 
+# Updateables
+
+exchanges:
+  - name: Nova Exchange
+    url: "https://novaexchange.com/market/BTC_SLM"
+  - name: CoinsMarket
+    url: "https://coinsmarkets.com/trade-BTC-SLM.htm"
+  - name: CoinHouse
+    url: "https://coinhouse.eu/markets/slmbtc"
+
+wallets:
+  - name: Windows
+    url: "https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe"
+    logo: assets/windows.svg
+  - name: macOS
+    url: "https://github.com/slimcoin-project/Slimcoin/releases/download/SLMv0.5.0/SLIMCoin-Qt-SLMv0.5.0-BDB4.8.dmg"
+    logo: assets/mac.svg
+  - name: "Ubuntu"
+    url: "https://mega.nz/#!oTBHnK7A!u3b6Sfto_-J9Rcp-GmThLrSv1lSHZo2rNS0wP_ac3gc"
+    logo: assets/ubuntu.svg
+  - name: "ARM"
+    url: "https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x"
+    logo: assets/raspberry.svg
+  - name: "Source Code"
+    url: "https://github.com/slimcoin-project/Slimcoin/tree/master"
+    logo: assets/git.svg
+    ico: github
+
 # Footer
 
 footertitle:

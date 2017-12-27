@@ -167,6 +167,10 @@ p a {
     display: none !important;
   }
 
+  .mobile-card {
+    border-radius: 0px  !important;
+  }
+
   #footer {
     padding-bottom: 2rem;
   }
@@ -257,4 +261,8 @@ p a {
 .post-content {
   font-size: 16px;
   text-align: justify;
+}
+
+.pointer-cursor {
+  cursor: pointer;
 }
