@@ -17,7 +17,7 @@ requiresSemanticCard: true
         <div class="five wide column center aligned pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
           <div class="ui raised segment mobile-card">
             <h2 class="ui icon header">
-              <i class="icon"><img src="/assets/logo.png" class="ui small image"></i>
+              <i class="icon"><img src="{{ '/assets/logo.svg' | prepend: site.baseurl }}" class="ui small image"></i>
               <div class="content">
                 {{ exchange.name }}
                 <div class="sub header">{{ exchange.url }}</div>
