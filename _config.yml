@@ -77,11 +77,11 @@ languagestring:
 
 exchanges:
   - name: Nova Exchange
-    url: "https://novaexchange.com/market/BTC_SLM"
+    url: "https://novaexchange.com"
   - name: CoinsMarket
-    url: "https://coinsmarkets.com/trade-BTC-SLM.htm"
+    url: "https://coinsmarkets.com"
   - name: CoinHouse
-    url: "https://coinhouse.eu/markets/slmbtc"
+    url: "https://coinhouse.eu"
 
 wallets:
   - name: Windows
@@ -99,7 +99,6 @@ wallets:
   - name: "Source Code"
     url: "https://github.com/slimcoin-project/Slimcoin/tree/master"
     logo: assets/git.svg
-    ico: github
 
 walletname: Simcoin-QT 0.5.1
 

@@ -30,6 +30,9 @@ requiresSemanticCard: true
   </div>
   <div class="ui page stackable grid overview segment segment-padding center aligned" id="actions">
     <div class="centered column">
+      <h5 class="ui center aligned icon header">
+        DOWNLOADS
+      </h5>
       <div class="ui center aligned grid">
         {% for wallet in site.wallets %}
           <div class="three wide column pointer-cursor" onclick="openUrl('{{ wallet.url }}')">
@@ -38,7 +41,6 @@ requiresSemanticCard: true
                 <img src="{{ wallet.logo | prepend: site.baseurl }}">
               </div>
               <div class="extra content not-on-mobile">
-                  <i class="{% if wallet.ico %}{{ wallet.ico }}{% else %}cloud download{% endif %} icon"></i>
                   {{ wallet.name }}
               </div>
             </div>
