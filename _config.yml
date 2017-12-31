@@ -85,7 +85,7 @@ exchanges:
 
 wallets:
   - name: Windows
-    url: "/slimcoin-qt.exe"
+    url: "https://github.com/slimcoin-project/slimcoin-project.github.io/blob/master/slimcoin-qt.exe"
     logo: /assets/windows.svg
   - name: macOS
     url: "https://github.com/slimcoin-project/Slimcoin/releases/download/SLMv0.5.0/SLIMCoin-Qt-SLMv0.5.0-BDB4.8.dmg"
