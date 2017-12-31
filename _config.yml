@@ -18,7 +18,7 @@ description:
   ru: Слимкоин. Криптовалюта для долгосрочной перспективы.
 index:
   en:
-  es: inicio.html
+  es: index-es.html
   pl: index-pl.html
   ru: index-ru.html
 url: "http://slimco.in" # the base hostname & protocol for your site
@@ -85,7 +85,7 @@ exchanges:
 
 wallets:
   - name: Windows
-    url: "https://github.com/muf18/slimcoin-website-project/raw/master/slimcoin-qt.exe"
+    url: "/slimcoin-qt.exe"
     logo: /assets/windows.svg
   - name: macOS
     url: "https://github.com/slimcoin-project/Slimcoin/releases/download/SLMv0.5.0/SLIMCoin-Qt-SLMv0.5.0-BDB4.8.dmg"

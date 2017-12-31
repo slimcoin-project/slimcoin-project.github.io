@@ -10,7 +10,7 @@ requiresSemanticCard: true
 <div class="home">
   <div class="ui secondary page stackable grid overview segment segment-padding" id="actions">
     <h5 class="ui header center aligned not-on-mobile">
-      Mercados
+      MERCADOS
     </h5> 
     <div class="ui stackable centered center aligned grid">
       {% for exchange in site.exchanges %}
@@ -30,6 +30,9 @@ requiresSemanticCard: true
   </div>
   <div class="ui page stackable grid overview segment segment-padding center aligned" id="actions">
     <div class="centered column">
+      <h5 class="ui center aligned icon header">
+        BAJAR CARTERA
+      </h5>
       <div class="ui center aligned grid">
         {% for wallet in site.wallets %}
           <div class="three wide column pointer-cursor" onclick="openUrl('{{ wallet.url }}')">
