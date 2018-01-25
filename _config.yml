@@ -78,10 +78,12 @@ languagestring:
 exchanges:
   - name: Nova Exchange
     url: "https://novaexchange.com"
-  - name: CoinsMarket
-    url: "https://coinsmarkets.com"
-  - name: CoinHouse
-    url: "https://coinhouse.eu"
+  - name: FreiExchange
+    url: "https://freiexchange.com"
+#  - name: CoinsMarket # currently offline
+#    url: "https://coinsmarkets.com"
+#  - name: CoinHouse # with problems, removed until solved
+#    url: "https://coinhouse.eu"
 
 wallets:
   - name: Windows
