@@ -326,12 +326,11 @@ tx_version = ds.read_bytes(4)[::-1].hex()
 tx_ntime = ds.read_bytes(4)[::-1].hex()
 tx_input = ds.read_bytes(1)[::-1].hex()
 tx_prev_output_hash = ds.read_bytes(32)[::-1].hex()
-tx_prev_output_num = ds.read_bytes(4)[::-1].hex()
-script_length = ds.read_bytes(1)[::-1].hex()
-scriptsig = ds.read_bytes(int((script_length), 16)).hex()
-dunno = ds.read_bytes(1)[::-1].hex()
+tx_prev_output_sequence = ds.read_bytes(4)[::-1].hex()
+coinbase_tx_length = ds.read_bytes(1)[::-1].hex()
+coinbase_tx = ds.read_bytes(int((coinbase_tx_length), 16)).hex()
 sequence = ds.read_bytes(4)[::-1].hex()
-tx_output = ds.read_bytes(1)[::-1].hex()
+tx_output = ds.read_bytes(2)[::-1].hex()
 BTC_num = ds.read_bytes(8)[::-1].hex()
 pk_script_len = ds.read_bytes(1)[::-1].hex()
 pk_script = ds.read_bytes(int(pk_script_len, 16))[::-1].hex()
@@ -419,13 +418,13 @@ A new block `block` is instantiated and `txNew` is pushed into the `vtx` vector 
     04ffff001d020f274552543a203220736f7574686561737420556b72616e69616e207265676
     96f6e7320746f20686f6c64207265666572656e64756d204d617920313120617320706c616e
     6e6564 // scriptsig (script_length (78 verbatim bytes)
-    ff ff ff ff // dunno yet
-    01 00 00 00 // sequence: 1 (0x000001) (4 * 1 byte (00-ff each), reversed)
-    00 // tx_output: 0
+    ff ff ff ff // sequence
+    01 00 00 00 // tx_version: 1 (0x000001) (4 * 1 byte (00-ff each), reversed)
+    00 // tx_output_num: 0
     00 00 00 00 00 00 00 00 // BTCnum:  (8 * 1 byte (00-ff each), reversed)
     00 // pk_script_len: 0 
-    00 // pk_script: 
-    // lock_time
+    00 // pk_script: zero
+    00 00 00 00 00 00 00 00 // lock_time
 
 ### Follow-up
 
@@ -583,7 +582,7 @@ ds = BCDataStream()
 with open("/home/{}/.slimcoin/blk0001.dat".format(os.environ['USER']), "rb") as file:
     ds.map_file(file, 0)
 
-    # Read file
+# Read file
     # https://bitcoin.org/en/developer-reference#block-headers
     # https://en.bitcoin.it/wiki/Protocol_specification#block
     magic = ds.read_bytes(4).hex()
@@ -609,23 +608,26 @@ with open("/home/{}/.slimcoin/blk0001.dat".format(os.environ['USER']), "rb") as 
     tx_ntime = ds.read_bytes(4)[::-1].hex()
     tx_input = ds.read_bytes(1)[::-1].hex()
     tx_prev_output_hash = ds.read_bytes(32)[::-1].hex()
-    tx_prev_output_num = ds.read_bytes(4)[::-1].hex()
-    script_length = ds.read_bytes(1)[::-1].hex()
-    scriptsig = ds.read_bytes(int((script_length), 16)).hex()
-    dunno = ds.read_bytes(1)[::-1].hex()
+    tx_prev_output_sequence = ds.read_bytes(4)[::-1].hex()
+    coinbase_tx_length = ds.read_bytes(1)[::-1].hex()
+    coinbase_tx = ds.read_bytes(int((coinbase_tx_length), 16)).hex()
     sequence = ds.read_bytes(4)[::-1].hex()
-    tx_output = ds.read_bytes(1)[::-1].hex()
+    tx_output = ds.read_bytes(2)[::-1].hex()
     BTC_num = ds.read_bytes(8)[::-1].hex()
     pk_script_len = ds.read_bytes(1)[::-1].hex()
     pk_script = ds.read_bytes(int(pk_script_len, 16))[::-1].hex()
     lock_time = ds.read_bytes(4)[::-1].hex()
+    # If all the data in the genesis block has been read, then the next
+    # four bytes should be the "magic bytes" denoting the start of the
+    # next block
+    nextmagic = ds.read_bytes(4).hex()
 
     print('magic: {} (6e, 8b, 92, a5)'.format(magic))
     print('block_size: {}'.format(block_size))
     print('version: {}'.format(version))
     print('prevhash: {}'.format(prev_header_hash))
     print('merkle_root: {}'.format(merkle_root_hash))
-    print('timestamp: {} ({})'.format(
+    print('timestamp: {})'.format(
         int(timestamp, 16), datetime.fromtimestamp(int(timestamp, 16)).isoformat()))
     print('nBits: {}'.format(nBits))
     print('nonce: {}'.format(int(nonce, 16)))
@@ -642,29 +644,24 @@ with open("/home/{}/.slimcoin/blk0001.dat".format(os.environ['USER']), "rb") as 
     print('--------------------- Transaction Details: ---------------------')
     print('num_of_transaction: {}'.format(int(num_of_transaction, 16)))
     print('tx_version: {}'.format(tx_version))
-    print('tx_ntime: {} ({})'.format(
-        int(tx_ntime, 16), 
-        datetime.fromtimestamp(int(tx_ntime, 16)).isoformat()))
+    print('tx_ntime: {} ({})'.format(tx_ntime, datetime.fromtimestamp(int(tx_ntime, 16)).isoformat()))
     print('tx_input_num: {}'.format(int(tx_input, 16)))
     print('tx_prev_output_hash: {}'.format(tx_prev_output_hash))
-    print('tx_prev_output_num: {}'.format(tx_prev_output_num))
-    print('script_length: {}'.format(int(script_length, 16)))
-    print('scriptsig: {}'.format(scriptsig))
-    print('dunno: {}'.format(dunno))
+    print('tx_prev_output_sequence: {}'.format(tx_prev_output_sequence))
+    print('coinbase_tx_length: {}'.format(coinbase_tx_length))
+    print('coinbase_tx: {}'.format(coinbase_tx))
     print('sequence: {}'.format(sequence))
     print('tx_output_num: {}'.format(tx_output))
     print('BTC_num: {}'.format(BTC_num))
     print('pk_script_len: {}'.format(pk_script_len))
     print('pk_script: {}'.format(pk_script))
-    print('lock_time: {}'.format(lock_time))
-    print('lock_time: {} ({})'.format(
-        int(timestamp, 16), datetime.fromtimestamp(int(lock_time, 16)).isoformat()))
+    print('lock_time: {} ({})'.format(lock_time, datetime.fromtimestamp(int(lock_time, 16)).isoformat()))
+    print('----------------------- End of Block: ------------------------')
+    print('nextmagic: {} (6e, 8b, 92, a5)'.format(nextmagic))
 
 ds.close_file()
 
 ```
-
-
     magic: 6e8b92a5 (6e, 8b, 92, a5)
     block_size: 313
     version: 00000001
@@ -684,22 +681,23 @@ ds.close_file()
     --------------------- Transaction Details: ---------------------
     num_of_transaction: 1
     tx_version: 00000001
-    tx_ntime: 1399578460 (2014-05-08T20:47:40)
+    tx_ntime: 536bdf5c (2014-05-08T20:47:40)
     tx_input_num: 1
     tx_prev_output_hash: 0000000000000000000000000000000000000000000000000000000000000000
-    tx_prev_output_num: ffffffff
-    script_length: 78
-    scriptsig: 04ffff001d020f274552543a203220736f7574686561737420556b72616e6961
-    6e20726567696f6e7320746f20686f6c64207265666572656e64756d204d617920313120617
-    320706c616e6e6564
-    dunno: ff
-    sequence: 01ffffff
-    tx_output_num: 00
+    tx_prev_output_sequence: ffffffff
+    coinbase_tx_length: 4e
+    coinbase_tx: 04ffff001d020f274552543a203220736f7574686561737420556b72616e69616e20726567696f6e73\
+                 20746f20686f6c64207265666572656e64756d204d617920313120617320706c616e6e6564
+    sequence: ffffffff
+    tx_output_num: 0001
     BTC_num: 0000000000000000
     pk_script_len: 00
     pk_script: 
-    lock_time: 00000000
-    lock_time: 1399578460 (1970-01-01T01:00:00)
+    lock_time: 00000000 (1970-01-01T01:00:00)
+    ----------------------- End of Block: ------------------------
+    nextmagic: 6e8b92a5 (6e, 8b, 92, a5)
+
+`pk script`, being of length zero, results in zero bytes being read, allowing the remaining bytes to be read into `lock_time`, bringing us to the end of the Slimcoin genesis block.
 
 End of writeup
 
