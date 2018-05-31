@@ -83,4 +83,4 @@ To see the real number you must check the **burn address**. In the built-in bloc
 
 **SfSLMCoinMainNetworkBurnAddr1DeTK5**
 
-In May 2016, the address had roughly a balance of 1,8 million Slimcoins; at that time that were about 12% of the total supply of 14 million.
+In May 2018, the address had roughly a balance of 2,75 million Slimcoins; at that time that were about 14,66% of the total supply of 18,75 million.
