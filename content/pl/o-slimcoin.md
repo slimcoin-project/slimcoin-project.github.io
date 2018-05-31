@@ -50,8 +50,8 @@ Bądźcie czujni! Ta funkcja jest nadal nowa i w fazie alfa (wczesny wersja), a 
 Możesz handlować, kupować i sprzedawać na wybranych giełdach:
 
 * [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
-* [Novaexchange LTC/SLM](https://novaexchange.com/market/LTC_SLM)
-* [CoinsMarket BTC/SLM](https://coinsmarkets.com/trade-BTC-SLM.htm)
+* [Novaexchange ETH/SLM](https://novaexchange.com/market/ETH_SLM)
+* [Freiexchange BTC/SLM](https://freiexchange.com/market/SLM/BTC)
 
 ### Pobierz Slimcoin i jego kod źródłowy
 
