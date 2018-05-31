@@ -8,7 +8,7 @@ We want the Website to stay an open project, so we would like all contributions 
 
 # Theme and multilingual approach
 
-The theme used is a "mashup": The basic structure is a modification from the [Minima Jekyll theme](https://github.com/jekyll/minima) that allows multi-lingual sites. It is free software licensed under the MIT license. Since December 2017, the site heavily uses design elements from the old *slimcoin.club* website that unfortunately went offline.
+The theme used is a "mashup": The basic structure is a modification from the [Minima Jekyll theme](https://github.com/jekyll/minima) that allows multi-lingual sites. It is free software licensed under the MIT license. Since December 2017, the site heavily uses design elements from the old *slimcoin.club* website that unfortunately went offline (which was based on Semantic-UI framework).
 
 For reference, the [readme file of the multlingual theme modification](Readme-multilingual.md) is conserved.
 
