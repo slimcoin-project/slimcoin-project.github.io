@@ -23,7 +23,7 @@ All nodes - all participants that run a full-featured client software - save the
 
 But **how do the nodes agree** which transactions should be saved into a block? There is no central authority that validates the transactions, so this work must be done by the nodes in a collaborative way.
 
-The blockchain technology already prevents that some node could create money out of thin air. But there could be dishonest nodes that tried to use a coin twice - this is called a **double spend**. For example, they could buy an item in an online shop and inmediately try to send the same coins to an exchange. This way they could fool the shop owner and the exchange owner and get both things - the bought item and the money.
+The blockchain technology already prevents that some node could create money out of thin air, because blocks are chained together with cryptographic hashes and only coins that have been legitimately created (e.g. by mining) can be spent. But there could be dishonest nodes that tried to use a coin twice - this is called a **double spend**. For example, they could buy an item in an online shop and inmediately try to send the same coins to an exchange. This way they could fool the shop owner and the exchange owner and get both things - the bought item and the money.
 
 To *prevent double spends*, the nodes must **come to an agreement** which transactions are valid and which are not.
 
@@ -38,9 +38,11 @@ In Bitcoin and many other cryptocurrencies, a mechanism called **Proof of work**
 
 We could describe the process the following way: The nodes (*miners*) compete to write a block into the blockchain. To include a block, their computers must first do some *work*: they must **solve a difficult cryptographic puzzle**. The node that first solves it gets the right to write the block, and gets a reward for it to incentive this work. This process is colloquially called **mining**.
 
-If you want to **double spend**, you must have the computing power to **write several blocks in a row**. Only this way, you can be sure that both of your transactions are included in the blockchain.
+If you want to **double spend**, you must have the computing power to **write several blocks in a row**. First you send the transaction to the person you're scamming, pretending to buy something with it. Then you wait until the item is sent to you. But as you can't include both conflicting transactions in the same chain, you would have to mine a private chain with the second transaction (the one that sends the money back to yourself) until you got the item. Then you publish your private chain and hope that other nodes mine on top of it.
 
-For this to happen, you must have a **lot of computing power** - you can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the infamous **51% attack**). Double-spending attacks are prevented because it is prohibitively costly to buy the "mining" power to achieve this.
+For this to happen, the nodes must recognize your chain as the "best" (or "longest") and thus you must have a **lot of computing power**. You can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the infamous **51% attack**).
+
+That is the way how double-spending attacks are prevented in Bitcoin: because it is prohibitively costly to buy the "mining" power to achieve this.
 
 ### Proof of burn: Proof of work without energy waste
 
@@ -64,7 +66,9 @@ Now, **to prevent early adopters from benefitting too much** or attacking the sy
 
 Like in Proof of Work, the **block rewards are high enough** to allow the participants to make a financial gain (profit) from minting. You won't get back your investment in one hour or one day, but with some patience, in most situations you'll eventually **get significantly more coins that the ones you burnt**.
 
-Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Burn has also advantages over Proof of Stake, another consensus method that minimizes energy use. We will cover this point in a later post. 
+Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin's environmental cost. But Proof of Burn has also advantages over Proof of Stake, another consensus method that minimizes energy use. We will cover this point in a later post.
+
+In Slimcoin, we combine Proof of Burn with Proof of Stake and Proof of Work. The reason is mainly security: Proof of Burn and Proof of Stake alone have some weaknesses, but the mandatory presence of some Proof of Work blocks helps to prevent the exploitation of them.
 
 ### tldr
 
