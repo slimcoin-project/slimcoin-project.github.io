@@ -50,14 +50,14 @@ The publishing feature uses the awesome [Web2Web](https://github.com/elendirx/we
 You can trade, buy and sell Slimcoin at the following exchange:
 
 * [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
-* [Novaexchange ETH/SLM](https://novaexchange.com/market/ETH_SLM)
+* [Novaexchange DOGE/SLM](https://novaexchange.com/market/DOGE_SLM)
 * [Freiexchange BTC/SLM](https://freiexchange.com/market/SLM/BTC)
 
 ### Download Slimcoin & Source Code
 
-You can download Windows, Linux and Mac OS binaries [in our "Releases" section](https://github.com/slimcoin-project/Slimcoin/releases). The current beta release is 0.5. It is fully functional, but may still contain bugs.
+You can download Windows, Linux and Mac OS binaries [in our "Releases" section](https://github.com/slimcoin-project/Slimcoin/releases). The current beta release is 0.6. It is fully functional, but may still contain bugs.
 
-The source code is [here on Github](https://github.com/slimcoin-project/Slimcoin). Chose the "master" or "0.5" branch if you want to test our new features.
+The source code is [here on Github](https://github.com/slimcoin-project/Slimcoin). Chose the "master" branch if you want to test our new features.
 
 ### About the Slimcoin project website
 
