@@ -91,21 +91,3 @@ Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several tim
 # Other
 
 * [CSE 704 Spring 2019: Security and Privacy in Blockchain](http://www.acsu.buffalo.edu/~mblanton/cse704/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
