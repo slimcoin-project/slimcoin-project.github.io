@@ -38,7 +38,7 @@ Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several tim
 
 # Media in English
 
-* (https://www.coindesk.com/short-guide-blockchain-consensus-protocols)
+* <https://www.coindesk.com/short-guide-blockchain-consensus-protocols>
 * (https://www.coinbureau.com/education/proof-of-burn-explained/)
 * (https://www.blockchain-council.org/blockchain/what-are-the-alternative-strategies-for-proof-of-work/)
 * (https://masterthecrypto.com/coin-burning-what-is-coin-burn/)
