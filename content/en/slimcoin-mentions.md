@@ -46,7 +46,7 @@ Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several tim
 * <https://hackernoon.com/beginners-guide-what-s-the-difference-between-proof-of-work-proof-of-stake-proof-of-burn-and-74c42df591ca>
 * <https://hackernoon.com/proof-of-work-proof-of-stake-and-proof-of-burn-6823eac2776e>
 * <https://tokens-economy.gitbook.io/consensus/chain-based-proof-of-burn/proof-of-burn-pob>
-* <https://golden.com/wiki/Proof_of_burn_<cryptocurrency>>
+* <https://golden.com/wiki/Proof_of_burn_(cryptocurrency)>
 * <https://coinclarity.com/know-your-crypto-proofs-pob/>
 * <https://www.btcwires.com/round-the-block/differences-between-proof-of-work-stake-and-burn/>
 * <https://www.tokens24.com/cryptopedia/basics/proof-of-burn>
@@ -81,12 +81,12 @@ Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several tim
 * <https://bitcoin.com.au/popular-blockchain-consensus-mechanisms-work/>
 * <https://blockchainlion.com/consensus-blockchain/>
 * <http://www.beginnersguidetocryptocurrencies.com/mining.html>
+* <https://credits.com/fr/Home/New_Ins/4031>
 
 # Media in other languages
 
 * <https://www.cripto-valuta.net/proof-of-burn-pob-che-cose-e-come-funziona/>
 * <https://www.coincrispy.com/2018/05/25/proof-of-burn-prueba-de-quemado/>
-* <https://credits.com/fr/Home/New_Ins/4031>
 
 # Other
 
