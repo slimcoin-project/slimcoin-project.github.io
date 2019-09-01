@@ -9,7 +9,7 @@ permalink: /mentions/
 priority: 10
 ---
 
-Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several times in blockchain-related media and academic publications. Hiere is a list of some links:
+Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several times in blockchain-related media and academic publications. Here is a list of some links.
 
 # Academic publications
 
