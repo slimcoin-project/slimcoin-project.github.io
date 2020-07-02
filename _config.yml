@@ -76,8 +76,8 @@ languagestring:
 # Updateables
 
 exchanges:
-  - name: Nova Exchange
-    url: "https://novaexchange.com"
+#  - name: Nova Exchange - they closed their business on October 7, 2019
+#    url: "https://novaexchange.com"
   - name: FreiExchange
     url: "https://freiexchange.com"
 #  - name: CoinsMarket # currently offline - probably scam exchange
