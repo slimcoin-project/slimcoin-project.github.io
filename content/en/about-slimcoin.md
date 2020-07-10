@@ -11,7 +11,7 @@ priority: 2
 
 **Slimcoin** is a novel and experimental cryptocurrency created in 2014. It is the first known coin that uses the [Proof of Burn](https://en.bitcoin.it/wiki/Proof_of_burn) mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.
 
-In 2017, we're alive and kicking, and we're **different** from most other "altcoin" communities. We have no hierarchic and centralized structure - so we have no *official development team* that benefits from dubious *pre-mine* or *insta-mine* mechanisms.
+In 2020, we're alive and kicking, and we're **different** from most other "altcoin" communities. We have no hierarchic and centralized structure - so we have no *official development team* that benefits from dubious *pre-mine* or *insta-mine* mechanisms.
 
 All we want is to continue the exciting **Proof of Burn** experiment.  In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards. 
 
@@ -21,7 +21,7 @@ Sounds crazy, huh? It is perhaps easier to understand as a process of **virtual 
 
 ### We're an open project - you can participate
 
-Our main discussion platforms are [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0) and [Reddit](http://reddit.com/r/slimcoin). Join us there!
+Our main discussion platforms are [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Discord](https://discord.gg/ffeDjmV) and [Reddit](http://reddit.com/r/slimcoin). Join us there!
 
 We have also a [wiki](https://github.com/slimcoin-project/Slimcoin/wiki).
 
@@ -49,8 +49,6 @@ The publishing feature uses the awesome [Web2Web](https://github.com/elendirx/we
 
 You can trade, buy and sell Slimcoin at the following exchange:
 
-* [Novaexchange BTC/SLM](https://novaexchange.com/market/BTC_SLM)
-* [Novaexchange DOGE/SLM](https://novaexchange.com/market/DOGE_SLM)
 * [Freiexchange BTC/SLM](https://freiexchange.com/market/SLM/BTC)
 
 ### Download Slimcoin & Source Code
@@ -61,4 +59,4 @@ The source code is [here on Github](https://github.com/slimcoin-project/Slimcoin
 
 ### About the Slimcoin project website
 
-This website is still under construction. It is maintained by the Slimcoin community. If you want to contribute, please register at Github, fork the [repository](https://github.com/slimcoin-project/slimcoin-project.github.io) and create pull requests. Long-time community members can also ask for direct write access. Even if you don't want to write content here - your suggestions are always welcome!
+This website is maintained by the Slimcoin community. If you want to contribute, please register at Github, fork the [repository](https://github.com/slimcoin-project/slimcoin-project.github.io) and create pull requests. Long-time community members can also ask for direct write access. Even if you don't want to write content here - your suggestions are always welcome!
