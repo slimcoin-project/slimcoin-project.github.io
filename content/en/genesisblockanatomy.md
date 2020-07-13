@@ -167,7 +167,7 @@ and the actual pattern of the data that is written to the block is precisely des
 
 ### The Slimcoin difference
 
-At this point it is useful to conduct a comparison of the [Slimcoin code](https://github.com/slimcoin-project/Slimcoin/blob/slimcoin/src/main.h#L1119) and the [PPCoin cloneparent code](https://github.com/peercoin/peercoin/blob/master/src/main.h#L909) that deals with reading/writing the block to inform ourselves of the details:
+At this point it is useful to conduct a comparison of the [Slimcoin code](https://github.com/slimcoin-project/Slimcoin/blob/slimcoin/src/main.h#L1119) and the [PPCoin cloneparent code](https://github.com/peercoin/peercoin/blob/0.4.2/src/main.h#L914) that deals with reading/writing the block to inform ourselves of the details:
 
 ```diff
 --- pp.cpp   Sun Jul  9 19:00:04 2017
