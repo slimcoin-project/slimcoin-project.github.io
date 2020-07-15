@@ -21,7 +21,7 @@
         <div class="right menu">
           <div class="ui dropdown link item">
             {{ site.technologymenu[page.lang] }} <i class="dropdown icon"></i>
-            <div class="menu">{% assign techpages=site.pages | where:"lang", page.lang | where:"category", "technology" | sort: 'priority' %}{% for my_page in techpages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}<a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a></div>
+            <div class="menu">{% assign techpages=site.pages | where:"lang", page.lang | where:"category", "technology" | sort: 'priority' %}{% for my_page in techpages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}<a class="item" target="_blank" href="https://slimcoin.info/whitepaperSLM.pdf">White Paper</a></div>
           </div>
           <div class="ui dropdown link item">
             {{ site.helpmenu[page.lang] }} <i class="dropdown icon"></i>
