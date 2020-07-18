@@ -1,5 +1,5 @@
 ---
-title: Proof of Stake Minting Guidec
+title: Proof of Stake Minting Guide
 codeType: guide
 lang: en
 menuitem: Staking guide
