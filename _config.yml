@@ -9,17 +9,14 @@
 title:
   en: Slimcoin | A cryptocurrency for the long term.
   es: Slimcoin | La criptomoneda duradera y estable.
- # pl: Slimcoin | Długoterminowa kryptowaluta.
   ru: Слимкоин | Криптовалюта для долгосрочной перспективы.
 description:
   en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
   es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
- # pl: Slimcoin jest energooszczędną kryptowalutą zaprojektowaną w celu decentralizacji i stabilności. Jest to pierwsza kryptowaluta używająca konsensus Proof of Burn/ wirtualnego kopania.
   ru: Слимкоин. Криптовалюта для долгосрочной перспективы.
 index:
   en:
   es: index-es.html
- # pl: index-pl.html
   ru: index-ru.html
 url: "http://slimcoin.info" # the base hostname & protocol for your site
 twitter_username: slimcoin_club
@@ -35,42 +32,34 @@ github_username: slimcoin-project
 technologymenu:
   en: Technology
   es: Tecnología
- # pl: Technologia
   ru: Technology
 helpmenu:
   en: Help and Tools
   es: Ayuda y Herramientas
- # pl: Pomoc i narzędzia
   ru: Help and Tools
 downloadmenu:
   en: Downloads
   es: Bajar
- # pl: Pobierz
   ru: Downloads
 communitymenu:
   en: Participate
   es: Participar
- # pl: Weź udział
   ru: Participate
 languagemenu:
   en: Languages
   es: Idiomas
-# pl: Polski
   ru: Languages
 mastheadtitle:
   en: The Next Generation of Cryptocurrencies
   es: La Próxima Generación de las Criptomonedas
- # pl: Następna generacja kryptowalut
   ru: The Next Generation of Cryptocurrencies
 mastheadtext:
   en: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
   es: Pruebas de trabajo resistentes a la paralelización y primera implementación del-Proof of-Burn
- # pl: Odporny na ASIC Proof-of-Work i pierwsza nowatorska implementacja Proof-of-Burn
   ru: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
 languagestring:
   en: English
   es: Español
-# pl: Polski
   ru: Русский
 
 # Updateables
@@ -109,22 +98,18 @@ walletname: Simcoin-QT 0.5.1
 footertitle:
   en: Use & Participate
   es: Usar & Participar
- # pl: Użycie i przystąpienie
   ru: Использование и участие
 resourcesheading:
   en: Resources
   es: Recursos
- # pl: Źródła
   ru: Ресурсы
 socialheading:
   en: Social media
   es: Medios sociales
- # pl: Media społecznościowe
   ru: Социальные медиа
 toolsheading:
   en: Tools
   es: Herramientas
- # pl: Narzędzia
   ru: Инструменты
 
 # Build settings
