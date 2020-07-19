@@ -29,11 +29,11 @@ If you want to help with development & documentation: [Go to our Github page](ht
 
 ### Mining, Burning & Minting
 
-Slimcoin can be generated in three ways:
+Slimcoin is a very open cryptocurrency. There are several methods to earn it if you help with the validation process:
 
-* by **Proof of Burn minting**. That's Slimcoin's main innovation. Every coin you buy is a virtual mining rig. [Here you find our Proof of Burn minting guide](/proof-of-burn-guide/).
-* by **Proof of Work mining**. It uses the DCrypt algorithm that is ASIC-unfriendly and can be well mined with CPU mining. We've prepared a [Mining Guide](/mining-guide/) for you.
-* by **Proof of Stake minting**. This method is known from currencies like Peercoin. It's perhaps the easiest method. [Here you find a Proof of Stake Minting guide](/proof-of-stake-guide/)
+* by **Proof of Work mining**. You can earn Slimcoin even if you don't have any money, just mining it with your computer. Slimcoin's algorithm, DCrypt, is best suited for CPU mining. No ASICs are known for it. Here is the the [Mining Guide](/mining-guide/) for you.
+* by **Proof of Stake minting**. Once you got some Slimcoins, you can help with stake minting. This means you can just hold the coins and spend some time with the wallet open. It isn't necessary to mint 24 hours a day to get your reward, as Slimcoin uses the original Peercoin Proof of Stake mechanism. This means that the reward is fixed at 10% of your stake per year: as long as you connect to the network from time to time, it's very likely you find blocks. Here you find a [Proof of Stake Minting guide](/proof-of-stake-guide/).
+* by **Proof of Burn minting**. But there is more: Slimcoin offers the unique method of Proof of Burn minting. This method is for you if you can afford a long time investment. Burning coins is similar to buying a virtual miner. You need to be aware of the associated risks: The price could go down, and the difficulty can go up considerably if new "burners" enter the game, lowering your profitability. On the other hand, you can get higher rewards over time than when you only stake, above all if you burn a considerable amount. Small burn investments are not recommended if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
 
 ### Inscription service & Decentralized Websites
 
