@@ -6,26 +6,26 @@
           <div class="ui header">{{ site.resourcesheading[page.lang] }}</div>
           <div class="ui inverted link list">
             <a class="item" href="https://github.com/slimcoin-project">Github</a>
-            <a class="item" href="https://github.com/slimcoin-project/slimcoin-project.github.io/blob/master/whitepaperSLM.pdf" target="_blank">White Paper</a>
+            <a class="item" href="/whitepaperSLM.pdf" target="_blank">White Paper</a>
             <a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki" target="_blank">Wiki</a>
-            <a class="item" href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured" target="_blank">YouTube</a>
+            <!---<a class="item" href="https://www.youtube.com/channel/UCUXx5ksHhkq6CQwZdlckaeQ/featured" target="_blank">YouTube</a> I'm disabling this on 2020-07-19 as this resource is not being used at the moment-->
           </div>
         </div>
         <div class="column">
           <div class="ui header">{{ site.socialheading[page.lang] }}</div>
           <div class="ui inverted link list"> 
             <a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Bitcointalk</a>
-            <a class="item" href="https://twitter.com/Slimcoin_club">#slimcoin_club @ Twitter</a>
+            <!--<a class="item" href="https://twitter.com/Slimcoin_club">#slimcoin_club @ Twitter</a>
             <a class="item"  href="https://www.reddit.com/r/slimcoin/">Reddit</a>
             <a class="item" href="https://www.facebook.com/slimcoin.community">Facebook</a>
-            <a class="item" href="https://t.me/SlimcoinGroup">Telegram</a>
+            <a class="item" href="https://t.me/SlimcoinGroup">Telegram</a> I'm disabling this on 2020-07-19 as this resources are not being used at the moment (buhtignew)-->
             <a class="item" href="https://discord.gg/ffeDjmV">Discord</a>
           </div>
         </div>
         <div class="column">
           <div class="ui header">{{ site.toolsheading[page.lang] }}</div>
           <div class="ui inverted link list">
-            <a class="item" href="https://iancoleman.github.io/bip39/">Key Generator</a>
+            <!---<a class="item" href="https://iancoleman.github.io/bip39/">Key Generator</a> - I'm disabling this on 2020-07-19 as it's not clear to me why we are providing a backlink to someone or what is the use of this tool for the goals of SLM development (buhtignew)-->
             <a class="item" href="https://chainz.cryptoid.info/slm/" target="_blank">Block Explorer</a>
             {% for exchange in site.exchanges %}
               <a class="item" href="{{ exchange.url }}">
