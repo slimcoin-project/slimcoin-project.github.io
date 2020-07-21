@@ -1,11 +1,19 @@
 ---
 layout: page
 title: O Slimcoinie
-menuitem: O Slimcoinie
-category: technology
-permalink: /o-slimcoinie/
-ref: about
-lang: pl
+
+[//]: # (This is a comment: in the next lines Polish has been disabled as we don't have a volunteer for the moment)  
+
+[//]: # (menuitem: O Slimcoinie)
+
+[//]: # (category: technology)
+
+[//]: # (permalink: /o-slimcoinie/)
+
+[//]: # (ref: about)
+
+[//]: # (lang: pl)
+
 priority: 2
 ---
 
