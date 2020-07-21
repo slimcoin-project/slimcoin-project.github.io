@@ -1,11 +1,20 @@
 ---
 title: Poradnik wydobycia metodą Proof of Burn
-menuitem: Poradnik Proof of Burn
-lang: pl
-category: help
-ref: pobguide
-layout: page
-permalink: /proof-of-burn-poradnik/
+
+[//]: # (This is a comment: in the next lines Polish has been disabled as we don't have a volunteer for the moment)  
+
+[//]: # (menuitem: Poradnik Proof of Burn)
+
+[//]: # (lang: pl)
+
+[//]: # (category: help)
+
+[//]: # (ref: pobguide)
+
+[//]: # (layout: page)
+
+[//]: # (permalink: /proof-of-burn-poradnik/)
+
 priority: 3
 ---
 
