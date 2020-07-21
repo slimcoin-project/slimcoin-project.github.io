@@ -1,10 +1,18 @@
 ---
 title: Podstawowa pomoc
-lang: pl
-ref: help
-menuitem: Pomoc
-layout: page
-permalink: /pomoc/
+
+[//]: # (This is a comment: in the next lines Polish has been disabled as we don't have a volunteer for the moment)  
+
+[//]: # (lang: pl)
+
+[//]: # (ref: help)
+
+[//]: # (menuitem: Pomoc)
+
+[//]: # (layout: page)
+
+[//]: # (permalink: /pomoc/)
+
 priority: 5
 ---
 
