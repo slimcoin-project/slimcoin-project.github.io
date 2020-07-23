@@ -45,11 +45,11 @@ Slimcoin is a very open cryptocurrency. There are several methods to earn it if 
 
 [//]: # (All you have to do is to use the *inscription service* provided by the Slimcoin client.)
 
-[//]: # (The publishing feature uses the awesome [Web2Web](https://github.com/elendirx/web2web))
+[//]: # (The publishing feature uses the awesome [Web2Web] https://github.com/elendirx/web2web)
 
-[//]: # (and [WebTorrent](https://webtorrent.io/))
+[//]: # (and [WebTorrent] https://webtorrent.io/)
 
-[//]: # (technologies. Your readers only need a modern browser - no additional software! So your voice will be heard also outside the nerd-space.))
+[//]: # (technologies. Your readers only need a modern browser - no additional software! So your voice will be heard also outside the nerd-space.)
 
 [//]: # (*Stay tuned!* This feature is still new and in alpha, and the Web2Web page generator has still to be ported. But you already can experiment with it.)
 
