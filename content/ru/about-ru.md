@@ -1,11 +1,19 @@
 ---
 layout: page
 title: Описание Слимкоин
-menuitem: Описание
-category: technology
-ref: about
-lang: ru
-permalink: /about-ru/
+
+[//]: # (This is a comment: this page has been disabled as the English version was improved please modify this page accordingly and uncomment)
+
+[//]: # (menuitem: Описание)
+
+[//]: # (category: technology)
+
+[//]: # (ref: about)
+
+[//]: # (lang: ru)
+
+[//]: # (permalink: /about-ru/)
+
 priority: 2
 ---
 **Слимкоин** это новая и экспериментальная криптовалюта, созданная в 2014 году. Это первая монета, использующая механизм [Proof of Burn](https://en.bitcoin.it/wiki/Proof_of_burn) для генерации блоков. Кроме того, он использует Proof of Work и Proof of Stake, что делает его первой и уникальной монетой с тремя различными механизмами генерации блоков.
