@@ -37,8 +37,6 @@ Slimcoin is a very open cryptocurrency. There are several methods to earn it if 
 
 * by **Proof of Burn minting**. A part the methods described above, Slimcoin offers the unique method of Proof of Burn minting. This method is for you if you can afford a long time investment. Burning coins is similar to buying a virtual miner. You need to be aware of the associated risks: The price could go down, and the difficulty can go up considerably if new "burners" enter the game, lowering your profitability. On the other hand, you can get higher rewards over time than when you only stake, above all if you burn a considerable amount. Small burn investments are not recommended if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
 
-[//]: # (Temporary disabled the following lines, as there is no "inscription service" in the wallet anymore)
-
 [//]: # (### Inscription service & Decentralized Websites)
 
 [//]: # (Since version 0.5, Slimcoin has a built-in blockchain website publishing service which lets you **publish websites or blogs** in a decentralized way *without hosting nor domains*. Simply publish your content as a torrent and let the Slimcoin blockchain be your version manager!)
