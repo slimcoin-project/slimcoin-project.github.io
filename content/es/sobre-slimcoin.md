@@ -1,11 +1,20 @@
 ---
 title: Sobre Slimcoin
-lang: es
-menuitem: Sobre Slimcoin
-category: technology
-ref: about
+
+[//]: # (This is a comment: this page has been disable as the English version was improved please modify this page accordingly and uncomment)
+
+[//]: # (lang: es)
+
+[//]: # (menuitem: Sobre Slimcoin)
+
+[//]: # (category: technology)
+
+[//]: # (ref: about)
+
 layout: page
-permalink: /sobre-slimcoin/
+
+[//]: # (permalink: /sobre-slimcoin/)
+
 priority: 2
 ---
 
