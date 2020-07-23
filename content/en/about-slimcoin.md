@@ -37,15 +37,21 @@ Slimcoin is a very open cryptocurrency. There are several methods to earn it if 
 
 * by **Proof of Burn minting**. A part the methods described above, Slimcoin offers the unique method of Proof of Burn minting. This method is for you if you can afford a long time investment. Burning coins is similar to buying a virtual miner. You need to be aware of the associated risks: The price could go down, and the difficulty can go up considerably if new "burners" enter the game, lowering your profitability. On the other hand, you can get higher rewards over time than when you only stake, above all if you burn a considerable amount. Small burn investments are not recommended if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
 
-### Inscription service & Decentralized Websites
+[//]: # (Temporary disabled the following lines, as there is no "inscription service" in the wallet anymore)
 
-Since version 0.5, Slimcoin has a built-in blockchain website publishing service which lets you **publish websites or blogs** in a decentralized way *without hosting nor domains*. Simply publish your content as a torrent and let the Slimcoin blockchain be your version manager!
+[//]: # (### Inscription service & Decentralized Websites)
 
-All you have to do is to use the *inscription service* provided by the Slimcoin client.
+[//]: # (Since version 0.5, Slimcoin has a built-in blockchain website publishing service which lets you **publish websites or blogs** in a decentralized way *without hosting nor domains*. Simply publish your content as a torrent and let the Slimcoin blockchain be your version manager!)
 
-The publishing feature uses the awesome [Web2Web](https://github.com/elendirx/web2web) and [WebTorrent](https://webtorrent.io/) technologies. Your readers only need a modern browser - no additional software! So your voice will be heard also outside the nerd-space.
+[//]: # (All you have to do is to use the *inscription service* provided by the Slimcoin client.)
 
-*Stay tuned!* This feature is still new and in alpha, and the Web2Web page generator has still to be ported. But you already can experiment with it.
+[//]: # (The publishing feature uses the awesome [Web2Web](https://github.com/elendirx/web2web))
+
+[//]: # (and [WebTorrent](https://webtorrent.io/))
+
+[//]: # (technologies. Your readers only need a modern browser - no additional software! So your voice will be heard also outside the nerd-space.))
+
+[//]: # (*Stay tuned!* This feature is still new and in alpha, and the Web2Web page generator has still to be ported. But you already can experiment with it.)
 
 ### Slimcoin Exchanges
 
