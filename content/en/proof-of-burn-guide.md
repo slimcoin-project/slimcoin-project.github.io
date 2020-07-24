@@ -80,7 +80,7 @@ You get the following indicators:
 You could think the *Formatted nEffectiveBurnCoins* number is what you need, but it is not - because this number does not contain the *Decayed Burnt Coins* and is probably much smaller.
 
 To see the real number you must check the **burn address**. In the built-in block explorer of the client or any other block explorer 
-eg. [CryptoId](https://chainz.cryptoid.info/slm/), enter the following address:
+eg. [CryptoID](https://chainz.cryptoid.info/slm/), enter the following address:
 
 **SfSLMCoinMainNetworkBurnAddr1DeTK5**
 
