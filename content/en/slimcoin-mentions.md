@@ -32,9 +32,9 @@ Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several tim
 
 * [Security in Computing and Communications: 6th International Symposium](https://books.google.com/books?id=gd2EDwAAQBAJ&pg=PA116&lpg=PA116&dq=slimcoin&source=bl&ots=BKCadowG8D&sig=ACfU3U2wZlnvGpMgNXILu8QD9W_-oRvSVA&redir_esc=y#v=onepage&q=slimcoin)
 
-# Videos
+[//]: # (# Videos)
 
-* [What is Proof of Burn (PoB)?](https://www.youtube.com/watch?v=gWW3cwcthQo)
+[//]: # (* What is Proof of Burn PoB? https://www.youtube.com/watch?v=gWW3cwcthQo)
 
 # Media in English
 
