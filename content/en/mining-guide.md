@@ -70,9 +70,9 @@ Go to the [Slimminer Github Page](https://github.com/JonnyLatte/slimminerGPU) an
 ### Mining Pool
 
 
-[//]: #( Since April 2018 there is an (experimental) pool for Slimcoin:)
+[//]: # (Since April 2018 there is an (experimental) pool for Slimcoin:)
 
 
-[//]: #( [UNOMP Beta]http://206.189.86.177/)
+[//]: # ([UNOMP Beta]http://206.189.86.177/)
 
 For those that want to try to set up a pool themselves, our [project repository](http://github.com/slimcoin-project/) provides an (experimental) port of a popular pool software.
