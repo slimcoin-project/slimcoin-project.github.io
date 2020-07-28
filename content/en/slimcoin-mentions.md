@@ -57,28 +57,38 @@ Slimcoin and its underlying algorithm, Proof of Burn, were mentioned several tim
 * <https://coincentral.com/proof-of-burn/>
 * <https://coinweez.com/consensus-algorithms-pob-poi/>
 * <https://www.dcvelocity.com/products/Business_Management/20190514-wondering-what-on-earth-is-proof-of-burn-read-this/>
+
 [//]: # (https://wallstreetcn.com/articles/3530955)
+
 [//]: # (https://wallstreetcn.com/articles/3485575)
+
 * <https://bitcoinist.com/proof-burn-better-alternative-proof-work/>
 * <https://99bitcoins.com/what-is-proof-of-burn/>
 * <https://medium.com/dataseries/protocol-governance-a-blockchain-view-dc69a1295185>
 * <https://minergate.com/blog/blockchain-consensus-types-poc-dbft-poa-pob/>
 * <https://blockonomi.com/proof-of-burn/>
 * <https://cryptonomist.ch/en/2019/05/19/what-is-proof-of-burn-pob/>
+
 [//]: # (https://blockspoint.com/articles/technologies/proof-of-burn)
+
 * <https://www.btcwires.com/round-the-block/differences-between-proof-of-work-stake-and-burn/>
+
 [//]: # (https://decentralized.tv/proof-of-burn-pob-better-than-proof-of-work-pow-for-mining-and-consensus/)
+
 * <https://blockchainerz.com/wondering-what-on-earth-is-proof-of-burn-read-this-theres/>
 * <https://www.newgenapps.com/blog/8-blockchain-consensus-mechanisms-and-benefits>
 * <https://cryptoknight.asia/crypto101/how-does-coin-burning-work-heres-a-beginners-guide/>
 * <https://www.quora.com/How-many-cryptocurrency-protocols-are-there-e-g-proof-of-work-proof-of-stake>
 * <https://thecoinoffering.com/learn/blockchain-consensus-systems/>
 * <https://beincrypto.com/destroyerdao-can-the-ultimate-scoin-save-us-from-failing-projects/>
+
 [//]: # (https://blockspoint.com/articles/technologies/forks-in-peer-to-peer-system-peercoin)
+
 * <https://blockchainhub.net/blog/blog/consensus-mechanisms-2/>
 * <https://bitcoin.com.au/popular-blockchain-consensus-mechanisms-work/>
 * <https://blockchainlion.com/consensus-blockchain/>
 * <http://www.beginnersguidetocryptocurrencies.com/mining.html>
+
 [//]: # (https://credits.com/fr/Home/New_Ins/4031)
 
 # Media in other languages
