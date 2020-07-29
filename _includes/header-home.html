@@ -25,7 +25,7 @@
           </div>
           <div class="ui dropdown link item">
             {{ site.helpmenu[page.lang] }} <i class="dropdown icon"></i>
-            <div class="menu">{% assign helppages=site.pages | where:"lang", page.lang | where:"category", "help" | sort: 'priority' %}{% for my_page in helppages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}<a class="item" href="https://chainz.cryptoid.info/slm/" target="_blank">Chainz Block Explorer</a><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a></div>
+            <div class="menu">{% assign helppages=site.pages | where:"lang", page.lang | where:"category", "help" | sort: 'priority' %}{% for my_page in helppages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}<a class="item" href="https://chainz.cryptoid.info/slm/" target="_blank">CryptoID Block Explorer</a><!--<a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a>--></div>
           </div>
           <div class="ui dropdown link item">
             {{ site.downloadmenu[page.lang] }} <i class="dropdown icon"></i>
@@ -39,7 +39,7 @@
           </div>
           <div class="ui dropdown link item">
         {{ site.communitymenu[page.lang] }} <i class="dropdown icon"></i>
-            <div class="menu">{% if page.ref == "index" %}<a class="item" href="#donate" target="_parent">Donate</a>{% endif %}<a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></div>
+            <div class="menu">{% if page.ref == "index" %}<!--<a class="item" href="#donate" target="_parent">Donate</a>-->{% endif %}<a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></div>
           </div>
           <div class="ui dropdown link item">
             {{ site.languagemenu[page.lang] }} <i class="dropdown icon"></i>
