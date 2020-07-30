@@ -38,8 +38,8 @@ Slimcoin es una criptomoneda muy abierta. Hay diferentes maneras para ayudar con
 [//]: # (### Servicio de inscripción y páginas web decentralizadas)
 [//]: # (Desde la versión 0.5, Slimcoin tiene un servicio de publicación basado en la cadena de bloques. Te permite **publicar páginas web o blogs** con un método decentralizado *¡sin necesitar de hosting o de dominios!* Simplemente tienes que publicar tus contenidos como torrent y la cadena de bloques de Slimcoin se preocupará por las actualizaciones.)
 [//]: # (Solo tienes que usar el *servicio de inscripción* provisto por el cliente de Slimcoin.)
-[//]: # (El servicio usa las geniales tecnologías [Web2Web](https://github.com/elendirx/web2web)
-[//]: # (y [WebTorrent](https://webtorrent.io/).
+[//]: # (El servicio usa las geniales tecnologías [Web2Web] https://github.com/elendirx/web2web)
+[//]: # (y [WebTorrent] https://webtorrent.io/.)
 [//]: # (Tus lectores solamente necesitarán un navegador moderno - ¡no hace falta software adicional! Así tu voz será oida también fuera del *espacio de los nerds*.)
 [//]: # (*¡Estate atento!*. Esta función todavía es muy nueva y todavía falta portar algunas herramientas. Pero ya puedes experimentar.)
 
