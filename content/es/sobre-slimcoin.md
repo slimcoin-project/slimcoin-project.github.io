@@ -15,7 +15,7 @@ En 2020 seguimos vivos y somos algo **diferentes** de muchas otras comunidades d
 
 **¿Qué es el Proof of Burn?** En pocas palabras es un mecanismo que te permite ganar dinero **quemando** dinero. Es decir, *destruís dinero* para ganar una **recompensa a largo plazo** en la forma de recompensas para bloques. 
 
-**Esto suena bastante loco, ¿no?** Es quizá más fácil entenderlo como un proceso de **minería virtual**. El dinero quemado te da el derecho de minar. Hemos preparado una [explicación simple (ELI5)](/proof-of-burn-eli5/) (por ahora, en inglés). Visto desde lo económico, [tiene interesantes propiedades](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn): Es el único mecanismo que permite a los usuarios **regular la cantidad de dinero que circula** de manera totalmente decentralizada.
+**Esto suena bastante loco, ¿no?** Es quizá más fácil entenderlo como un proceso de **minería virtual**. El dinero quemado te da el derecho de minar. Hemos preparado una [explicación (ELI5)](/proof-of-burn-eli5-es/). Visto desde lo económico, [tiene interesantes propiedades](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn): Es el único mecanismo que permite a los usuarios **regular la cantidad de dinero que circula** de manera totalmente decentralizada.
 
 [Conocé más sobre las ventajas de Slimcoin](/advantages/)
 
