@@ -21,9 +21,7 @@ En 2020 seguimos vivos y somos algo **diferentes** de muchas otras comunidades d
 
 ### Somos un proyecto abierto - ¡puedes participar!
 
-Nuestras principales plataformas de discusión son [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0) y [Reddit](http://reddit.com/r/slimcoin). 
-
-Tenemos también una [wiki](https://github.com/slimcoin-project/Slimcoin/wiki).
+Nuestras principales plataformas de discusión son [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Reddit](http://reddit.com/r/slimcoin) y [Discord](https://discord.com/invite/ffeDjmV). Tenemos también una [wiki](https://github.com/slimcoin-project/Slimcoin/wiki) con material adicional.
 
 Si quieres ayudar con desarrollo y documentación: [Consultá nuestro repositorio en Github](https://github.com/slimcoin-project/).
 
@@ -52,7 +50,7 @@ Puedes comprar, vender y tradear Slimcoin en la siguiente bolsa:
 
 ## Bajar el cliente Slimcoin y el código fuente
 
-Puedes bajar el cliente de Slimcoin para Windows, Linux y Mac OS [en la sección "Releases"](https://github.com/slimcoin-project/Slimcoin/releases). La actual versión es 0.6. Es completamente funcional pero puede contener errores ya que Slimcoin sigue siendo un proyecto experimental.
+Puedes bajar el cliente de Slimcoin para Windows y Mac OS [en la sección "Releases"](https://github.com/slimcoin-project/Slimcoin/releases). Para Linux, es necesario bajar y compilar el código fuente. La actual versión es 0.6. Es completamente funcional pero puede contener errores ya que Slimcoin sigue siendo un proyecto experimental.
 
 Al código fuente lo encontrarás [en Github](https://github.com/slimcoin-project/Slimcoin). Usá la rama "master" para experimentar con las nuevas funciones.
 
