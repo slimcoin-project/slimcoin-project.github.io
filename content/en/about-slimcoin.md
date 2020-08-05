@@ -11,7 +11,7 @@ priority: 2
 
 **Slimcoin** is a novel and experimental cryptocurrency created in 2014. It is the first known coin that uses the [Proof of Burn](https://en.bitcoin.it/wiki/Proof_of_burn) mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.
 
-In 2020, we're alive and kicking, and we're **different** from most other "altcoin" communities. We have no hierarchic and centralized structure - so we have no *official development team* that benefits from dubious *pre-mine* or *insta-mine* mechanisms.
+**Slimcoin** doen't have any hierarchic or centralized structure - so there is no *official development team* - anybody is welcome to contribute as much as he can.
 
 All we want is to continue the exciting **Proof of Burn** experiment.  In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards. 
 
