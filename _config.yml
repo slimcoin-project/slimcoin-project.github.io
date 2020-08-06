@@ -11,9 +11,10 @@ title:
   es: Slimcoin | La criptomoneda duradera y estable.
   ru: Слимкоин | Криптовалюта для долгосрочной перспективы.
 description:
-  en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
+  en: Slimcoin is a energy-efficient cryptocurrency fairly launched in 2014. It's the first cryptocurrency using Proof of Burn or virtual mining. 
+  # Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
   es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
-  ru: Слимкоин. Криптовалюта для долгосрочной перспективы.
+  ru: Слимкоин. Энергетически эффективная криптовалюта запущенная открытым и справедлимым образом в 2014 году. Первая криптовалюта использующая алгоритм Proof of Burn (доказательство уничтожения монет) или виртуальный майнинг.
 index:
   en:
   es: index-es.html
@@ -50,13 +51,13 @@ languagemenu:
   es: Idiomas
   ru: Languages
 mastheadtitle:
-  en: The Next Generation of Cryptocurrencies
-  es: La Próxima Generación de las Criptomonedas
-  ru: The Next Generation of Cryptocurrencies
+  en: Slimcoin #The Next Generation of Cryptocurrencies
+  es: Slimcoin #La Próxima Generación de las Criptomonedas
+  ru: Слимкойн #The Next Generation of Cryptocurrencies
 mastheadtext:
   en: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
   es: Pruebas de trabajo resistentes a la paralelización y primera implementación del-Proof of-Burn
-  ru: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
+  ru: Устойчивый к паралелизму алгоритм Proof-of-Work и первая в истории имлементация алгоритма Proof-of-Burn (доказательство уничтожения монет)
 languagestring:
   en: English
   es: Español
