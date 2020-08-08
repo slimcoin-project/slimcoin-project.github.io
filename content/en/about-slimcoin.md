@@ -16,7 +16,7 @@ priority: 2
 
 [//]: # (All we want is to continue the exciting **Proof of Burn** experiment.  In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards.)
 
-[//]: # (Sounds crazy, huh? It is perhaps easier to understand as a process of **virtual mining**. We have prepared an [simple explanation ELI5]/proof-of-burn-eli5/). [And it has very interesting economical properties](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn. It is the only mechanism that allows the users to **regulate the available supply in a decentralized way**.)
+[//]: # (Sounds crazy, huh? It is perhaps easier to understand as a process of **virtual mining**. We have prepared an [simple explanation ELI5]/proof-of-burn-eli5/. [And it has very interesting economical properties] https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn. It is the only mechanism that allows the users to **regulate the available supply in a decentralized way**.)
 
 [//]: # (Learn more about Slimcoin's advantages /advantages/.)
 
