@@ -14,15 +14,17 @@ priority: 2
 
 **Slimcoin** doen't have any hierarchic or centralized structure - so there is no *official development team* - anybody is welcome to contribute as much as he can.
 
-All we want is to continue the exciting **Proof of Burn** experiment.  In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards. 
+[//]: # (All we want is to continue the exciting **Proof of Burn** experiment.  In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards.)
 
-Sounds crazy, huh? It is perhaps easier to understand as a process of **virtual mining**. We have prepared an [simple explanation (ELI5)](/proof-of-burn-eli5/). [And it has very interesting economical properties](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn). It is the only mechanism that allows the users to **regulate the available supply in a decentralized way**.
+[//]: # (Sounds crazy, huh? It is perhaps easier to understand as a process of **virtual mining**. We have prepared an [simple explanation ELI5]/proof-of-burn-eli5/). [And it has very interesting economical properties](https://github.com/slimcoin-project/Slimcoin/wiki/The-magic-of-Proof-of-Burn. It is the only mechanism that allows the users to **regulate the available supply in a decentralized way**.)
 
-[Learn more about Slimcoin's advantages](/advantages/).
+[//]: # (Learn more about Slimcoin's advantages /advantages/.)
 
-### We're an open project - you can participate
+[//]: # (### We're an open project - you can participate)
 
-Our main discussion platforms are [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Discord](https://discord.gg/ffeDjmV) and [Reddit](http://reddit.com/r/slimcoin). Join us there!
+### How to participate
+
+Our main discussion platforms are [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Discord](https://discord.gg/ffeDjmV) and [Reddit](http://reddit.com/r/slimcoin).
 
 We have also a [wiki](https://github.com/slimcoin-project/Slimcoin/wiki).
 
