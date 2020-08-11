@@ -10,7 +10,9 @@ priority: 2
 ---
 [//]: # (Slimcoin is a novel and experimental cryptocurrency created in 2014.)
 
-**Slimcoin** is a novel, energy-efficient cryptocurrency fairly launched in 2014.  It is the first known coin that uses the [Proof of Burn](https://en.bitcoin.it/wiki/Proof_of_burn) mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.
+**Slimcoin** is a novel, energy-efficient cryptocurrency fairly launched in 2014.  It is the first known coin that uses the [Proof of Burn](/proof-of-burn-eli5/) mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.
+
+[//]: # (**Slimcoin** is a novel, energy-efficient cryptocurrency fairly launched in 2014.  It is the first known coin that uses the Proof of Burn https://en.bitcoin.it/wiki/Proof_of_burn mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.)
 
 **Slimcoin** doen't have any hierarchic or centralized structure - so there is no *official development team* - anybody is welcome to contribute as much as he can.
 
