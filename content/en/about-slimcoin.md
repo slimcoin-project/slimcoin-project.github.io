@@ -58,7 +58,7 @@ You can download Windows and Mac OS binaries or the source code to compile in ou
 
 The source code is [here on Github](https://github.com/slimcoin-project/Slimcoin). Chose the "master" branch if you want to test our new features.
 
-### Mining, Burning & Minting
+### Earning Slimcoins: Mining, Burning & Minting
 
 Slimcoin is a very open cryptocurrency. There are several methods to earn it if you help with the validation process:
 
