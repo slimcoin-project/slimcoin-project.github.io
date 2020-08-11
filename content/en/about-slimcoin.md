@@ -32,16 +32,6 @@ We have also a [wiki](https://github.com/slimcoin-project/Slimcoin/wiki).
 
 If you want to help with development & documentation: [Go to our Github page](https://github.com/slimcoin-project/).
 
-### Mining, Burning & Minting
-
-Slimcoin is a very open cryptocurrency. There are several methods to earn it if you help with the validation process:
-
-* by **Proof of Work mining**. You can earn Slimcoin even if you don't have any money, just mining it with your computer. Slimcoin's algorithm, DCrypt, is best suited for CPU mining. No ASICs are known for it. Here is the the [Mining Guide](/mining-guide/) for you.
-
-* by **Proof of Stake minting**. Once you got some Slimcoins, you can help with stake minting. This means you can just hold the coins and spend some time with the wallet open. It isn't necessary to mint 24 hours a day to get your reward, as Slimcoin uses the original Peercoin Proof of Stake mechanism. This means that the reward is fixed at 10% of your stake per year: as long as you connect to the network from time to time, it's very likely you find blocks. Here you find a [Proof of Stake minting guide](/proof-of-stake-guide/).
-
-* by **Proof of Burn minting**. A part the methods described above, Slimcoin offers the unique method of Proof of Burn minting. This method is for you if you can afford a long time investment. Burning coins is similar to buying a virtual miner. You need to be aware of the associated risks: The price could go down, and the difficulty can go up considerably if new "burners" enter the game, lowering your profitability. On the other hand, you can get higher rewards over time than when you only stake, above all if you burn a considerable amount. Small burn investments are not recommended if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
-
 [//]: # (### Inscription service & Decentralized Websites)
 
 [//]: # (Since version 0.5, Slimcoin has a built-in blockchain website publishing service which lets you **publish websites or blogs** in a decentralized way *without hosting nor domains*. Simply publish your content as a torrent and let the Slimcoin blockchain be your version manager!)
@@ -67,6 +57,16 @@ You can trade, buy and sell Slimcoin at the following exchange:
 You can download Windows and Mac OS binaries or the source code to compile in our ["Releases"](https://github.com/slimcoin-project/Slimcoin/releases) section. The current beta release is 0.6. It is fully functional, but may still contain bugs.
 
 The source code is [here on Github](https://github.com/slimcoin-project/Slimcoin). Chose the "master" branch if you want to test our new features.
+
+### Mining, Burning & Minting
+
+Slimcoin is a very open cryptocurrency. There are several methods to earn it if you help with the validation process:
+
+* by **Proof of Work mining**. You can earn Slimcoin even if you don't have any money, just mining it with your computer. Slimcoin's algorithm, DCrypt, is best suited for CPU mining. No ASICs are known for it. Here is the the [Mining Guide](/mining-guide/) for you.
+
+* by **Proof of Stake minting**. Once you got some Slimcoins, you can help with stake minting. This means you can just hold the coins and spend some time with the wallet open. It isn't necessary to mint 24 hours a day to get your reward, as Slimcoin uses the original Peercoin Proof of Stake mechanism. This means that the reward is fixed at 10% of your stake per year: as long as you connect to the network from time to time, it's very likely you find blocks. Here you find a [Proof of Stake minting guide](/proof-of-stake-guide/).
+
+* by **Proof of Burn minting**. A part the methods described above, Slimcoin offers the unique method of Proof of Burn minting. This method is for you if you can afford a long time investment. Burning coins is similar to buying a virtual miner. You need to be aware of the associated risks: The price could go down, and the difficulty can go up considerably if new "burners" enter the game, lowering your profitability. On the other hand, you can get higher rewards over time than when you only stake, above all if you burn a considerable amount. Small burn investments are not recommended if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
 
 ### About the Slimcoin project website
 
