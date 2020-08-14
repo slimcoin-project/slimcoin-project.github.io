@@ -10,11 +10,11 @@ priority: 2
 ---
 [//]: # (Slimcoin is a novel and experimental cryptocurrency created in 2014.)
 
-**Slimcoin** is a novel, energy-efficient cryptocurrency fairly launched in 2014.  It is the first known coin that uses the [Proof of Burn](/proof-of-burn-eli5/) mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.
+**Slimcoin** is a novel, energy-efficient cryptocurrency fairly launched in 2014.  It's the first known coin that uses the [Proof of Burn](/proof-of-burn-eli5/) mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.
 
 [//]: # (**Slimcoin** is a novel, energy-efficient cryptocurrency fairly launched in 2014.  It is the first known coin that uses the Proof of Burn https://en.bitcoin.it/wiki/Proof_of_burn mechanism to generate blocks. Additionally, it uses Proof of Work and Proof of Stake, making it the first and unique coin with three different block generation mechanisms.)
 
-**Slimcoin** doen't have any hierarchic or centralized structure - so there is no *official development team* - anybody is welcome to contribute as much as he can.
+**Slimcoin** doen't have any hierarchic or centralized structure - so there is no *official development team* - anybody is welcome to contribute as much as he can and wish.
 
 [//]: # (All we want is to continue the exciting **Proof of Burn** experiment.  In a few words, Proof of Burn is a mechanism where you get the right to find blocks if you burn coins. *Yes, you destroy your money* - and get a **long-term reward** winning the chance to get block rewards.)
 
@@ -28,9 +28,9 @@ priority: 2
 
 Our main discussion platforms are [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Discord](https://discord.gg/ffeDjmV) and [Reddit](http://reddit.com/r/slimcoin).
 
-We have also a [wiki](https://github.com/slimcoin-project/Slimcoin/wiki).
-
 If you want to help with development & documentation: [Go to our Github page](https://github.com/slimcoin-project/).
+
+We have also a [wiki](https://github.com/slimcoin-project/Slimcoin/wiki) you can decide to help us working on.
 
 [//]: # (### Inscription service & Decentralized Websites)
 
@@ -60,13 +60,13 @@ The source code is [here on Github](https://github.com/slimcoin-project/Slimcoin
 
 ### Earning Slimcoins: Mining, Burning & Minting
 
-Slimcoin is a very open cryptocurrency. There are several methods to earn it if you help with the validation process:
+Slimcoin is a relativelly easy to get cryptocurrency. There are several methods to earn it by helping with the validation process:
 
-* by **Proof of Work mining**. You can earn Slimcoin even if you don't have any money, just mining it with your computer. Slimcoin's algorithm, DCrypt, is best suited for CPU mining. No ASICs are known for it. Here is the the [Mining Guide](/mining-guide/) for you.
+* by **Proof of Work mining**. You can earn Slimcoin even if you don't want to spend your money to buy it - just mine it with your computer. Slimcoin's algorithm, DCrypt, is best suited for CPU mining. No ASICs are known for it. Here is the the [Mining Guide](/mining-guide/) for you.
 
-* by **Proof of Stake minting**. Once you got some Slimcoins, you can help with stake minting. This means you can just hold the coins and spend some time with the wallet open. It isn't necessary to mint 24 hours a day to get your reward, as Slimcoin uses the original Peercoin Proof of Stake mechanism. This means that the reward is fixed at 10% of your stake per year: as long as you connect to the network from time to time, it's very likely you find blocks. Here you find a [Proof of Stake minting guide](/proof-of-stake-guide/).
+* by **Proof of Stake minting**. If you've got some Slimcoins, you can help with stake minting. Which means that you just hold the coins and spend some time with your wallet open. It isn't necessary to mint 24 hours a day to get your reward, as Slimcoin uses the original Peercoin Proof of Stake mechanism - the rewards are fixed at 10% of your stake per year: as long as you connect to the network from time to time, it's very likely you'll find blocks. Here you find a [Proof of Stake minting guide](/proof-of-stake-guide/).
 
-* by **Proof of Burn minting**. A part the methods described above, Slimcoin offers the unique method of Proof of Burn minting. This method is for you if you can afford a long time investment. Burning coins is similar to buying a virtual miner. You need to be aware of the associated risks: The price could go down, and the difficulty can go up considerably if new "burners" enter the game, lowering your profitability. On the other hand, you can get higher rewards over time than when you only stake, above all if you burn a considerable amount. Small burn investments are not recommended if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
+* by **Proof of Burn minting**. A part the methods described above, Slimcoin offers the unique method of Proof of Burn minting. This method is for those who can afford a long term investment. Burning coins is similar to buying a virtual miner. You have to be aware of the associated risks: the price of SLM could go down or the difficulty can go up considerably lowering your profitability, if new "burners" enter the game. On the other hand, you can get higher rewards over time than just by PoS minting, above all if you have a considerable amount of SLMs to burn. Small burn investments are not recommended, especially if you don't know what you're doing, as in this case the probability to find blocks can be low. Here you find our [Proof of Burn minting guide](/proof-of-burn-guide/).
 
 ### About the Slimcoin project website
 
