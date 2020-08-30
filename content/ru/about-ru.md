@@ -1,7 +1,7 @@
 ---
 layout: page
-title: о Слимкойне
-menuitem: о Слимкойне
+title: О Слимкойне
+menuitem: О Слимкойне
 category: technology
 ref: about
 lang: ru
