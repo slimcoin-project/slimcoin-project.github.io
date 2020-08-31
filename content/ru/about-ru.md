@@ -22,7 +22,7 @@ priority: 2
 
 Наши основные дискуссионные площадки: [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Discord](https://discord.gg/ffeDjmV) и [Reddit](http://reddit.com/r/slimcoin).
 
-Если вы хотите помочь с разработкой и документацией: [Здесь наша страница на Github](https://github.com/slimcoin-project/), там же находится наша [вики](https://github.com/slimcoin-project/Slimcoin/wiki).
+Если вы хотите помочь с разработкой и документацией: [Здесь наша страница на Github](https://github.com/slimcoin-project/), там же находится наша [Вики](https://github.com/slimcoin-project/Slimcoin/wiki).
 
 ### Биржи для купли и продажи Слимкойна
 
