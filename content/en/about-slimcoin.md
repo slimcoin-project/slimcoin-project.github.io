@@ -28,9 +28,7 @@ priority: 2
 
 Our main discussion platforms are [Bitcointalk](https://bitcointalk.org/index.php?topic=1141676.0), [Discord](https://discord.gg/ffeDjmV) and [Reddit](http://reddit.com/r/slimcoin).
 
-If you want to help with development & documentation: [Go to our Github page](https://github.com/slimcoin-project/).
-
-We have also a [wiki](https://github.com/slimcoin-project/Slimcoin/wiki) if you wish to help with it.
+If you want to help with development & documentation: [Go to our Github page](https://github.com/slimcoin-project/). There you can also find our [wiki](https://github.com/slimcoin-project/Slimcoin/wiki).
 
 [//]: # (### Inscription service & Decentralized Websites)
 
@@ -52,13 +50,13 @@ You can trade, buy and sell Slimcoin at the following exchange:
 
 * [Freiexchange BTC/SLM](https://freiexchange.com/market/SLM/BTC)
 
-### Download Slimcoin & Source Code
+### Download Slimcoin's binaries & Source Code
 
 You can download Windows and Mac OS binaries or the source code to compile in our ["Releases"](https://github.com/slimcoin-project/Slimcoin/releases) section. The current beta release is 0.6. It is fully functional, but may still contain bugs.
 
 The source code is [here, on Github](https://github.com/slimcoin-project/Slimcoin). Chose the "master" branch if you want to test our new features.
 
-### Earning Slimcoins: Mining, Burning & Minting
+### Earning Slimcoins: Mining, Minting & Burning  
 
 Slimcoin is a relativelly easy to get cryptocurrency. There are several methods to earn it by helping with the validation process:
 
