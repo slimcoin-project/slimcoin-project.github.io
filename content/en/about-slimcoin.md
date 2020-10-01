@@ -52,9 +52,9 @@ You can trade, buy and sell Slimcoin at the following exchange:
 
 ### Download Slimcoin's binaries & Source Code
 
-You can download Windows and Mac OS binaries or the source code to compile in our ["Releases"](https://github.com/slimcoin-project/Slimcoin/releases) section. The current beta release is 0.6. It is fully functional, but may still contain bugs.
-
-The source code is [here, on Github](https://github.com/slimcoin-project/Slimcoin). Chose the "master" branch if you want to test our new features.
+The current beta release is 0.6. It is fully functional, but may still contain bugs. You can download Windows and Mac OS binaries or the source code to compile in our ["Releases"](https://github.com/slimcoin-project/Slimcoin/releases) section. 
+  
+The source code of the latest stable version can be downloaded from the "master" branch [on Github](https://github.com/slimcoin-project/Slimcoin).
 
 ### Earning Slimcoins: Mining, Minting & Burning  
 
