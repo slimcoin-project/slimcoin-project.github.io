@@ -25,15 +25,15 @@ Puedes comprar, vender e intercambiar Slimcoin en la siguiente bolsa:
 
 *   [Freiexchange BTC/SLM](https://freiexchange.com/market/SLM/BTC)
 
-## Bajar el cliente binario de Slimcoin y el código fuente
+### Bajar el cliente binario de Slimcoin y el código fuente
 
 Puedes bajar el cliente de Slimcoin para Windows y Mac OS [en la sección "Releases"](https://github.com/slimcoin-project/Slimcoin/releases). Para Linux, es necesario bajar y compilar el código fuente. La actual versión es 0.6. Es completamente funcional pero puede contener errores ya que Slimcoin sigue siendo un proyecto experimental.
 
 Al código fuente lo encontrarás [en Github](https://github.com/slimcoin-project/Slimcoin). Usá la rama "master" para experimentar con las nuevas funciones.
 
-## Ganar Slimcoins: Minería, Proof of Stake y Proof of Burn
+### Ganar Slimcoins: Minería, Proof of Stake y Proof of Burn
 
-Slimcoin es una criptomoneda de fácil acceso. Hay diferentes maneras de ganarla ayudando con el proceso de validación.
+Slimcoin es una criptomoneda de fácil acceso. Hay diferentes maneras de ganarla ayudando con el proceso de validación:
 
 * a través de la **minería Proof of Work** (prueba de trabajo). Con este mecanismo no necesitas invertir dinero, puedes minar con tu propio ordenador/computadora. El algoritmo que usa Slimcoin, DCrypt, no es amigable con ASICs y por eso es viable minar con CPU y/o GPUs. [Acá te presentamos una guía sobre la minería de Slimcoin](/mining-guide/).
 
