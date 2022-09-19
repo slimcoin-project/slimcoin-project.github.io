@@ -65,6 +65,6 @@ There are three template files, stored in the **_layouts** folder:
 * **page.html** - contains additional formatting for static content pages, like help texts.
 * **post.html** - (currently not used) is similar to page.html but is for periodic posts and news items, like blog posts.
 
-**Note:** Each sub-page of the site is stored in a sub-directory of the site, so if you want to link to it, you must link to that subdirectory, not to a link to a file. For example, the About page is located at http://slimco.in/about/. However, most of the links are generated automatically by Jekyll (e.g. if you add a new help page).
+**Note:** Each sub-page of the site is stored in a sub-directory of the site, so if you want to link to it, you must link to that subdirectory, not to a link to a file. For example, the About page is located at http://slimcoin.info/about/. However, most of the links are generated automatically by Jekyll (e.g. if you add a new help page).
 
 **Note 2:** If changing the design, DON'T touch the contents of the **_site** directory directly! This directory is generated automatically each time something is changed, so you will eventually lose all your changes.
