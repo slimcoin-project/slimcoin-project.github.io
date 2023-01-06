@@ -48,13 +48,13 @@ To keep in touch with us and to be updated about the most recent developments of
     </h5> 
     <div class="ui stackable centered center aligned grid">
       {% for exchange in site.exchanges %}
-        <div class="five wide column pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
+        <div class="five wide column pointer-cursor" onclick=" window.open('{{ exchange.url }}', ' _blank')">
           <div class="ui raised segment mobile-card">
             <h2 class="ui icon header">
               <img src="{{ '/assets/logo.svg' | prepend: site.baseurl }}" class="ui icon small image">
               <div class="content">
                 {{ exchange.name }}
-                <div class="sub header">{{ exchange.url }}</div>
+                <div class="sub header">{{ exchange.short_url }}</div>
               </div>
             </h2>
           </div>
