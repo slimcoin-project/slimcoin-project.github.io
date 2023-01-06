@@ -70,6 +70,7 @@ exchanges:
 #    url: "https://novaexchange.com"
   - name: FreiExchange
     url: "https://freiexchange.com"
+    short_url: "freiexchange.com"
 #  - name: CoinsMarket # currently offline - probably scam exchange
 #    url: "https://coinsmarkets.com"
 #  - name: CoinHouse # with problems, removed until solved - market removed
