@@ -69,7 +69,7 @@ exchanges:
 #  - name: Nova Exchange - they closed their business on October 7, 2019
 #    url: "https://novaexchange.com"
   - name: FreiExchange
-    url: "https://freiexchange.com"
+    url: "https://freiexchange.com/market/SLM/BTC"
     short_url: "freiexchange.com"
 #  - name: CoinsMarket # currently offline - probably scam exchange
 #    url: "https://coinsmarkets.com"
