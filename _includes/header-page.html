@@ -38,7 +38,9 @@
                   {{ site.walletname }} ({{ wallet.name }})
                 </a>
               {% endfor %}
-              <a class="item" href="https://mega.nz/#!QnxkwTbK!et6c6zINNHuGAgU1wqil5fw_oxOyek2Zv_MWl2x8XT4" target="_parent">SLM Blockchain Snapshot 1186600</a><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a><a class="item" href="https://mega.nz/#!hq4T1AbY!4O5w3WWWQmRMfdoyxCY1_Hwfgs0fUW0lNJ2gsi_i4jQ" target="_parent">Slimcoin AIO for Windows (client and snapshot)</a></div>
+              
+              <a class="item" href="https://mega.nz/#!hq4T1AbY!4O5w3WWWQmRMfdoyxCY1_Hwfgs0fUW0lNJ2gsi_i4jQ" target="_parent">Slimcoin AIO for Windows (client and snapshot)</a>
+              {% assign downloadpages=site.pages | where:"lang", page.lang | where:"category", "download" | sort: 'priority' %}{% for my_page in downloadpages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}</div>
           </div>
           <div class="ui dropdown link item">
         {{ site.communitymenu[page.lang] }} <i class="dropdown icon"></i>
