@@ -5,7 +5,7 @@ ref: snapshots
 menuitem: Bajar cadena de bloques
 category: download
 layout: page
-permalink: /snapshots/
+permalink: /bajar-cadena/
 priority: 10
 ---
 Los **estados de la cadena de bloques** (snapshots) son archivos comprimidos que contienen todos los bloques hasta una cierta altura. Pueden descargarse para acelerar el proceso de descarga de bloques.
