@@ -26,6 +26,7 @@ But even if our expectations won't come true and the market price of the PoD tok
 PoD token is officialy in beta testing phase now. We've done an extensive testing of its functionality and are expecting the release of upgrade of the code to go on with testing and possibly with launch.
 So far the following documentation was produced:
 * [The original discussion about the future protocol](https://www.reddit.com/r/slimcoin/comments/f0az0w/comment/fslw74k){:target="_blank"} (already mentioned above).
+* * [Another discussion on Reddit about Pod protocol stabilization](https://www.reddit.com/r/slimcoin/comments/x7d2vf/){:target="_blank"}
 * [Address Tracker Tokens](https://github.com/slimcoin-project/Slimcoin/wiki/Address-Tracker-Tokens){:target="_blank"}
 * [AT Tokens manual](https://github.com/slimcoin-project/Slimcoin/wiki/AT-Tokens-Manual){:target="_blank"}
 * [PeerAssets: Proof of Burn tokens](https://github.com/slimcoin-project/Slimcoin/wiki/PeerAssets:-Proof-of-Burn-tokens){:target="_blank"}
