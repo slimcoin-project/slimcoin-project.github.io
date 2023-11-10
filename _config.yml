@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 ## Site settings
-title:
-  en: Slimcoin | A cryptocurrency with original ideas
-  es: Slimcoin | La criptomoneda duradera y estable
-  ru: Слимкоин | Криптовалюта с оригинальными идеями
+title:  
+  en: Slimcoin | The first known Proof of Burn implementation
+  es: Slimcoin | La primera implementación conocida de Proof of Burn
+  ru: Слимкоин | Первая известная реализация Proof of Burn
 description:
   en: Slimcoin is an energy-efficient cryptocurrency fairly launched in 2014. It's the first cryptocurrency using Proof of Burn or virtual mining. 
   # Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
