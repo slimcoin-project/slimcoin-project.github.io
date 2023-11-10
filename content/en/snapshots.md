@@ -10,6 +10,7 @@ priority: 10
 ---
 
 # Recent:
+* [November, 2023](https://ysnd.it/hy2BWI21){:target="_blank"}
 * [May, 2023](https://ysnd.it/20MxZ0xD){:target="_blank"}
 
 # Legacy:
