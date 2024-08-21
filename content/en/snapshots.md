@@ -9,7 +9,8 @@ permalink: /snapshots/
 priority: 10
 ---
 
-# Recent:
+# Recent*:
+* [August 2024](https://getshared.com/NNy3Qdzn){:target="_blank"}
 * [May 2024](https://getshared.com/RqSVUxFc){:target="_blank"}
 * [November 2023](https://ysnd.it/hy2BWI21){:target="_blank"}
 * [May 2023](https://ysnd.it/20MxZ0xD){:target="_blank"}
@@ -24,3 +25,8 @@ Ftp:
 
 Direct (older):
 * [SLM Blockchain Snapshot 236000](https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA){:target="_blank"}
+
+
+__
+
+\* for wallets compiled with the Berkeley DB 5.3 and higher
