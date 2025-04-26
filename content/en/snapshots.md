@@ -10,20 +10,15 @@ priority: 10
 ---
 
 # Recent*:
-* [August 2024](https://getshared.com/NNy3Qdzn){:target="_blank"}
-* [May 2024](https://getshared.com/RqSVUxFc){:target="_blank"}
-* [November 2023](https://ysnd.it/hy2BWI21){:target="_blank"}
-* [May 2023](https://ysnd.it/20MxZ0xD){:target="_blank"}
+
+* [April 2025](https://ysnd.it/a9nYSJ5l){:target="_blank"}
+    <details> <summary> SHA256 </summary> 5628951cb4cc4e924feafc9a229964a59866f07f31dc09fbd6edef0b88cee6cc </details>
+    <details> <summary> SHA3-384</summary> 8dc564c2c8e98bcab64bccc0da928851cd30bc683328dc857b432e28b600c57697ae1f83eaf450676cc1566011ad25fc </details>
+* [August 2024](https://getshared.com/NNy3Qdzn){:target="_blank"}<br>
+* [November 2023](https://ysnd.it/hy2BWI21){:target="_blank"}<br>
+* [May 2023](https://ysnd.it/20MxZ0xD){:target="_blank"}<br>
 
 # Legacy:
-
-Ftp:
-* [April 2021](ftp://185.150.190.19/chain-slm.slimcoin_v0.6.0_d21-04-18.tgz){:target="_blank"}
-* [March 2021](ftp://185.150.190.19/chain-slm.slimcoin_v0.6.0_d21-03-01.tgz){:target="_blank"}
-* [January 2021](ftp://185.150.190.19/chain-slm.slimcoin_v0.6.0_d21-01-17.tar){:target="_blank"}
-* [December 2020](ftp://185.150.190.19/chain-slm.slimcoin_v0.6.0_20-12-12.tgz){:target="_blank"}
-
-Direct (older):
 * [SLM Blockchain Snapshot 236000](https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA){:target="_blank"}
 
 
