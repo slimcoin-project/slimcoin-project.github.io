@@ -19,7 +19,7 @@ index:
   en:
   es: index-es.html
   ru: index-ru.html
-url: "http://slimcoin.info" # the base hostname & protocol for your site
+url: "slimcoin-project.github.io" # the base hostname & protocol for your site
 twitter_username: slimcoin_club
 github_username: slimcoin-project
 # feed:
