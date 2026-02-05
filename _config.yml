@@ -9,16 +9,16 @@
 title:  
   en: Slimcoin | The first known Proof of Burn implementation
   es: Slimcoin | La primera implementación conocida del Proof of Burn
-  ru: Слимкоин | Первая известная реализация Proof of Burn
+  #ru: Слимкоин | Первая известная реализация Proof of Burn
 description:
   en: Slimcoin is an energy-efficient cryptocurrency fairly launched in 2014. It's the first cryptocurrency using Proof of Burn or virtual mining. 
   # Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
   es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
-  ru: Слимкоин. Энергетически эффективная криптовалюта справедливо запущенная в 2014 году. Первая криптовалюта использующая алгоритм Proof of Burn (доказательство уничтожения монет) или виртуальный майнинг.
+  #ru: Слимкоин. Энергетически эффективная криптовалюта справедливо запущенная в 2014 году. Первая криптовалюта использующая алгоритм Proof of Burn (доказательство уничтожения монет) или виртуальный майнинг.
 index:
   en:
   es: index-es.html
-  ru: index-ru.html
+  #ru: index-ru.html
 url: "slimcoin-project.github.io" # the base hostname & protocol for your site
 twitter_username: slimcoin_club
 github_username: slimcoin-project
@@ -33,35 +33,35 @@ github_username: slimcoin-project
 technologymenu:
   en: Technology
   es: Tecnología
-  ru: Technology
+  #ru: Technology
 helpmenu:
   en: Help and Tools
   es: Ayuda y Herramientas
-  ru: Help and Tools
+  #ru: Help and Tools
 downloadmenu:
   en: Downloads
   es: Bajar
-  ru: Downloads
+  #ru: Downloads
 communitymenu:
   en: Participate
   es: Participar
-  ru: Participate
+  #ru: Participate
 languagemenu:
   en: Languages
   es: Idiomas
-  ru: Languages
+  #ru: Languages
 mastheadtitle:
   en: Slimcoin #The Next Generation of Cryptocurrencies
   es: Slimcoin #La Próxima Generación de las Criptomonedas
-  ru: Слимкойн #The Next Generation of Cryptocurrencies
+  #ru: Слимкойн #The Next Generation of Cryptocurrencies
 mastheadtext:
   en: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
   es: Pruebas de trabajo resistentes a la paralelización y primera implementación del-Proof of-Burn
-  ru: Устойчивый к паралелизму алгоритм Proof-of-Work и первая в истории имлементация алгоритма Proof-of-Burn (доказательство уничтожения монет)
+  #ru: Устойчивый к паралелизму алгоритм Proof-of-Work и первая в истории имлементация алгоритма Proof-of-Burn (доказательство уничтожения монет)
 languagestring:
   en: English
   es: Español
-  ru: Русский
+  #ru: Русский
 
 # Updateables
 
@@ -100,19 +100,19 @@ walletname: Simcoin-QT 0.5.1
 footertitle:
   en: Use & Participate
   es: Usar & Participar
-  ru: Использование и участие
+  #ru: Использование и участие
 resourcesheading:
   en: Resources
   es: Recursos
-  ru: Ресурсы
+  #ru: Ресурсы
 socialheading:
   en: Social media
   es: Medios sociales
-  ru: Социальные медиа
+  #ru: Социальные медиа
 toolsheading:
   en: Tools
   es: Herramientas
-  ru: Инструменты
+  #ru: Инструменты
 
 # Build settings
 markdown: kramdown
