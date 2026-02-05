@@ -3,7 +3,7 @@ layout: page
 codeType: guide
 title: Proof of Stake guide
 menuitem: Proof of Stake guide
-ref: proof-of-stake-guide
+[//]: # (ref: proof-of-stake-guide)
 permalink: /proof-of-stake-guide-ru/
 lang: ru
 category: help
