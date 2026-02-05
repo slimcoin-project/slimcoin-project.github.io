@@ -3,7 +3,7 @@ layout: page
 title: О Слимкойне
 menuitem: О Слимкойне
 category: technology
-ref: about
+[//]: # (ref: about)
 lang: ru
 permalink: /about-ru/
 
