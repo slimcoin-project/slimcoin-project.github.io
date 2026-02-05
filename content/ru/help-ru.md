@@ -2,7 +2,7 @@
 layout: page
 title: Помощь
 menuitem: Помощь
-ref: help
+[//]: # (ref: help)
 lang: ru
 permalink: /help-ru/
 priority: 5
