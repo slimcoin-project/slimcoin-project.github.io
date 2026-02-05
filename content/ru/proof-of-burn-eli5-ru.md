@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Что такое Proof of Burn (ELI5)?
-slimcoin-project.github.ioref: eli5)
+[//]: # (ref: eli5)
 category: technology
 lang: ru
 menuitem: Proof of Burn ELI5
