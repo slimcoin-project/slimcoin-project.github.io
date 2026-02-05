@@ -12,7 +12,8 @@ priority: 11
 ***Disclamer: This guide offers no guaranty whatesoever that you won't lose your data or damage your equipement by following it. Use these instructions on your own risk and only if you are more than 100% sure you know what you are doing. The responsibility for whatever possible issue or damage in any case is intirely yours. Proceed only if you agree with this disclamer.***
 
 <br/><br/>
-These are general instructions for Linux users. If you are using Windows or Mac feel free to modify these instructions according to your needs if you know how to, and don't hesitate to submit your update to this page to help the others.
+These are general instructions for Linux users. If you are using Windows or Mac feel free to modify these instructions according to your needs if you know how to, and don't hesitate to create a pull request or share your improvements by publishing an issue on Github
+(<a href="https://github.com/slimcoin-project/slimcoin-project.github.io/issues" target="_blank">here</a>) to help the others.
 If you find an error please submit your correction as well.
 
 ## Backup your data
