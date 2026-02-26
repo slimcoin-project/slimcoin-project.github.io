@@ -57,6 +57,18 @@ Otherwise create your configuration:
     
 (you should change YOUR_USERNAME and YOUR_PASSWORD values in your ~/.slimcoin/slimcoin.conf file)
 
+As alternative, if you have no slimcoin.conf in your ~/.slimcoin_backup/ folder, you can use a text editor of your choice to create a new ~/.slimcoin/slimcoin.conf file with the following content:
+
+    reservebalance=0
+    rpcuser=YOUR_USERNAME
+    rpcpassword=YOUR_PASSWORD
+    rpcallowip=127.0.0.1
+    addnode=109.245.199.123
+    addnode=109.93.201.218
+    addnode=185.150.190.19
+    port=41682   
+(change YOUR_USERNAME and YOUR_PASSWORD values into what you feel appropriate)
+
 ## Launch your client
 To use your new blockchain data and to additionally syncronise it you may want to launch your local client:
 
