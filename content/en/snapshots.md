@@ -20,6 +20,12 @@ priority: 10
 # Legacy:
 * [SLM Blockchain Snapshot 236000](https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA){:target="_blank"}
 
+<br>
+You may be interested to read our guide on [How to restore a snapshot](/restore-snapshots/).
+<br>
+<br>
+<br>
+<br>
 
 __
 
