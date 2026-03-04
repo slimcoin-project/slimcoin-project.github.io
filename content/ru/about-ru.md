@@ -3,10 +3,9 @@ layout: page
 title: О Слимкойне
 menuitem: О Слимкойне
 category: technology
-[//]: # (ref: about)
+ref: about
 lang: ru
 permalink: /about-ru/
-
 priority: 2
 ---
 **Слимкойн** это инновационная, энергически эффективная криптовалюта справедливо запущенная в 2014 году. Это первая монета, использующая механизм [Proof of Burn](https://slimcoin.info/proof-of-burn-eli5-ru/) для генерации блоков. Кроме того, она использует Proof of Work и Proof of Stake, что делает ее первой и уникальной криптовалютой с тремя различными механизмами генерации блоков.
