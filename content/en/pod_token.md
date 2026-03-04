@@ -1,7 +1,7 @@
 ---
 title: "PoD token project"
 lang: en
-ref: snapshots
+ref: pod_token
 menuitem: Pod token project
 category: technology
 layout: page
