@@ -3,7 +3,7 @@ layout: page
 codeType: guide
 title: Руководство по Proof of Burn минтингу
 menuitem: Руководство по Proof of Burn минтингу
-[//]: # (ref: proof-of-burn-guide)
+ref: pobguide
 permalink: /proof-of-burn-guide-ru/
 lang: ru
 category: help
