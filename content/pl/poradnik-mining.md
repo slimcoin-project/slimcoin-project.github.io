@@ -1,21 +1,19 @@
 ---
 title: Poradnik kopania Slimcoin'a
 
-[//]: # (This is a comment: in the next lines Polish has been disabled as we don't have a volunteer for the moment)  
+codeType: guide
 
-[//]: # (codeType: guide)
+menuitem: Poradnik kopania
 
-[//]: # (menuitem: Poradnik kopania)
+lang: pl
 
-[//]: # (lang: pl)
+category: help
 
-[//]: # (category: help)
+ref: powguide
 
-[//]: # (ref: powguide)
+layout: page
 
-[//]: # (layout: page)
-
-[//]: # (permalink: /poradnik-mining/)
+permalink: /poradnik-mining/
 
 priority: 2
 ---
