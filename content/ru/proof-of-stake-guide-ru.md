@@ -1,9 +1,9 @@
 ---
 layout: page
 codeType: guide
-title: Proof of Stake guide
-menuitem: Proof of Stake guide
-[//]: # (ref: proof-of-stake-guide)
+title: Руководство по Proof of Stake
+menuitem: Руководство по Proof of Stake
+ref: posguide
 permalink: /proof-of-stake-guide-ru/
 lang: ru
 category: help
