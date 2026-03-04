@@ -6,18 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 ## Site settings
-title:  
+title:
   en: Slimcoin | The first known Proof of Burn implementation
   es: Slimcoin | La primera implementación conocida del Proof of Burn
-  #ru: Слимкоин | Первая известная реализация Proof of Burn
+  ru: Слимкоин | Первая известная реализация Proof of Burn
 description:
   en: Slimcoin is an energy-efficient cryptocurrency fairly launched in 2014. It's the first cryptocurrency using Proof of Burn or virtual mining. 
   # Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
   es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
-  #ru: Слимкоин. Энергетически эффективная криптовалюта справедливо запущенная в 2014 году. Первая криптовалюта использующая алгоритм Proof of Burn (доказательство уничтожения монет) или виртуальный майнинг.
+  ru: Слимкоин. Энергетически эффективная криптовалюта справедливо запущенная в 2014 году. Первая криптовалюта использующая алгоритм Proof of Burn (доказательство уничтожения монет) или виртуальный майнинг.
 index:
   en:
-  es: index-es.html
+  #es: index-es.html
   #ru: index-ru.html
 url: "slimcoin-project.github.io" # the base hostname & protocol for your site
 twitter_username: slimcoin_club
@@ -33,35 +33,42 @@ github_username: slimcoin-project
 technologymenu:
   en: Technology
   es: Tecnología
-  #ru: Technology
+  pl: Technologia
+  ru: Технология
 helpmenu:
   en: Help and Tools
   es: Ayuda y Herramientas
-  #ru: Help and Tools
+  pl: Pomoc i narzędzia
+  ru: Помощь и инструменты
 downloadmenu:
   en: Downloads
   es: Bajar
-  #ru: Downloads
+  pl: Pobierz
+  ru: Скачать
 communitymenu:
   en: Participate
   es: Participar
-  #ru: Participate
+  pl: Weź udział
+  ru: Участвовать
 languagemenu:
   en: Languages
   es: Idiomas
-  #ru: Languages
+  pl: Języki
+  ru: Языки
 mastheadtitle:
   en: Slimcoin #The Next Generation of Cryptocurrencies
   es: Slimcoin #La Próxima Generación de las Criptomonedas
-  #ru: Слимкойн #The Next Generation of Cryptocurrencies
+  ru: Слимкойн #The Next Generation of Cryptocurrencies
 mastheadtext:
   en: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
   es: Pruebas de trabajo resistentes a la paralelización y primera implementación del-Proof of-Burn
-  #ru: Устойчивый к паралелизму алгоритм Proof-of-Work и первая в истории имлементация алгоритма Proof-of-Burn (доказательство уничтожения монет)
+  pl: Odporny na ASIC Proof-of-Work i pierwsza nowatorska implementacja Proof-of-Burn
+  ru: Устойчивый к паралелизму алгоритм Proof-of-Work и первая в истории имлементация алгоритма Proof-of-Burn (доказательство уничтожения монет)
 languagestring:
   en: English
   es: Español
-  #ru: Русский
+  pl: Polski
+  ru: Русский
 
 # Updateables
 
@@ -83,8 +90,8 @@ wallets:
   - name: macOS
     url: "https://github.com/slimcoin-project/Slimcoin/releases/download/SLMv0.5.0/SLIMCoin-Qt-SLMv0.5.0-BDB4.8.dmg"
     logo: /assets/mac.svg
-## - name: "Ubuntu" -broken link, download is not available any more on that location
-##   url: "https://mega.nz/#!oTBHnK7A!u3b6Sfto_-J9Rcp-GmThLrSv1lSHZo2rNS0wP_ac3gc"
+##  - name: "Ubuntu"
+##    url: "https://mega.nz/#!oTBHnK7A!u3b6Sfto_-J9Rcp-GmThLrSv1lSHZo2rNS0wP_ac3gc"
 ##    logo: /assets/ubuntu.svg
   - name: "ARM"
     url: "https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x"
@@ -100,19 +107,23 @@ walletname: Simcoin-QT 0.5.1
 footertitle:
   en: Use & Participate
   es: Usar & Participar
-  #ru: Использование и участие
+  pl: Użycie i przystąpienie
+  ru: Использование и участие
 resourcesheading:
   en: Resources
   es: Recursos
-  #ru: Ресурсы
+  pl: Źródła
+  ru: Ресурсы
 socialheading:
   en: Social media
   es: Medios sociales
-  #ru: Социальные медиа
+  pl: Media społecznościowe
+  ru: Социальные медиа
 toolsheading:
   en: Tools
   es: Herramientas
-  #ru: Инструменты
+  pl: Narzędzia
+  ru: Инструменты
 
 # Build settings
 markdown: kramdown
