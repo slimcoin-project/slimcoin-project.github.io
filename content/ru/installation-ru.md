@@ -3,7 +3,7 @@ layout: page
 codeType: analysis
 title: Скачивание и установка
 menuitem: Скачивание и установка
-[//]: # (ref: installation)
+ref: installation
 lang: ru
 permalink: /installation-ru/
 category: help
