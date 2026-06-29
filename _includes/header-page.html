@@ -35,7 +35,7 @@
             <div class="menu">
               {% for wallet in site.wallets %}
                 <a class="item" href="{{ wallet.url }}">
-                  {{ site.walletname }} ({{ wallet.name }})
+                  {{ wallet.walletname | default: site.walletname }} ({{ wallet.name }})
                 </a>
               {% endfor %}
               
