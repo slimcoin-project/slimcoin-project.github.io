@@ -84,6 +84,10 @@ exchanges:
 #    url: "https://coinhouse.eu"
 
 wallets:
+  - name: Linux
+    url: "https://github.com/slimcoin-project/slm-assets/blob/master/slimcoind"
+    walletname: Slimcoind, recently compiled, static
+    logo: /assets/linux.svg
   - name: Windows
     url: "https://github.com/slimcoin-project/slm-assets/blob/master/slimcoin-qt.exe"
     logo: /assets/windows.svg
