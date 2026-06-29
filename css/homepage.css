@@ -67,6 +67,10 @@ p a {
   font-weight: bold;
 }
 
+#footer .ui.header {
+    color: white !important;
+}
+
 /*******************************
             Global
 *******************************/
