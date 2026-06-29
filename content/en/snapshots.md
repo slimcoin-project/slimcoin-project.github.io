@@ -29,4 +29,4 @@ You may be interested to read our guide on [How to restore a snapshot](/restore-
 
 __
 
-\* for clients compiled with the Berkeley DB 5.3 or higher (you can get a static slimcoind for Linux here)
+\* for clients compiled with the Berkeley DB 5.3 or higher (you can get a static slimcoind for Linux [here](https://github.com/slimcoin-project/slm-assets/blob/master/slimcoind)))
